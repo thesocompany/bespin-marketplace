@@ -1,17 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Button } from '@trussworks/react-uswds'
-import Header from '../src/Header'
-import Title from '../src/Title'
-import NavMenuButton from '../src/NavMenuButton'
-import PrimaryNav from '../src/PrimaryNav'
-import NavList from '../src/NavList'
-import Menu from '../src/Menu'
-import Search from '../src/Search'
+// import { Button } from '@trussworks/react-uswds'
+import Header from '../src/components/Header'
+import Title from '../src/components/Title'
+import NavMenuButton from '../src/components/NavMenuButton'
+import PrimaryNav from '../src/components/PrimaryNav'
+import NavList from '../src/components/NavList'
+import Menu from '../src/components/Menu'
+import Search from '../src/components/Search'
+import GovBanner from '../src/components/GovBanner'
+// import heroImage from '../src/assets/images/hero1.png'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    // <div className={styles.container}>
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -19,11 +23,12 @@ export default function Home() {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
       </Head>
       <>
+      <GovBanner />
       <div className='usa-overlay' ></div>
       <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-            <Title>Project Title</Title>
+  <Title>BESPIN {<br />}Marketplace</Title>
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
@@ -67,7 +72,13 @@ export default function Home() {
         </div>
       </Header>
     </>
-      <main className={styles.main}>
+      {/* <main className={styles.main}> */}
+      <main id="main-content">
+        <section class ={styles.heroSection}>
+          {/* <img src={heroImage} /> */}
+          <h1 class="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        </section>
       
         
       {/* <Button type="button">Click Me</Button>
@@ -121,6 +132,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
-    </div>
+     {/* </div> */}
+     </>
   )
 }

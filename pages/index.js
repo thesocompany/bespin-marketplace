@@ -1,7 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Button } from '@trussworks/react-uswds'
-
+import Header from '../src/Header'
+import Title from '../src/Title'
+import NavMenuButton from '../src/NavMenuButton'
+import PrimaryNav from '../src/PrimaryNav'
+import NavList from '../src/NavList'
+import Menu from '../src/Menu'
+import Search from '../src/Search'
 
 export default function Home() {
   return (
@@ -12,9 +18,59 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
       </Head>
-      
+      <>
+      <div className='usa-overlay' ></div>
+      <Header basic={true}>
+        <div className="usa-nav-container">
+          <div className="usa-navbar">
+            <Title>Project Title</Title>
+            <NavMenuButton onClick={null} label="Menu" />
+          </div>
+          <PrimaryNav
+            items={[
+              <>
+            
+                <Menu
+                  key="one"
+                  items={[
+                    <a href="#linkOne" key="one">
+                      Current link
+                    </a>,
+                    <a href="#linkTwo" key="two">
+                      Simple link Two
+                    </a>,
+                ]}
+                  // isOpen={isOpen[0]}
+                  id="testDropDownOne"
+                />
+              </>,
+              <a href="#two" key="two" className="usa-nav__link">
+                <span>Home</span>
+              </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+                <span>FAQ</span>
+              </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+              <span>UX Library</span>
+            </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+              <span>Apps</span>
+            </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+              <span>Platform327</span>
+            </a>,                                      
+            ]}
+            mobileExpanded={null}
+            onToggleMobileNav={null}>
+            <Search small onSubmit={null} />
+          </PrimaryNav>
+        </div>
+      </Header>
+    </>
       <main className={styles.main}>
-      <Button type="button">Click Me</Button>
+      
+        
+      {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -52,7 +108,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>

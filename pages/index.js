@@ -1,20 +1,87 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Button } from '@trussworks/react-uswds'
+// import { Button } from '@trussworks/react-uswds'
+import Header from '../src/components/Header'
+import Title from '../src/components/Title'
+import NavMenuButton from '../src/components/NavMenuButton'
+import PrimaryNav from '../src/components/PrimaryNav'
+import NavList from '../src/components/NavList'
+import Menu from '../src/components/Menu'
+import Search from '../src/components/Search'
+import GovBanner from '../src/components/GovBanner'
+// import heroImage from '../src/assets/images/hero1.png'
 
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    // <div className={styles.container}>
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
       </Head>
+      <>
+      <GovBanner />
+      <div className='usa-overlay' ></div>
+      <Header basic={true}>
+        <div className="usa-nav-container">
+          <div className="usa-navbar">
+  <Title>BESPIN {<br />}Marketplace</Title>
+            <NavMenuButton onClick={null} label="Menu" />
+          </div>
+          <PrimaryNav
+            items={[
+              <>
+            
+                <Menu
+                  key="one"
+                  items={[
+                    <a href="#linkOne" key="one">
+                      Current link
+                    </a>,
+                    <a href="#linkTwo" key="two">
+                      Simple link Two
+                    </a>,
+                ]}
+                  // isOpen={isOpen[0]}
+                  id="testDropDownOne"
+                />
+              </>,
+              <a href="#two" key="two" className="usa-nav__link">
+                <span>Home</span>
+              </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+                <span>FAQ</span>
+              </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+              <span>UX Library</span>
+            </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+              <span>Apps</span>
+            </a>,
+              <a href="#three" key="three" className="usa-nav__link">
+              <span>Platform327</span>
+            </a>,                                      
+            ]}
+            mobileExpanded={null}
+            onToggleMobileNav={null}>
+            <Search small onSubmit={null} />
+          </PrimaryNav>
+        </div>
+      </Header>
+    </>
+      {/* <main className={styles.main}> */}
+      <main id="main-content">
+        <section class ={styles.heroSection}>
+          {/* <img src={heroImage} /> */}
+          <h1 class="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        </section>
       
-      <main className={styles.main}>
-      <Button type="button">Click Me</Button>
+        
+      {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -52,7 +119,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
@@ -65,6 +132,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
-    </div>
+     {/* </div> */}
+     </>
   )
 }

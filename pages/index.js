@@ -9,6 +9,7 @@ import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
+import PrimaryButton from '../src/components/Buttons'
 // import heroImage from '../src/assets/images/hero1.png'
 
 
@@ -79,7 +80,24 @@ export default function Home() {
           <h1 class="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
         </section>
-      
+        <section class="grid-container usa-section">
+          <h1 class="text-center">Mission</h1>
+          <h2 class="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
+
+            <div class="text-center">
+              <br />
+              <br />
+              <PrimaryButton>Contact Us</PrimaryButton>
+            </div>
+            
+        </section>
         
       {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>

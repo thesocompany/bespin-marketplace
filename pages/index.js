@@ -16,6 +16,7 @@ import Button from '../src/components/Button'
 import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
 import Link from '../src/components/Link'
+// import FooterNav from '../src/components/FooterNav'
 
 export default function Home() {
   return (
@@ -81,7 +82,7 @@ export default function Home() {
       <main id="main-content">
         <section className ={styles.heroSection}>
           {/* <img src={heroImage} /> */}
-          <h1 className="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
+          <h1 className="usa-hero_heading"><span className="usa-hero__heading--alt">Hero Header</span></h1>
           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
         </section>
         <section className="grid-container usa-section">
@@ -104,37 +105,37 @@ export default function Home() {
 
         <section className="grid-container" className={styles.partnersSection}>
           <h1 className="text-center">Partners</h1>
-        <div class="grid-container buttonCenter">
-          <div class="grid-row buttonCenter">
-            <div class="tablet:grid-col"></div>
-            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div class="tablet:grid-col"></div>
+        <div className="grid-container buttonCenter">
+          <div className="grid-row buttonCenter">
+            <div className="tablet:grid-col"></div>
+            <div className="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div className="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div className="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div className="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div className="tablet:grid-col"></div>
           </div>
         </div>
         </section>
         <section className="grid-container">
-          <h1 class="text-center">Contact Us</h1>
-          <div class="grid-row">
-            <div class="tablet:grid-col-4 margin-right-6 margin-top-3">
+          <h1 className="text-center">Contact Us</h1>
+          <div className="grid-row">
+            <div className="tablet:grid-col-4 margin-right-6 margin-top-3">
               <img src="https://picsum.photos/seed/picsum/360/282" />
             </div>
-            <div class="tablet:grid-col-6">
-            <div class="grid-row">
+            <div className="tablet:grid-col-6">
+            <div className="grid-row">
               <Label htmlFor="testInput">Name</Label>
               <TextInput />
             </div>
-            <div class="grid-row">
+            <div className="grid-row">
               <Label htmlFor="testInput">Email</Label>
               <TextInput />
             </div>
-            <div class="grid-row">
+            <div className="grid-row">
               <Label htmlFor="testInput">Message</Label>
               <TextArea className={styles.TextArea}/>
             </div>
-            <div class="grid-row margin-top-2">
+            <div className="grid-row margin-top-2">
             <Button>Submit</Button>
           </div>
           </div>
@@ -144,19 +145,19 @@ export default function Home() {
 
 
 
-          {/* <div class="grid-row">
-            <div class="tablet:grid-col">.tablet:grid-col</div>
-            <div class="tablet:grid-col">.tablet:grid-col</div>
-            <div class="tablet:grid-col">.tablet:grid-col</div>
+          {/* <div className="grid-row">
+            <div className="tablet:grid-col">.tablet:grid-col</div>
+            <div className="tablet:grid-col">.tablet:grid-col</div>
+            <div className="tablet:grid-col">.tablet:grid-col</div>
           </div>
 
-          <div class="grid-row">
-            <div class="tablet:grid-col-4">.tablet:grid-col-4</div>
-            <div class="tablet:grid-col-8">.tablet:grid-col-8</div>
+          <div className="grid-row">
+            <div className="tablet:grid-col-4">.tablet:grid-col-4</div>
+            <div className="tablet:grid-col-8">.tablet:grid-col-8</div>
           </div> */}
 
         </section>
-        <div class="grid-container usa-footer__return-to-top">
+        <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
         </div>
       {/* <Button type="button">Click Me</Button>
@@ -200,6 +201,70 @@ export default function Home() {
         </div> */}
       </main>
 
+      <div className="usa-footer__primary-section">
+        <nav className="usa-footer__nav" aria-label="Footer navigation">
+          <ul className="grid-row grid-gap">
+            <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+              <a className="usa-footer__primary-link" href="javascript:void(0);">Home</a>
+            </li>
+            <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+              <a className="usa-footer__primary-link" href="javascript:void(0);">Contact</a>
+            </li>
+            <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+              <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="usa-footer__secondary-section">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+              <div class="mobile-lg:grid-col-auto" className={styles.footerLogo}>
+                <img className="usa-footer__logo-img"  src="" alt="" />
+              </div>
+              <div class="mobile-lg:grid-col-auto">
+                <h1 class="font-heading-xl">BESPIN</h1>
+              </div>
+            </div>
+            <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+              <div class="usa-footer__social-links grid-row grid-gap-1">
+                <div class="grid-col-auto">
+                  <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
+                    <span>Facebook</span>
+                  </a>
+                </div>
+                <div class="grid-col-auto">
+                  <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
+                    <span>Twitter</span>
+                  </a>
+                </div>
+                <div class="grid-col-auto">
+                  <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+                    <span>YouTube</span>
+                  </a>
+                </div>
+                <div class="grid-col-auto">
+                  <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
+                    <span>RSS</span>
+                  </a>
+                </div>
+              </div>
+              <h3 class="usa-footer__contact-heading">Agency Contact</h3>
+              <address class="usa-footer__address">
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                  <div class="grid-col-auto">
+                    <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
+                  </div>
+                  <div class="grid-col-auto">
+                    <a href="mailto:info@agency.gov">info@agency.gov</a>
+                  </div>
+                </div>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

@@ -151,3 +151,19 @@
 .usa-textarea {
   height: 6rem;
 }
+
+.heroSection {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-image: url(../src/assets/images/hero-hands.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.footerLogo {
+  background-image: url(../src/assets/images/BESPIN-Logo.png);
+}

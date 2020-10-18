@@ -13,6 +13,8 @@ import PrimaryButton from '../src/components/Buttons'
 import TextInput from '../src/components/TextInput'
 // import heroImage from '../src/assets/images/hero1.png'
 import Button from '../src/components/Button'
+import Label from '../src/components/Label'
+import TextArea from '../src/components/TextArea'
 
 
 export default function Home() {
@@ -103,15 +105,55 @@ export default function Home() {
         <section className="grid-container" className={styles.partnersSection}>
           <h1 className="text-center">Partners</h1>
         <div class="grid-container buttonCenter">
-  <div class="grid-row buttonCenter">
-    <div class="tablet:grid-col"></div>
-    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
-    <div class="tablet:grid-col"></div>
-  </div>
-</div>
+          <div class="grid-row buttonCenter">
+            <div class="tablet:grid-col"></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"></div>
+          </div>
+        </div>
+        </section>
+        <section className="grid-container">
+          <h1 class="text-center">Contact Us</h1>
+          <div class="grid-row">
+            <div class="tablet:grid-col-4 margin-right-6 margin-top-3">
+              <img src="https://picsum.photos/seed/picsum/360/282" />
+            </div>
+            <div class="tablet:grid-col-6">
+            <div class="grid-row">
+              <Label htmlFor="testInput">Name</Label>
+              <TextInput />
+            </div>
+            <div class="grid-row">
+              <Label htmlFor="testInput">Email</Label>
+              <TextInput />
+            </div>
+            <div class="grid-row">
+              <Label htmlFor="testInput">Message</Label>
+              <TextArea className={styles.TextArea}/>
+            </div>
+            <div class="grid-row margin-top-2">
+            <Button>Submit</Button>
+          </div>
+          </div>
+
+
+          </div>
+
+
+
+          {/* <div class="grid-row">
+            <div class="tablet:grid-col">.tablet:grid-col</div>
+            <div class="tablet:grid-col">.tablet:grid-col</div>
+            <div class="tablet:grid-col">.tablet:grid-col</div>
+          </div>
+
+          <div class="grid-row">
+            <div class="tablet:grid-col-4">.tablet:grid-col-4</div>
+            <div class="tablet:grid-col-8">.tablet:grid-col-8</div>
+          </div> */}
         </section>
       {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>

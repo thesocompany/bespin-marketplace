@@ -132,3 +132,22 @@
     background-size: cover;
     /* color: #fff; */
 }
+
+.buttonCenter {
+  display: block !important; 
+  margin: auto !important;
+}
+
+.test {
+  background-color: red;
+}
+
+.partnersSection {
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  background-color: #F0F0F0;
+}
+
+.usa-textarea {
+  height: 6rem;
+}

@@ -9,8 +9,13 @@ import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
+import PrimaryButton from '../src/components/Buttons'
+import TextInput from '../src/components/TextInput'
 // import heroImage from '../src/assets/images/hero1.png'
-
+import Button from '../src/components/Button'
+import Label from '../src/components/Label'
+import TextArea from '../src/components/TextArea'
+import Link from '../src/components/Link'
 
 export default function Home() {
   return (
@@ -74,13 +79,86 @@ export default function Home() {
     </>
       {/* <main className={styles.main}> */}
       <main id="main-content">
-        <section class ={styles.heroSection}>
+        <section className ={styles.heroSection}>
           {/* <img src={heroImage} /> */}
-          <h1 class="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
+          <h1 className="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
         </section>
-      
-        
+        <section className="grid-container usa-section">
+          <h1 className="text-center">Mission</h1>
+          <h2 className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
+
+              <br />
+            <div>
+              <Button className={styles.buttonCenter}>Contact Us</Button>
+            </div>
+            
+        </section>
+
+        <section className="grid-container" className={styles.partnersSection}>
+          <h1 className="text-center">Partners</h1>
+        <div class="grid-container buttonCenter">
+          <div class="grid-row buttonCenter">
+            <div class="tablet:grid-col"></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+            <div class="tablet:grid-col"></div>
+          </div>
+        </div>
+        </section>
+        <section className="grid-container">
+          <h1 class="text-center">Contact Us</h1>
+          <div class="grid-row">
+            <div class="tablet:grid-col-4 margin-right-6 margin-top-3">
+              <img src="https://picsum.photos/seed/picsum/360/282" />
+            </div>
+            <div class="tablet:grid-col-6">
+            <div class="grid-row">
+              <Label htmlFor="testInput">Name</Label>
+              <TextInput />
+            </div>
+            <div class="grid-row">
+              <Label htmlFor="testInput">Email</Label>
+              <TextInput />
+            </div>
+            <div class="grid-row">
+              <Label htmlFor="testInput">Message</Label>
+              <TextArea className={styles.TextArea}/>
+            </div>
+            <div class="grid-row margin-top-2">
+            <Button>Submit</Button>
+          </div>
+          </div>
+
+
+          </div>
+
+
+
+          {/* <div class="grid-row">
+            <div class="tablet:grid-col">.tablet:grid-col</div>
+            <div class="tablet:grid-col">.tablet:grid-col</div>
+            <div class="tablet:grid-col">.tablet:grid-col</div>
+          </div>
+
+          <div class="grid-row">
+            <div class="tablet:grid-col-4">.tablet:grid-col-4</div>
+            <div class="tablet:grid-col-8">.tablet:grid-col-8</div>
+          </div> */}
+
+        </section>
+        <div class="grid-container usa-footer__return-to-top">
+         <a href="#">Return to top</a>
+        </div>
       {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

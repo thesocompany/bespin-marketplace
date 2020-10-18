@@ -10,7 +10,9 @@ import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
 import PrimaryButton from '../src/components/Buttons'
+import TextInput from '../src/components/TextInput'
 // import heroImage from '../src/assets/images/hero1.png'
+import Button from '../src/components/Button'
 
 
 export default function Home() {
@@ -75,14 +77,14 @@ export default function Home() {
     </>
       {/* <main className={styles.main}> */}
       <main id="main-content">
-        <section class ={styles.heroSection}>
+        <section className ={styles.heroSection}>
           {/* <img src={heroImage} /> */}
-          <h1 class="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
+          <h1 className="usa-hero_heading"><span class="usa-hero__heading--alt">Hero Header</span></h1>
           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
         </section>
-        <section class="grid-container usa-section">
-          <h1 class="text-center">Mission</h1>
-          <h2 class="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+        <section className="grid-container usa-section">
+          <h1 className="text-center">Mission</h1>
+          <h2 className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
@@ -91,14 +93,12 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
 
-            <div class="text-center">
               <br />
-              <br />
-              <PrimaryButton>Contact Us</PrimaryButton>
+            <div>
+              <Button className={styles.buttonCenter}>Contact Us</Button>
             </div>
             
         </section>
-        
       {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

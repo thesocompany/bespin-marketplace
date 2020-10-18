@@ -132,3 +132,12 @@
     background-size: cover;
     /* color: #fff; */
 }
+
+.buttonCenter {
+  display: block !important; 
+  margin: auto !important;
+}
+
+.test {
+  background-color: red;
+}

@@ -99,6 +99,20 @@ export default function Home() {
             </div>
             
         </section>
+
+        <section className="grid-container" className={styles.partnersSection}>
+          <h1 className="text-center">Partners</h1>
+        <div class="grid-container buttonCenter">
+  <div class="grid-row buttonCenter">
+    <div class="tablet:grid-col"></div>
+    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+    <div class="tablet:grid-col"><img src="https://picsum.photos/seed/picsum/100/100" /></div>
+    <div class="tablet:grid-col"></div>
+  </div>
+</div>
+        </section>
       {/* <Button type="button">Click Me</Button>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

@@ -141,3 +141,9 @@
 .test {
   background-color: red;
 }
+
+.partnersSection {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  background-color: #F0F0F0;
+}

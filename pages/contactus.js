@@ -102,8 +102,29 @@ export default function ContactUs() {
             <div class="grid-container">
               <div class="grid-row">
                 <div class="grid-col-auto"><img src="https://picsum.photos/id/1015/538/363" /></div>
-                <div class="grid-col-auto">BESPIN <br />123 Main Street Montgomery, AL 32018<br /><br /><br /> Call: (546) 684-4168<br /> Call: (546) 684-4168<br /> Email: sfad@bespin.com</div>
+                <div class="grid-col-auto"><span className="font-sans-lg text-bold">BESPIN</span> <br />123 Main Street <br />Montgomery, AL 32018<br /><br /><br /> Call: (546) 684-4168<br /> Call: (546) 684-4168<br /> Email: sfad@bespin.com <br /><br /><br /><Button>Schedule Time With Us</Button></div>
               </div>
+            </div>
+          </section>
+          <section>
+            <h1 className={styles.sectionHeading}>Send Us A Message</h1>
+            <div class="grid-container">
+              <div class="grid-row">
+                  <Label htmlFor="testInput">Name</Label>
+                  <TextInput />
+              </div>
+                <div class="grid-row">
+                  <Label htmlFor="testInput">Email</Label>
+                  <TextInput />
+                </div>
+                <div class="grid-row">
+                  <Label htmlFor="testInput">Phone Number</Label>
+                  <TextInput />
+                </div>
+                <div class="grid-row">
+                  <Label htmlFor="testInput">Phone Number</Label>
+                  <TextArea />
+                </div>                
             </div>
           </section>
         </main>

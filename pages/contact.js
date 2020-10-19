@@ -19,15 +19,17 @@ import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
-export default function ContactUs() {
+export default function Contact() {
     return (
       <>
-          <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
-      </Head>
+        <Head>
+          <title>Create Next App</title>
+          <link rel="icon" href="/favicon.ico" />
+          <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
+          <link rel="stylesheet" href="https://use.typekit.net/mvi3aaj.css" />
+  
+        </Head>
       <>
       <GovBanner />
       <div className='usa-overlay' ></div>
@@ -36,7 +38,7 @@ export default function ContactUs() {
           <div className="usa-navbar">
           <div className="grid-row">
             <div className="grid-col-auto" className={styles.headerLogo}><img src={BespinLogo} /></div>
-            <div className="grid-col-auto"><Title>BESPIN {<br />}Marketplace</Title></div>
+            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}>BESPIN {<br />}Marketplace</span></div>
           </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
@@ -81,21 +83,22 @@ export default function ContactUs() {
           </div>
       </Header>
       </>
-        <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
-          <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >
-            <li class="usa-breadcrumb__list-item">
-              <a href="#" class="usa-breadcrumb__link">
-                <span>Home</span>
-              </a>
-            </li>
-            <li class="usa-breadcrumb__list-item">
-              <a href="/contactus" class="usa-breadcrumb__link">
-                <span>Contact Us</span>
-              </a>
-            </li>
-          </ol>
-        </nav>
+
         <main id="main-content">
+          <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
+            <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >
+              <li class="usa-breadcrumb__list-item">
+                <a href="/" class="usa-breadcrumb__link">
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="usa-breadcrumb__list-item">
+                <a href="#" class="usa-breadcrumb__link">
+                  <span>Contact Us</span>
+                </a>
+              </li>
+            </ol>
+          </nav>          
           <section>
             <h1 className={styles.sectionHeading}>Contact Us</h1>
             <br />

@@ -151,3 +151,20 @@
 .usa-textarea {
   height: 6rem;
 }
+
+.heroSection {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  background-image: url(../src/assets/images/hero-hands.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.footerTitle {
+  font-family: Prometo;
+  font-weight: bold;
+}

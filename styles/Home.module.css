@@ -189,7 +189,6 @@
   font-family: Prometo;
   font-weight: bold;
   font-size: 23px;
-
 }
 
 .heroIntro {
@@ -216,4 +215,8 @@
 
 .breadcrumbList {
   margin-left: 150px;
+}
+
+.contactUsTextInput {
+  max-width: 200rem;
 }

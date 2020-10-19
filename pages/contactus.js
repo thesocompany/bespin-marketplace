@@ -44,43 +44,43 @@ export default function ContactUs() {
             items={[
               <>
             
-                <Menu
-                  key="one"
-                  items={[
-                    <a href="#linkOne" key="one">
-                      Current link
-                    </a>,
-                    <a href="#linkTwo" key="two">
-                      Simple link Two
-                    </a>,
-                ]}
-                  // isOpen={isOpen[0]}
-                  id="testDropDownOne"
-                />
-              </>,
-              <a href="/" key="two" className="usa-nav__link">
-                <span>Home</span>
+                  <Menu
+                    key="one"
+                    items={[
+                      <a href="#linkOne" key="one">
+                        Current link
+                      </a>,
+                      <a href="#linkTwo" key="two">
+                        Simple link Two
+                      </a>,
+                  ]}
+                    // isOpen={isOpen[0]}
+                    id="testDropDownOne"
+                  />
+                </>,
+                <a href="/" key="two" className="usa-nav__link">
+                  <span>Home</span>
+                </a>,
+                <a href="#three" key="three" className="usa-nav__link">
+                  <span>FAQ</span>
+                </a>,
+                <a href="#three" key="three" className="usa-nav__link">
+                <span>UX Library</span>
               </a>,
-              <a href="#three" key="three" className="usa-nav__link">
-                <span>FAQ</span>
+                <a href="#three" key="three" className="usa-nav__link">
+                <span>Apps</span>
               </a>,
-              <a href="#three" key="three" className="usa-nav__link">
-              <span>UX Library</span>
-            </a>,
-              <a href="#three" key="three" className="usa-nav__link">
-              <span>Apps</span>
-            </a>,
-              <a href="#three" key="three" className="usa-nav__link">
-              <span>Platform327</span>
-            </a>,                                      
-            ]}
-            mobileExpanded={null}
-            onToggleMobileNav={null}>
-            <Search small onSubmit={null} />
-          </PrimaryNav>
-        </div>
+                <a href="#three" key="three" className="usa-nav__link">
+                <span>Platform327</span>
+              </a>,                                      
+              ]}
+              mobileExpanded={null}
+              onToggleMobileNav={null}>
+              <Search small onSubmit={null} />
+            </PrimaryNav>
+          </div>
       </Header>
-    </>
+      </>
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
           <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >
             <li class="usa-breadcrumb__list-item">
@@ -102,32 +102,114 @@ export default function ContactUs() {
             <div class="grid-container">
               <div class="grid-row">
                 <div class="grid-col-auto"><img src="https://picsum.photos/id/1015/538/363" /></div>
-                <div class="grid-col-auto"><span className="font-sans-lg text-bold">BESPIN</span> <br />123 Main Street <br />Montgomery, AL 32018<br /><br /><br /> Call: (546) 684-4168<br /> Call: (546) 684-4168<br /> Email: sfad@bespin.com <br /><br /><br /><Button>Schedule Time With Us</Button></div>
+                <div class="grid-col-auto margin-left-9"><span className="font-sans-lg text-bold">BESPIN</span> <br />123 Main Street <br />Montgomery, AL 32018<br /><br /><br /> Call: (546) 684-4168<br /> Call: (546) 684-4168<br /> Email: sfad@bespin.com <br /><br /><br /><Button>Schedule Time With Us</Button></div>
               </div>
             </div>
           </section>
           <section>
+            <br />
+            <br />
+            <br />
+
             <h1 className={styles.sectionHeading}>Send Us A Message</h1>
             <div class="grid-container">
               <div class="grid-row">
-                  <Label htmlFor="testInput">Name</Label>
-                  <TextInput />
+                <Label htmlFor="testInput">Name</Label>
               </div>
-                <div class="grid-row">
-                  <Label htmlFor="testInput">Email</Label>
-                  <TextInput />
-                </div>
-                <div class="grid-row">
+              <div class="grid-row">
+                <TextInput className={styles.contactUsTextInput} />
+              </div>
+              <div class="grid-row">
+                <Label htmlFor="testInput">Email</Label>
+              </div>
+              <div class="grid-row">              
+                <TextInput className={styles.contactUsTextInput} />
+              </div>
+              <div class="grid-row">
                   <Label htmlFor="testInput">Phone Number</Label>
-                  <TextInput />
-                </div>
-                <div class="grid-row">
-                  <Label htmlFor="testInput">Phone Number</Label>
-                  <TextArea />
-                </div>                
+              </div>
+              <div class="grid-row">
+                  <TextInput className={styles.contactUsTextInput} />
+               </div>
+               <div class="grid-row">
+                 <Label htmlFor="testInput">Message</Label>
+               </div>
+               <div class="grid-row">
+                 <TextArea className={styles.contactUsTextInput} />
+               </div>                
             </div>
+            <br />
+            <Button className={styles.buttonCenter}>Submit</Button>
           </section>
+          <div className="grid-container usa-footer__return-to-top">
+           <a href="#">Return to top</a>
+          </div>
         </main>
+
+        <div className="usa-footer__primary-section">
+          <nav className="usa-footer__nav" aria-label="Footer navigation">
+            <ul className="grid-row grid-gap">
+              <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                <a className="usa-footer__primary-link" href="/">Home</a>
+              </li>
+              <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                <a className="usa-footer__primary-link" href="/contactus">Contact</a>
+              </li>
+              <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="usa-footer__secondary-section">
+          <div class="grid-container">
+            <div class="grid-row grid-gap">
+              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div class="mobile-lg:grid-col-auto">
+                  <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
+                </div>
+                <div class="mobile-lg:grid-col-auto">
+                  <span className={styles.footerTitle}>BESPIN</span>
+                </div>
+              </div>
+              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div class="usa-footer__social-links grid-row grid-gap-1">
+                  <div class="grid-col-auto">
+                    <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
+                      <span>Facebook</span>
+                    </a>
+                  </div>
+                  <div class="grid-col-auto">
+                    <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
+                      <span>Twitter</span>
+                    </a>
+                  </div>
+                  <div class="grid-col-auto">
+                    <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+                      <span>YouTube</span>
+                    </a>
+                  </div>
+                  <div class="grid-col-auto">
+                    <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
+                      <span>RSS</span>
+                    </a>
+                  </div>
+                </div>
+                <h3 class="usa-footer__contact-heading">Agency Contact</h3>
+                <address class="usa-footer__address">
+                  <div class="usa-footer__contact-info grid-row grid-gap">
+                    <div class="grid-col-auto">
+                      <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
+                    </div>
+                    <div class="grid-col-auto">
+                      <a href="mailto:info@agency.gov">info@agency.gov</a>
+                    </div>
+                  </div>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
       </>
     )
 

@@ -17,6 +17,7 @@ import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
 import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
+import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
 export default function Home() {
   return (
@@ -220,11 +221,11 @@ export default function Home() {
         <div class="grid-container">
           <div class="grid-row grid-gap">
             <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-              <div class="mobile-lg:grid-col-auto" className={styles.footerLogo}>
-                <img className="usa-footer__logo-img"  src="" alt="" />
+              <div class="mobile-lg:grid-col-auto">
+                <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
               </div>
               <div class="mobile-lg:grid-col-auto">
-                <h1 class="font-heading-xl">BESPIN</h1>
+                <h1 class="font-heading-xl" className={styles.footerTitle}>BESPIN</h1>
               </div>
             </div>
             <div class="usa-footer__contact-links mobile-lg:grid-col-6">
@@ -265,7 +266,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -274,7 +275,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
      {/* </div> */}
      </>
   )

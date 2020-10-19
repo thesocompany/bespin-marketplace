@@ -19,6 +19,7 @@ import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
+
 export default function Contact() {
     return (
       <>

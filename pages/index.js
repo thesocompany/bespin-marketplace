@@ -28,6 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/mvi3aaj.css" />
       </Head>
       <>
       <GovBanner />
@@ -59,7 +60,7 @@ export default function Home() {
                   id="testDropDownOne"
                 />
               </>,
-              <a href="#two" key="two" className="usa-nav__link">
+              <a href="/" key="two" className="usa-nav__link">
                 <span>Home</span>
               </a>,
               <a href="#three" key="three" className="usa-nav__link">
@@ -212,7 +213,7 @@ export default function Home() {
               <a className="usa-footer__primary-link" href="javascript:void(0);">Home</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Contact</a>
+              <a className="usa-footer__primary-link" href="/contactus">Contact</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
               <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
@@ -228,7 +229,7 @@ export default function Home() {
                 <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
               </div>
               <div class="mobile-lg:grid-col-auto">
-                <h1 class="font-heading-xl" className={styles.footerTitle}>BESPIN</h1>
+                <span className={styles.footerTitle}>BESPIN</span>
               </div>
             </div>
             <div class="usa-footer__contact-links mobile-lg:grid-col-6">

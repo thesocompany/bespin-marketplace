@@ -192,8 +192,14 @@
 
 .sectionHeading {
   margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
 }
 
 .sectionSubheading {
   margin-top: 5px;
+}
+
+.contactTextArea {
+  max-height: 100px;
 }

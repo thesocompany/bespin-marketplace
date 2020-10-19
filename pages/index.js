@@ -90,7 +90,7 @@ export default function Home() {
           <span className={styles.heroIntro}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</span>
         </section>
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading} className="text-center">Mission</h1>
+          <h1 className={styles.sectionHeading}>Mission</h1>
           <h2 className={styles.sectionSubheading} className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
@@ -120,8 +120,8 @@ export default function Home() {
           </div>
         </div>
         </section>
-        <section className="grid-container">
-          <h1 className="text-center">Contact Us</h1>
+        <section className="grid-container usa-section">
+          <h1 className={styles.sectionHeading}>Contact Us</h1>
           <div className="grid-row">
             <div className="tablet:grid-col-4 margin-right-6 margin-top-3">
               <img src="https://picsum.photos/seed/picsum/360/282" />
@@ -135,7 +135,7 @@ export default function Home() {
               <Label htmlFor="testInput">Email</Label>
               <TextInput />
             </div>
-            <div className="grid-row">
+            <div className="grid-row" >
               <Label htmlFor="testInput">Message</Label>
               <TextArea className={styles.TextArea}/>
             </div>

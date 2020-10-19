@@ -167,6 +167,8 @@
 .footerTitle {
   font-family: Prometo;
   font-weight: bold;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .headerLogo {
@@ -174,12 +176,20 @@
   padding-top: 25px;
 }
 
+
 .headerTitle {
   padding-left: 30px;
   text-shadow: 0px 2px 4px #2C2C2C93;
   opacity: 1;
   font: normal normal bold 28px/33px Public Sans;
   margin-bottom: 2px;
+}
+
+.navTitle {
+  font-family: Prometo;
+  font-weight: bold;
+  font-size: 23px;
+  color: #01103f
 }
 
 .heroIntro {
@@ -203,3 +213,17 @@
 .contactTextArea {
   max-height: 100px;
 }
+
+.breadcrumbList {
+  margin-left: 12.5rem;
+}
+
+.contactUsTextInput {
+  max-width: 200rem;
+}
+
+.oneandhalf {
+  line-height: 1.3em;
+  margin-top: 33px
+}
+

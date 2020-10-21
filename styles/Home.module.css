@@ -230,3 +230,26 @@
 .signupTextArea {
   max-width: 36rem;
 }
+
+.formCheckboxes {
+  display: inline-block;
+}
+
+.eventDescription {
+  font: italic normal normal 14px/16px Public Sans;
+  color: #171717;
+  max-width: 253px;
+  margin-bottom: .5rem;
+}
+
+
+.eventTitle {
+  margin-top: 0.5rem;
+}
+.eventTitle:hover {
+  text-decoration: underline;
+}
+
+.tabsComponent {
+  border: 1px solid #175CA3BF
+}

@@ -21,6 +21,12 @@ import Checkbox from '../src/components/Checkbox'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import stickynotesImg from '../src/assets/images/stickynotes.png'
+import markersImg from '../src/assets/images/markers.png'
+import usertestingImg from '../src/assets/images/usertesting.png'
+import collabImg from '../src/assets/images/computerlap.png'
+
+
 
 export default function Platform327() {
     return (
@@ -75,7 +81,7 @@ export default function Platform327() {
                 <a href="#three" key="three" className="usa-nav__link">
                 <span>Apps</span>
               </a>,
-                <a href="#three" key="three" className="usa-nav__link">
+                <a href="/platform327" key="three" className="usa-nav__link">
                 <span>Platform327</span>
               </a>,                                      
               ]}
@@ -97,14 +103,14 @@ export default function Platform327() {
               </li>
               <li class="usa-breadcrumb__list-item">
                 <a href="#" class="usa-breadcrumb__link">
-                  <span>Contact Us</span>
+                  <span>Platform327</span>
                 </a>
               </li>
             </ol>
           </nav>          
 
           <section>
-            <div class="grid-container">
+            <div class="grid-container" className={styles.tabsComponent}>
               <div class="grid-row">
                 <div className="tablet:grid-col-3 margin-right-6">
                   <h1>Start</h1>
@@ -126,7 +132,7 @@ export default function Platform327() {
                     </p>
                 </div>
                 <div className="tablet:grid-col-8">
-                <Tabs>
+                <Tabs className={styles.tabsComponent}>
                   <TabList>
                     <Tab>TRAINING</Tab>
                     <Tab>EVENTS</Tab>
@@ -147,7 +153,12 @@ export default function Platform327() {
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><TextInput /></div>
-                        <div class="tablet:grid-col"><Checkbox id="checkbox" name="checkbox" label="Email" /><Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/></div>
+                        <div class="tablet:grid-col">
+                          <ul className={styles.formCheckboxes}>
+                            <li><Checkbox id="checkbox" name="checkbox" label="Email" /></li>
+                            <li><Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/></li>
+                          </ul>
+                        </div>
                       </div>
                       <div class="grid-row">
                         <Checkbox id="checkbox" name="checkbox" label="Yes, I would like to take a UX Skills Assessment" />
@@ -164,7 +175,7 @@ export default function Platform327() {
                         <div class="tablet:grid-col"><Label>Message*</Label></div>
                       </div>
                       <div class="grid-row">
-                        <div class="tablet:grid-col margin-bottom-205"><TextArea classNAme={styles.signupTextArea}/></div>
+                        <div class="tablet:grid-col margin-bottom-205"><TextArea className={styles.signupTextArea}/></div>
                       </div>
                       <div class="grid-row">
                         <Button>Submit</Button>
@@ -175,37 +186,29 @@ export default function Platform327() {
                   <TabPanel>
                   <div class="grid-container">
                       <div class="grid-row margin-top-3">
-                        <div class="tablet:grid-col">
-                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                        <div class="tablet:grid-col" onclick="location.href='/'">
+                          <img src={stickynotesImg} /> <br />
+                          <div className={styles.eventTitle}>Nov 2 - UX Intro</div> <br />
+                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
                         </div>
                         <div class="tablet:grid-col">
-                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
-                        </div>
-                      </div>
-                      <div class="grid-row">
-                        <div class="tablet:grid-col">
-                        <Button>Add to calendar</Button>
-                        </div>
-                        <div class="tablet:grid-col">
-                        <Button>Add to calendar</Button>
+                          <img src={markersImg} />
+                          <div className={styles.eventTitle}>Nov 3 - Design Strategy</div> <br />
+                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>                          
                         </div>
                       </div>
                       <div class="grid-row margin-top-3">
                         <div class="tablet:grid-col">
-                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                          <img src={usertestingImg} />
+                          <div className={styles.eventTitle}>Nov 5 - User Testing</div> <br />
+                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>                          
                         </div>
                         <div class="tablet:grid-col">
-                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                          <img src={collabImg} />
+                          <div className={styles.eventTitle}>Nov 10 - Event: Adobe XD</div> <br />
+                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>                          
                         </div>
-                      </div>
-                      <div class="grid-row">
-                        <div class="tablet:grid-col">
-                        <Button>Add to calendar</Button>
-                        </div>
-                        <div class="tablet:grid-col">
-                        <Button>Add to calendar</Button>
-                        </div>
-                      </div>                                            
+                      </div>                                          
                   </div>
                   </TabPanel>
                 </Tabs>
@@ -226,7 +229,7 @@ export default function Platform327() {
                 <a className="usa-footer__primary-link" href="/">Home</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-                <a className="usa-footer__primary-link" href="/contactus">Contact</a>
+                <a className="usa-footer__primary-link" href="/contact">Contact</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
                 <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>

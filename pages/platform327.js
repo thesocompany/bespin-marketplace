@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import ReactModal from "react-modal";
+import { useModal } from "react-modal-hook";
 // import { Button } from '@trussworks/react-uswds'
 import Header from '../src/components/Header'
 import Title from '../src/components/Title'
@@ -22,6 +24,7 @@ import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import stickynotesImg from '../src/assets/images/stickynotes.png'
+import stickynotesLgImg from '../src/assets/images/stickynotes-lg.png'
 import markersImg from '../src/assets/images/markers.png'
 import usertestingImg from '../src/assets/images/usertesting.png'
 import collabImg from '../src/assets/images/computerlap.png'
@@ -29,6 +32,62 @@ import collabImg from '../src/assets/images/computerlap.png'
 
 
 export default function Platform327() {
+
+  const [showModal, hideModal] = useModal(() => (
+    <ReactModal isOpen className={styles.eventModal}>
+      <div class="grid-container" >
+        <div class="grid-row">
+          <h1>Event</h1>
+        </div>
+        <div class="grid-row">
+            <h2>November 2, 11am</h2>
+        </div>
+        <div class="grid-row">
+          <div class="tablet:grid-col">
+            <img src={stickynotesLgImg} />
+            <p>Class Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+               sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit 
+               amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+            </p>
+          </div>
+          <div class="tablet:grid-col">
+            <div class="grid-row">
+              <Label htmlFor="testInput">Name*</Label>
+            </div>
+            <div class="grid-row">
+              <TextInput />
+            </div>
+            <div class="grid-row">
+              <Label htmlFor="testInput">Phone*</Label>
+            </div>
+            <div class="grid-row">
+              <TextInput />
+            </div>            
+            <div class="grid-row">
+              <Label htmlFor="testInput">Email*</Label>
+            </div>
+            <div class="grid-row">
+              <TextInput />
+            </div>         
+            <div class="grid-row">
+              <Label>Preferred Contact*</Label>            
+            </div>
+            <div class="grid-row">
+              <Checkbox id="checkbox" name="checkbox" label="Email" />
+              <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
+            </div>
+            <div class="grid-row">
+              <Button>Sign up</Button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+                      <Button onClick={hideModal}>Hide modal</Button>
+    </ReactModal>
+  ))
     return (
       <>
         <Head>
@@ -110,7 +169,7 @@ export default function Platform327() {
           </nav>          
 
           <section>
-            <div class="grid-container" className={styles.tabsComponent}>
+            <div class="grid-container" >
               <div class="grid-row">
                 <div className="tablet:grid-col-3 margin-right-6">
                   <h1>Start</h1>
@@ -206,7 +265,9 @@ export default function Platform327() {
                         <div class="tablet:grid-col">
                           <img src={collabImg} />
                           <div className={styles.eventTitle}>Nov 10 - Event: Adobe XD</div> <br />
-                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>                          
+                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
+                          <Button onClick={showModal}>Show modal</Button>
+                          
                         </div>
                       </div>                                          
                   </div>

@@ -16,6 +16,7 @@ import Button from '../src/components/Button'
 import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
 import Link from '../src/components/Link'
+import Checkbox from '../src/components/Checkbox'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -102,9 +103,6 @@ export default function Platform327() {
             </ol>
           </nav>          
 
-
-
-
           <section>
             <div class="grid-container">
               <div class="grid-row">
@@ -117,14 +115,7 @@ export default function Platform327() {
                         consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
                         et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
-                        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-                        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
-                        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-                        ipsum dolor sit amet. 
+                        sit amet.
                     </p>
                     <p>    
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
@@ -137,14 +128,85 @@ export default function Platform327() {
                 <div className="tablet:grid-col-8">
                 <Tabs>
                   <TabList>
-                    <Tab>Title 1</Tab>
-                    <Tab>Title 2</Tab>
+                    <Tab>TRAINING</Tab>
+                    <Tab>EVENTS</Tab>
                   </TabList>
                   <TabPanel>
-                    <h2>Any content 1</h2>
+                    <div class="grid-container">
+                      <div class="grid-row">
+                        <h1>Sign up here</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                          At vero eos et accusam et justo duo dolores et ea rebum.
+                        </p>
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
+                        <div class="tablet:grid-col"><Label>Preferred Contact*</Label></div>
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col margin-right-6"><TextInput /></div>
+                        <div class="tablet:grid-col"><Checkbox id="checkbox" name="checkbox" label="Email" /><Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/></div>
+                      </div>
+                      <div class="grid-row">
+                        <Checkbox id="checkbox" name="checkbox" label="Yes, I would like to take a UX Skills Assessment" />
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col margin-right-6"><Label>Email*</Label></div>
+                        <div class="tablet:grid-col"><Label>Phone*</Label></div>
+                      </div>                      
+                      <div class="grid-row">
+                        <div class="tablet:grid-col margin-right-6"><TextInput /></div>
+                        <div class="tablet:grid-col "><TextInput /></div>
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col"><Label>Message*</Label></div>
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col margin-bottom-205"><TextArea classNAme={styles.signupTextArea}/></div>
+                      </div>
+                      <div class="grid-row">
+                        <Button>Submit</Button>
+                      </div>                                               
+                    </div>
+
                   </TabPanel>
                   <TabPanel>
-                    <h2>Any content 2</h2>
+                  <div class="grid-container">
+                      <div class="grid-row margin-top-3">
+                        <div class="tablet:grid-col">
+                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                        </div>
+                        <div class="tablet:grid-col">
+                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                        </div>
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col">
+                        <Button>Add to calendar</Button>
+                        </div>
+                        <div class="tablet:grid-col">
+                        <Button>Add to calendar</Button>
+                        </div>
+                      </div>
+                      <div class="grid-row margin-top-3">
+                        <div class="tablet:grid-col">
+                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                        </div>
+                        <div class="tablet:grid-col">
+                          <img src="https://i.picsum.photos/id/1/251/143.jpg?hmac=vKRB4IkXwyNpPBHHvcsnVKPKA4CjSgVtM5_eOVa0qT0" />
+                        </div>
+                      </div>
+                      <div class="grid-row">
+                        <div class="tablet:grid-col">
+                        <Button>Add to calendar</Button>
+                        </div>
+                        <div class="tablet:grid-col">
+                        <Button>Add to calendar</Button>
+                        </div>
+                      </div>                                            
+                  </div>
                   </TabPanel>
                 </Tabs>
                 </div>

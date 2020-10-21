@@ -227,3 +227,6 @@
   margin-top: 33px
 }
 
+.signupTextArea {
+  max-width: 36rem;
+}

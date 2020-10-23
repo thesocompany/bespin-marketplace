@@ -24,7 +24,7 @@ export default function Contact() {
     return (
       <>
         <Head>
-          <title>Create Next App</title>
+          <title>BESPIN Marketplace</title>
           <link rel="icon" href="/favicon.ico" />
           <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />

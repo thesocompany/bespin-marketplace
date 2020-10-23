@@ -18,7 +18,7 @@ import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
-export default function Home() {
+export default function Apps() {
   return (
     // <div className={styles.container}>
     <>
@@ -64,10 +64,10 @@ export default function Home() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#three" key="three" className="usa-nav__link">
+              <a href="/uxlibrary" key="three" className="usa-nav__link">
               <span>UX Library</span>
             </a>,
-              <a href="/apps" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
@@ -88,120 +88,50 @@ export default function Home() {
           <h1 className="usa-hero_heading" className={styles.headerTitle}><span className="usa-hero__heading--alt">Hero Header</span></h1>
           <span className={styles.heroIntro}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</span>
         </section>
+
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Mission</h1>
+          <h1 className={styles.sectionHeading}>Apps</h1>
           <h2 className={styles.sectionSubheading} className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-
-              <br />
-            <div>
-              <Button className={styles.buttonCenter}>Contact Us</Button>
+          <div className="grid-row margin-top-7">
+            <div className="tablet:grid-col">
+              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
+              <h2 className="text-center">Project Name</h2>
+              <div><p className="text-center">Simple description cupida tat non proident, sunt in</p></div>
+            </div>
+            <div className="tablet:grid-col">
+              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
+              <h2 className="text-center">Project Name</h2>
+              <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+            </div>
+            <div className="tablet:grid-col">
+              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
+              <h2 className="text-center">Project Name</h2>
+              <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+            </div>
+          </div>
+          <div className="grid-row margin-top-7">
+            <div className="tablet:grid-col">
+                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
+                <h2 className="text-center">Project Name</h2>
+                <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+              </div>
+              <div className="tablet:grid-col">
+                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
+                <h2 className="text-center">Project Name</h2>
+                <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+              </div>
+              <div className="tablet:grid-col">
+                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
+                <h2 className="text-center">Project Name</h2>
+                <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+              </div>                                    
             </div>
             
         </section>
 
-        <section className="grid-container" className={styles.partnersSection}>
-          <h1 className="text-center">Partners</h1>
-        <div className="grid-container buttonCenter">
-          <div className="grid-row buttonCenter">
-            <div className="tablet:grid-col"></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"></div>
-          </div>
-        </div>
-        </section>
-        <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Contact Us</h1>
-          <div className="grid-row">
-            <div className="tablet:grid-col-4 margin-right-6 margin-top-3">
-              <img src="https://picsum.photos/seed/picsum/360/282" />
-            </div>
-            <div className="tablet:grid-col-6">
-            <div className="grid-row">
-              <Label htmlFor="testInput">Name</Label>
-              <TextInput />
-            </div>
-            <div className="grid-row">
-              <Label htmlFor="testInput">Email</Label>
-              <TextInput />
-            </div>
-            <div className="grid-row" >
-              <Label htmlFor="testInput">Message</Label>
-              <TextArea className={styles.TextArea}/>
-            </div>
-            <div className="grid-row margin-top-2">
-            <Button>Submit</Button>
-          </div>
-          </div>
-
-
-          </div>
-
-
-
-          {/* <div className="grid-row">
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-          </div>
-
-          <div className="grid-row">
-            <div className="tablet:grid-col-4">.tablet:grid-col-4</div>
-            <div className="tablet:grid-col-8">.tablet:grid-col-8</div>
-          </div> */}
-
-        </section>
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
         </div>
-      {/* <Button type="button">Click Me</Button>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
       </main>
 
       <div className="usa-footer__primary-section">

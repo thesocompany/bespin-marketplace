@@ -158,7 +158,7 @@ export default function Platform327() {
                 <a href="/" key="two" className="usa-nav__link">
                   <span>Home</span>
                 </a>,
-                <a href="#three" key="three" className="usa-nav__link">
+                <a href="/faq" key="three" className="usa-nav__link">
                   <span>FAQ</span>
                 </a>,
                 <a href="#three" key="three" className="usa-nav__link">

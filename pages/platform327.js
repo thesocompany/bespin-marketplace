@@ -40,10 +40,10 @@ export default function Platform327() {
   }
 
   const [showModal, hideModal] = useModal(() => (
-    <ReactModal isOpen>
+    <ReactModal isOpen className={styles.eventModal}>
       <div class="grid-container" >
-        <div class="grid-row">
-          <span className={styles.footerTitle}>Event</span>
+        <div class="grid-row margin-top-2">
+          <span className={styles.footerTitle}>UX Intro</span>
         </div>
         <div class="grid-row">
             <h2 className="margin-top-0">November 2, 11am</h2>
@@ -91,24 +91,26 @@ export default function Platform327() {
           </div>
         </div>
       </div>
-                      <Button onClick={hideModal}>Hide modal</Button> <span onClick={hideModal} className={styles.modalCloseButton}><i className="fas fa-times"></i></span>
+                      {/* <Button onClick={hideModal}>Hide modal</Button>  */}
+                      <div onClick={hideModal} className={styles.successModalCloseButton}><i className="fas fa-times"></i></div>
     </ReactModal>
   ))
 
   const [showSuccessModal, hideSuccessModal] = useModal(() => (
-    <ReactModal isOpen>            
-      <div class="grid-container" >
+    <ReactModal isOpen className={styles.successModal}>
+      <div onClick={hideSuccessModal} className={styles.successModalCloseButton}><i className="fas fa-times"></i></div>
+            
+      <div class="grid-container margin-top-5">
         <div class="grid-row">
-          <div className={styles.modalTitle}>Success</div>
+          <div className={styles.modalTitle}>Success!</div>
         </div>
         <div class="grid-row">
           <p className={styles.successModalCaption}>Your request has been successfully submitted</p>
         </div>
-        <div class="grid-row">
+        <div class="grid-row margin-top-7">
           <Button className={styles.successModalButton} onClick={hideSuccessModal}>Continue</Button>
         </div>
       </div>
-      <button onClick={hideSuccessModal}>Hide modal</button>
     </ReactModal>
   ));
     return (
@@ -291,7 +293,7 @@ export default function Platform327() {
                           <img src={collabImg} />
                           <div className={styles.eventTitle}>Nov 10 - Event: Adobe XD</div> <br />
                           <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
-                          <Button onClick={showModal}>Show modal</Button>
+                          {/* <Button onClick={showModal}>Show modal</Button> */}
                           
                         </div>
                       </div>                                          

@@ -336,3 +336,8 @@
 .headingTitle {
   text-align: center;
 }
+
+.appsIcon {
+  display:block;
+  margin:auto;
+}

@@ -33,6 +33,12 @@ import collabImg from '../src/assets/images/computerlap.png'
 
 export default function Platform327() {
 
+  function successModal() {
+    hideModal()
+    showSuccessModal()
+    console.log("this is firing")
+  }
+
   const [showModal, hideModal] = useModal(() => (
     <ReactModal isOpen>
       <div class="grid-container" >
@@ -79,7 +85,7 @@ export default function Platform327() {
               <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
             </div>
             <div class="grid-row margin-top-3">
-              <Button onClick={hideModal, showSuccessModal}>Sign up</Button>
+              <Button onClick={successModal}>Sign up</Button>
             </div>
 
           </div>

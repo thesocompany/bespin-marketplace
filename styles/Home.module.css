@@ -257,3 +257,9 @@
 .eventModal {
   max-width: 880px;
 }
+
+.modalCloseButton {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}

@@ -34,16 +34,16 @@ import collabImg from '../src/assets/images/computerlap.png'
 export default function Platform327() {
 
   const [showModal, hideModal] = useModal(() => (
-    <ReactModal isOpen className={styles.eventModal}>
+    <ReactModal isOpen>
       <div class="grid-container" >
         <div class="grid-row">
-          <h1>Event</h1>
+          <span className={styles.footerTitle}>Event</span>
         </div>
         <div class="grid-row">
-            <h2>November 2, 11am</h2>
+            <h2 className="margin-top-0">November 2, 11am</h2>
         </div>
         <div class="grid-row">
-          <div class="tablet:grid-col">
+          <div class="tablet:grid-col ">
             <img src={stickynotesLgImg} />
             <p>Class Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
               sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
@@ -52,9 +52,9 @@ export default function Platform327() {
                amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             </p>
           </div>
-          <div class="tablet:grid-col">
+          <div class="tablet:grid-col margin-left-9">
             <div class="grid-row">
-              <Label htmlFor="testInput">Name*</Label>
+              <Label htmlFor="testInput" className="margin-top-0">Name*</Label>
             </div>
             <div class="grid-row">
               <TextInput />
@@ -74,20 +74,27 @@ export default function Platform327() {
             <div class="grid-row">
               <Label>Preferred Contact*</Label>            
             </div>
-            <div class="grid-row">
-              <Checkbox id="checkbox" name="checkbox" label="Email" />
+            <div class="grid-row margin-top-3">
+              <Checkbox id="checkbox" name="checkbox" label="Email" className="margin-right-2"/>
               <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
             </div>
-            <div class="grid-row">
-              <Button>Sign up</Button>
+            <div class="grid-row margin-top-3">
+              <Button onClick={hideModal, showSuccessModal}>Sign up</Button>
             </div>
 
           </div>
         </div>
       </div>
-                      <Button onClick={hideModal}>Hide modal</Button>
+                      <Button onClick={hideModal}>Hide modal</Button> <span className={styles.modalCloseButton}><i className="fas fa-times"></i></span>
     </ReactModal>
   ))
+
+  const [showSuccessModal, hideSuccessModal] = useModal(() => (
+    <ReactModal isOpen>
+      <p>Modal content</p>
+      <button onClick={hideSuccessModal}>Hide modal</button>
+    </ReactModal>
+  ));
     return (
       <>
         <Head>
@@ -96,6 +103,8 @@ export default function Platform327() {
           <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
           <link rel="stylesheet" href="https://use.typekit.net/mvi3aaj.css" />
+          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
   
         </Head>
       <>
@@ -208,7 +217,7 @@ export default function Platform327() {
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
-                        <div class="tablet:grid-col"><Label>Preferred Contact*</Label></div>
+                        <div class="tablet:grid-col"><Label>Preferred Contact:*</Label></div>
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><TextInput /></div>

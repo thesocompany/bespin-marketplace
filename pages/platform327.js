@@ -218,10 +218,10 @@ export default function Platform327() {
                     </p>
                 </div>
                 <div className="tablet:grid-col-8">
-                <Tabs className={styles.tabsComponent}>
+                <Tabs>
                   <TabList>
-                    <Tab>TRAINING</Tab>
-                    <Tab>EVENTS</Tab>
+                    <Tab><span className={styles.tabLabel}>TRAINING</span></Tab>
+                    <Tab><span className={styles.tabLabel}>EVENTS</span></Tab>
                   </TabList>
                   <TabPanel>
                     <div class="grid-container">
@@ -235,15 +235,13 @@ export default function Platform327() {
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
-                        <div class="tablet:grid-col"><Label>Preferred Contact:*</Label></div>
+                        <div class="tablet:grid-col"><Label className="margin-bottom-2">Preferred Contact:*</Label></div>
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><TextInput /></div>
                         <div class="tablet:grid-col">
-                          <ul className={styles.formCheckboxes}>
-                            <li><Checkbox id="checkbox" name="checkbox" label="Email" /></li>
-                            <li><Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/></li>
-                          </ul>
+                            <Checkbox id="checkbox" name="checkbox" label="Email" />
+                            <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
                         </div>
                       </div>
                       <div class="grid-row">
@@ -378,3 +376,4 @@ export default function Platform327() {
     )
 
     }
+

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-// import { Button } from '@trussworks/react-uswds'
 import Header from '../src/components/Header'
 import Title from '../src/components/Title'
 import NavMenuButton from '../src/components/NavMenuButton'
@@ -62,7 +61,7 @@ export default function Home() {
               <a href="/" key="two" className="usa-nav__link">
                 <span>Home</span>
               </a>,
-              <a href="#three" key="three" className="usa-nav__link">
+              <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
               <a href="#three" key="three" className="usa-nav__link">

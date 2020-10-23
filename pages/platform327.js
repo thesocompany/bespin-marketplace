@@ -240,12 +240,12 @@ export default function Platform327() {
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><TextInput /></div>
                         <div class="tablet:grid-col">
-                            <Checkbox id="checkbox" name="checkbox" label="Email" />
-                            <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
+                            <Checkbox id="checkbox" name="email" label="Email" />
+                            <Checkbox id="checkbox2" name="phone" label="Phone" classname="margin-top-2"/>
                         </div>
                       </div>
                       <div class="grid-row">
-                        <Checkbox id="checkbox" name="checkbox" label="Yes, I would like to take a UX Skills Assessment" />
+                        <Checkbox id="checkbox3" name="ux-assessment" label="Yes, I would like to take a UX Skills Assessment" />
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Email*</Label></div>

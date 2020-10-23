@@ -39,7 +39,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '123',
+      id: '1',
     },
     {
       title: 'Lorem Ipsum',
@@ -59,7 +59,7 @@ export default function FAQ() {
         </>
       ),
       expanded: true,
-      id: 'abc',
+      id: '2',
     },
     {
       title: 'Lorem Ipsum',
@@ -77,7 +77,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: 'def',
+      id: '3',
     },
     {
       title: 'Lorem Ipsum',
@@ -95,7 +95,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '456',
+      id: '4',
     },
     {
       title: 'Lorem Ipsum',
@@ -113,7 +113,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '789',
+      id: '5',
     },
   ]
 

@@ -71,7 +71,7 @@ export default function Home() {
               <a href="#three" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
-              <a href="#three" key="three" className="usa-nav__link">
+              <a href="/platform327" key="three" className="usa-nav__link">
               <span>Platform327</span>
             </a>,                                      
             ]}

@@ -227,3 +227,104 @@
   margin-top: 33px
 }
 
+.signupTextArea {
+  max-width: 36rem;
+}
+
+.formCheckboxes {
+  display: inline-block;
+}
+
+.eventDescription {
+  font: italic normal normal 14px/16px Public Sans;
+  color: #171717;
+  max-width: 253px;
+  margin-bottom: .5rem;
+}
+
+
+.eventTitle {
+  margin-top: 0.5rem;
+}
+.eventTitle:hover {
+  text-decoration: underline;
+}
+
+.tabsComponent {
+  border: 1px solid #175CA3BF
+}
+
+.eventModal {
+  width: 880px;
+  height: 547px;
+  display:flex;
+  position: absolute; 
+  top: 15%;
+  right: 15%;
+  left: 20%;
+  bottom: 30%;
+  background-color: #FFFFFF;
+
+}
+
+.modalCloseButton {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  height: 16px;
+  width: 16px;
+}
+
+.modalTitle {
+  font-family: Prometo;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.successModalButton {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.successModalCaption {
+  /* margin-left:auto;
+  margin-right:auto; */
+}
+
+.successModal {
+  width: 600px;
+  height: 262px;
+  display:flex;
+  position: absolute; 
+  top: 25%;
+  right: 25%;
+  left: 30%;
+  bottom: 25%;
+  background-color: #FFFFFF;
+}
+
+.ReactModal__Overlay {
+  background-color: #323A45CC;
+}
+
+
+.successModalCloseButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 16px;
+  width: 16px;
+}
+
+.tabLabel {
+  font-family: Public Sans;  
+  color: #52687C80;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #52687C80;
+  opacity: 1;
+}

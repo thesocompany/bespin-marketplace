@@ -91,13 +91,23 @@ export default function Platform327() {
           </div>
         </div>
       </div>
-                      <Button onClick={hideModal}>Hide modal</Button> <span className={styles.modalCloseButton}><i className="fas fa-times"></i></span>
+                      <Button onClick={hideModal}>Hide modal</Button> <span onClick={hideModal} className={styles.modalCloseButton}><i className="fas fa-times"></i></span>
     </ReactModal>
   ))
 
   const [showSuccessModal, hideSuccessModal] = useModal(() => (
-    <ReactModal isOpen>
-      <p>Modal content</p>
+    <ReactModal isOpen>            
+      <div class="grid-container" >
+        <div class="grid-row">
+          <div className={styles.modalTitle}>Success</div>
+        </div>
+        <div class="grid-row">
+          <p className={styles.successModalCaption}>Your request has been successfully submitted</p>
+        </div>
+        <div class="grid-row">
+          <Button className={styles.successModalButton} onClick={hideSuccessModal}>Continue</Button>
+        </div>
+      </div>
       <button onClick={hideSuccessModal}>Hide modal</button>
     </ReactModal>
   ));
@@ -260,7 +270,7 @@ export default function Platform327() {
                   <TabPanel>
                   <div class="grid-container">
                       <div class="grid-row margin-top-3">
-                        <div class="tablet:grid-col" onclick="location.href='/'">
+                        <div class="tablet:grid-col" onClick={showModal}>
                           <img src={stickynotesImg} /> <br />
                           <div className={styles.eventTitle}>Nov 2 - UX Intro</div> <br />
                           <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>

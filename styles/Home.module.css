@@ -263,3 +263,26 @@
   top: 35px;
   right: 35px;
 }
+
+.successModal {
+  display:flex;
+}
+
+.modalTitle {
+  font-family: Prometo;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.successModalButton {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.successModalCaption {
+  /* margin-left:auto;
+  margin-right:auto; */
+}

@@ -219,7 +219,7 @@ export default function FAQ() {
               <a className="usa-footer__primary-link" href="/">Home</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="/contactus">Contact</a>
+              <a className="usa-footer__primary-link" href="/contact">Contact</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
               <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>

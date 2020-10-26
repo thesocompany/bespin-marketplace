@@ -37,51 +37,50 @@ export default function Contact() {
       <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-          <div className="grid-row">
+          <div className="grid-row margin-bottom-3">
             <div className="grid-col-auto" className={styles.headerLogo}><img src={BespinLogo} /></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}>BESPIN {<br />}Marketplace</span></div>
-          </div>  
+            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}>BESPIN {<br />}Marketplace</span></div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
             items={[
               <>
             
-                  <Menu
-                    key="one"
-                    items={[
-                      <a href="#linkOne" key="one">
-                        Current link
-                      </a>,
-                      <a href="#linkTwo" key="two">
-                        Simple link Two
-                      </a>,
-                  ]}
-                    // isOpen={isOpen[0]}
-                    id="testDropDownOne"
-                  />
-                </>,
-                <a href="/" key="two" className="usa-nav__link">
-                  <span>Home</span>
-                </a>,
-                <a href="/faq" key="three" className="usa-nav__link">
-                  <span>FAQ</span>
-                </a>,
-                <a href="/uxlibrary" key="three" className="usa-nav__link">
-                <span>UX Library</span>
+                <Menu
+                  key="one"
+                  items={[
+                    <a href="#linkOne" key="one">
+                      Current link
+                    </a>,
+                    <a href="#linkTwo" key="two">
+                      Simple link Two
+                    </a>,
+                ]}
+                  // isOpen={isOpen[0]}
+                  id="testDropDownOne"
+                />
+              </>,
+              <a href="/" key="two" className="usa-nav__link">
+                <span>Home</span>
               </a>,
-                <a href="/apps" key="three" className="usa-nav__link">
-                <span>Apps</span>
+              <a href="/faq" key="three" className="usa-nav__link">
+                <span>FAQ</span>
               </a>,
-                <a href="/platform327" key="three" className="usa-nav__link">
-                <span>Platform327</span>
-              </a>,                                      
-              ]}
-              mobileExpanded={null}
-              onToggleMobileNav={null}>
-              <Search small onSubmit={null} />
-            </PrimaryNav>
-          </div>
+              <a href="/uxlibrary" key="three" className="usa-nav__link">
+              <span>UX Library</span>
+            </a>,
+              <a href="/apps" key="three" className="usa-nav__link">
+              <span>Apps</span>
+            </a>,
+              <a href="/platform327" key="three" className="usa-nav__link">
+              <span>Platform327</span>
+            </a>,                                      
+            ]}
+            mobileExpanded={null}
+            onToggleMobileNav={null}>
+            <Search small onSubmit={null} />
+          </PrimaryNav>
+        </div>
       </Header>
       </>
 
@@ -157,7 +156,7 @@ export default function Contact() {
                 <a className="usa-footer__primary-link" href="/">Home</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-                <a className="usa-footer__primary-link" href="/contactus">Contact</a>
+                <a className="usa-footer__primary-link" href="#">Contact</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
                 <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>

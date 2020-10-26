@@ -341,3 +341,30 @@
   display:block;
   margin:auto;
 }
+
+
+.uxLibrarySectionHeading {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
+  color: #01103F
+}
+
+
+.uxLibrarySectionSubheading {
+  margin-top: 5px;
+  color: #01103F;
+  text-align: center;
+
+}
+
+.uxLibraryTitle {
+  color: #019CE9;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.uxLibDisciplineDescription {
+  text-align: center;
+  margin-top: 1px;
+}

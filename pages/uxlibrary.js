@@ -98,31 +98,31 @@ export default function Uxlibrary() {
           </ol>
         </nav>    
 
-        <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>UX Library & Resources</h1>
-          <h2 className={styles.sectionSubheading} className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+        <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
+          <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
+          <h2 className={styles.uxLibrarySectionSubheading}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-              <h2 className="text-center">Learning</h2>
-              <div><p className="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p></div>
+              <h2 className={styles.uxLibraryTitle}>Learning</h2>
+              <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr, sed diam nonumy eirmod</p>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-              <h2 className="text-center">Development</h2>
-              <p className="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+              <h2 className={styles.uxLibraryTitle}>Development</h2>
+              <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr, sed diam nonumy eirmod</p>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-                <h2 className="text-center">Design</h2>
-                <p className="text-center">Lorem ipsum dolor sit amet, consetetur</p>
+                <h2 className={styles.uxLibraryTitle}>Design</h2>
+                <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur</p>
               </div>
               <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-                <h2 className="text-center">Download Components</h2>
-                <p className="text-center">Lorem ipsum dolor sit amet, consetetur</p>
+                <h2 className={styles.uxLibraryTitle}>Download Components</h2>
+                <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur</p>
               </div>                           
             </div>
             

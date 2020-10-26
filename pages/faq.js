@@ -134,8 +134,8 @@ export default function FAQ() {
         <div className="usa-nav-container">
           <div className="usa-navbar">
           <div className="grid-row margin-bottom-3">
-            <div className="grid-col-auto" className={styles.headerLogo}><img src={BespinLogo} /></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}>BESPIN {<br />}Marketplace</span></div>          </div>  
+            <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
+            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Marketplace</a></span></div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav

@@ -64,13 +64,13 @@ export default function Contact() {
                 <a href="/" key="two" className="usa-nav__link">
                   <span>Home</span>
                 </a>,
-                <a href="#three" key="three" className="usa-nav__link">
+                <a href="/faq" key="three" className="usa-nav__link">
                   <span>FAQ</span>
                 </a>,
-                <a href="#three" key="three" className="usa-nav__link">
+                <a href="/uxlibrary" key="three" className="usa-nav__link">
                 <span>UX Library</span>
               </a>,
-                <a href="#three" key="three" className="usa-nav__link">
+                <a href="/apps" key="three" className="usa-nav__link">
                 <span>Apps</span>
               </a>,
                 <a href="/platform327" key="three" className="usa-nav__link">

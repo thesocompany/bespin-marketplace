@@ -64,7 +64,7 @@ export default function Home() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#three" key="three" className="usa-nav__link">
+              <a href="/uxlibrary" key="three" className="usa-nav__link">
               <span>UX Library</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">

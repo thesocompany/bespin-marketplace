@@ -18,7 +18,7 @@ import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
-export default function Apps() {
+export default function Uxlibrary() {
   return (
     // <div className={styles.container}>
     <>
@@ -64,10 +64,10 @@ export default function Apps() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="/uxlibrary" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link">
               <span>UX Library</span>
             </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
@@ -83,48 +83,47 @@ export default function Apps() {
     </>
       {/* <main className={styles.main}> */}
       <main id="main-content">
-        <section className ={styles.heroSection}>
-          {/* <img src={heroImage} /> */}
-          <h1 className="usa-hero_heading" className={styles.headerTitle}><span className="usa-hero__heading--alt">Hero Header</span></h1>
-          <span className={styles.heroIntro}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</span>
-        </section>
+        <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
+          <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
+            <li class="usa-breadcrumb__list-item">
+              <a href="/" class="usa-breadcrumb__link">
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="usa-breadcrumb__list-item">
+              <a href="#" class="usa-breadcrumb__link">
+                <span>UX Library</span>
+              </a>
+            </li>
+          </ol>
+        </nav>    
 
-        <section className="grid-container usa-section">
-          <h1 className={styles.uxLibrarySectionHeading}>Apps</h1>
+        <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
+          <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className={styles.allAppsTitle}>Project Name</h2>
-              <div><p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p></div>
+              <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
+              <h2 className={styles.uxLibraryTitle}>Learning</h2>
+              <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr, sed diam nonumy eirmod</p>
             </div>
             <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className={styles.allAppsTitle}>Project Name</h2>
-              <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
-            </div>
-            <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className={styles.allAppsTitle}>Project Name</h2>
-              <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+              <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
+              <h2 className={styles.uxLibraryTitle}>Development</h2>
+              <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr, sed diam nonumy eirmod</p>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className={styles.allAppsTitle}>Project Name</h2>
-                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+                <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
+                <h2 className={styles.uxLibraryTitle}>Design</h2>
+                <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur</p>
               </div>
               <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className={styles.allAppsTitle}>Project Name</h2>
-                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
-              </div>
-              <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className={styles.allAppsTitle}>Project Name</h2>
-                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
-              </div>                                    
+                <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
+                <h2 className={styles.uxLibraryTitle}>Download Components</h2>
+                <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur</p>
+              </div>                           
             </div>
             
         </section>

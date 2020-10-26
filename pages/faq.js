@@ -120,7 +120,7 @@ export default function FAQ() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>BESPIN Marketplace</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
@@ -160,13 +160,13 @@ export default function FAQ() {
               <a href="/" key="two" className="usa-nav__link">
                 <span>Home</span>
               </a>,
-              <a href="/faq" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#three" key="three" className="usa-nav__link">
+              <a href="/uxlibrary" key="three" className="usa-nav__link">
               <span>UX Library</span>
             </a>,
-              <a href="#three" key="three" className="usa-nav__link">
+              <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">

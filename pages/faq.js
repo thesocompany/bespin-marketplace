@@ -131,18 +131,17 @@ export default function FAQ() {
     <GovBanner />
     <div className='usa-overlay' ></div>
     <Header basic={true}>
-      <div className="usa-nav-container">
-        <div className="usa-navbar">
-        <div className="grid-row">
-          <div className="grid-col-auto" className={styles.headerLogo}><img src={BespinLogo} /></div>
-          <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}>BESPIN {<br />}Marketplace</span></div>
-        </div>  
-          <NavMenuButton onClick={null} label="Menu" />
-        </div>
-        <PrimaryNav
-          items={[
-            <>
-          
+        <div className="usa-nav-container">
+          <div className="usa-navbar">
+          <div className="grid-row margin-bottom-3">
+            <div className="grid-col-auto" className={styles.headerLogo}><img src={BespinLogo} /></div>
+            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}>BESPIN {<br />}Marketplace</span></div>          </div>  
+            <NavMenuButton onClick={null} label="Menu" />
+          </div>
+          <PrimaryNav
+            items={[
+              <>
+            
                 <Menu
                   key="one"
                   items={[
@@ -178,7 +177,7 @@ export default function FAQ() {
             <Search small onSubmit={null} />
           </PrimaryNav>
         </div>
-    </Header>
+      </Header>
     </>
 
       <main id="main-content">

@@ -90,40 +90,40 @@ export default function Apps() {
         </section>
 
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Apps</h1>
-          <h2 className={styles.sectionSubheading} className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+          <h1 className={styles.uxLibrarySectionHeading}>Apps</h1>
+          <h2 className={styles.uxLibrarySectionSubheading}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className="text-center">Project Name</h2>
-              <div><p className="text-center">Simple description cupida tat non proident, sunt in</p></div>
+              <h2 className={styles.allAppsTitle}>Project Name</h2>
+              <div><p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p></div>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className="text-center">Project Name</h2>
-              <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+              <h2 className={styles.allAppsTitle}>Project Name</h2>
+              <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className="text-center">Project Name</h2>
-              <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+              <h2 className={styles.allAppsTitle}>Project Name</h2>
+              <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className="text-center">Project Name</h2>
-                <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+                <h2 className={styles.allAppsTitle}>Project Name</h2>
+                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
               </div>
               <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className="text-center">Project Name</h2>
-                <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+                <h2 className={styles.allAppsTitle}>Project Name</h2>
+                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
               </div>
               <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className="text-center">Project Name</h2>
-                <p className="text-center">Simple description cupida tat non proident, sunt in</p>
+                <h2 className={styles.allAppsTitle}>Project Name</h2>
+                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
               </div>                                    
             </div>
             

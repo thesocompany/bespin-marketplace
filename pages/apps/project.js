@@ -155,16 +155,31 @@ export default function Project() {
                   <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
                   </p>
-
-
-
-            </div>
+              </div>
             </div>
 
-
-
+            <div className="grid-row" className={styles.projectLowerDownloadBtn}>
+              <Button>Download</Button>
+            </div>
+            <div className="grid-row">
+            <h1 className={styles.uxLibrarySectionHeading}>Project Name</h1>
+            </div>
+            <div className="grid-row">
+              <div className="grid-col-fill">
+                <div className="wrapper">
+                 <div className="user"></div>
+                </div>
+              </div>
+              <div className="grid-col-fill"></div>
+              <div className="grid-col-fill"></div>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="user"></div>
           </div>
         </section>
+
+
 
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>

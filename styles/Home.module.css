@@ -409,8 +409,67 @@
 
 .paragraphImg {
   float: left;
+  padding-right: 25px;
 }
 
 .paragraphImg2 {
   float: right;
+  padding-left: 25px;
+}
+
+.projectLowerDownloadBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.projectLowerDownloadBtnActual {
+  font-size: 22px;
+  width: 161px;
+  height: 62px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.user {
+  width: 200px;
+  height: 200px;
+  border: 24px solid #F1F9FF;
+  border-radius: 50%;
+  background-color: #F1F9FF;
+  position: relative;
+  overflow: hidden;
+}
+
+.user::before {
+  content : '';
+  display: block;
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+}
+
+.user::after {
+  content : '';
+  display: block;
+  width: 150px;
+  height:150px;
+  background:#fff;
+  border-radius:50%;
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
 }

@@ -117,6 +117,10 @@ export default function Project() {
                   <div className={styles.appPageDownloadButton}><Button>Download</Button></div>
                   <br />
                 </div>
+                <div className="grid-row">
+                  <div className={styles.piechart} title="This app does this"></div>
+                </div>
+
               </div>
               <div className="grid-col-4">
                 <img className={styles.projectPageImage} src="https://picsum.photos/id/255/280/369" />

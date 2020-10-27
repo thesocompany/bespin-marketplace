@@ -478,3 +478,19 @@
   margin: 0 auto;
   padding: 0px 20px 20px 20px;
 }
+
+.piechart {
+	background:
+		conic-gradient(
+			#2699FB 0,
+			#2699FB 40%,
+			#BCE0FD 0,
+			#BCE0FD 100%
+	);
+  border-radius: 50%;
+	position: relative;
+	width: 142px;
+  min-height: 142px;
+  margin: 20px auto;
+  padding: 20px 20px 20px 20px;
+}

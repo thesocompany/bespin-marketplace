@@ -473,3 +473,8 @@
   bottom: -65px;
   transform: translateX(-50%);
 }
+
+.mapImage {
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+}

@@ -435,7 +435,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 30vh;
 }
 
 .user {
@@ -464,7 +464,7 @@
 .user::after {
   content : '';
   display: block;
-  width: 150px;
+  width: 120px;
   height:150px;
   background:#fff;
   border-radius:50%;

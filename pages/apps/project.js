@@ -161,21 +161,38 @@ export default function Project() {
             <div className="grid-row" className={styles.projectLowerDownloadBtn}>
               <Button>Download</Button>
             </div>
-            <div className="grid-row">
-            <h1 className={styles.uxLibrarySectionHeading}>Project Name</h1>
-            </div>
-            <div className="grid-row">
-              <div className="grid-col-fill">
-                <div className="wrapper">
-                 <div className="user"></div>
-                </div>
-              </div>
-              <div className="grid-col-fill"></div>
-              <div className="grid-col-fill"></div>
-            </div>
           </div>
-          <div className="wrapper">
-            <div className="user"></div>
+        </section>
+        <section>
+          <div className="grid-container">
+          <div className="grid-row">
+            <div className={styles.uxLibrarySectionHeading}><h1>Project Name</h1></div>
+          </div>
+
+            <div className="grid-row">
+              <div className="grid-col-4">
+                <div className={styles.wrapper}>
+                  <div className={styles.user}></div>
+                </div>
+                <h2 className={styles.uxLibraryTitle}>First Last</h2>
+                <p className={styles.uxLibDisciplineDescription}>Rank // Job on Project</p>
+              </div>
+              <div className="grid-col-4">
+                <div className={styles.wrapper}>
+                  <div className={styles.user}></div>
+                </div>
+                <h2 className={styles.uxLibraryTitle}>First Last</h2>
+                <p className={styles.uxLibDisciplineDescription}>Rank // Job on Project</p>                  
+              </div>
+              <div className="grid-col-4">
+                <div className={styles.wrapper}>
+                  <div className={styles.user}></div>
+                </div>
+                <h2 className={styles.uxLibraryTitle}>First Last</h2>
+                <p className={styles.uxLibDisciplineDescription}>Rank // Job on Project</p>  
+              </div>
+                                      
+            </div>
           </div>
         </section>
 

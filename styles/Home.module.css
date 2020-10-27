@@ -355,7 +355,6 @@
   margin-top: 5px;
   color: #01103F;
   text-align: center;
-
 }
 
 .uxLibraryTitle {
@@ -373,4 +372,125 @@
   color: #01103F;
   text-align: center;
   margin-bottom: 3px;
+}
+
+
+.appPageBox {
+  background-color: #01103F;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.projectPageImage {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.appPageDownloadButton {
+  display: flex;
+  justify-content: center;
+}
+
+.thisisatest {
+  background-color: #F0F0F0;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px
+}
+
+.projectSubheading {
+  margin-top: 5px;
+  color: #01103F;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: Public Sans;
+}
+
+.paragraphImg {
+  float: left;
+  padding-right: 25px;
+}
+
+.paragraphImg2 {
+  float: right;
+  padding-left: 25px;
+}
+
+.projectLowerDownloadBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.projectLowerDownloadBtnActual {
+  font-size: 22px;
+  width: 161px;
+  height: 62px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.user {
+  width: 200px;
+  height: 200px;
+  border: 24px solid #F1F9FF;
+  border-radius: 50%;
+  background-color: #F1F9FF;
+  position: relative;
+  overflow: hidden;
+}
+
+.user::before {
+  content : '';
+  display: block;
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+}
+
+.user::after {
+  content : '';
+  display: block;
+  width: 120px;
+  height:150px;
+  background:#fff;
+  border-radius:50%;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translateX(-50%);
+}
+
+.mapImage {
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.piechart {
+	background:
+		conic-gradient(
+			#2699FB 0,
+			#2699FB 40%,
+			#BCE0FD 0,
+			#BCE0FD 100%
+	);
+  border-radius: 50%;
+	position: relative;
+	width: 142px;
+  min-height: 142px;
+  margin: 20px auto;
+  padding: 20px 20px 20px 20px;
 }

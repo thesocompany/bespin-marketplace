@@ -252,7 +252,7 @@ export default function Platform327() {
                       </div>                      
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><TextInput /></div>
-                        <div class="tablet:grid-col "><TextInput /></div>
+                        <div class="tablet:grid-col"><TextInput /></div>
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col"><Label>Message*</Label></div>
@@ -261,7 +261,7 @@ export default function Platform327() {
                         <div class="tablet:grid-col margin-bottom-205"><TextArea className={styles.signupTextArea}/></div>
                       </div>
                       <div class="grid-row">
-                        <Button>Submit</Button>
+                        <Button onClick={successModal}>Submit</Button>
                       </div>                                               
                     </div>
 

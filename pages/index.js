@@ -103,7 +103,7 @@ export default function Home() {
           <p>
           Human-centered product design means creating tailor-made 
           solutions for the people you are designing for. Whether you’re a beginner who wants to know more or an
-           advanced designer or engineer seeking expertise, we have resources, toolkits, courses and training events for you. Learn to implement basic UX practices for design projects and engineer cutting-edge products that can solve even the most difficult problems, from human resources management to training, retention and beyond.
+          advanced designer or engineer seeking expertise, we have resources, toolkits, courses and training events for you. 
           </p>
 
               <br />

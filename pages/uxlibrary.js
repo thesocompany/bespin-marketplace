@@ -92,7 +92,7 @@ export default function Uxlibrary() {
             </li>
             <li class="usa-breadcrumb__list-item">
               <a href="#" class="usa-breadcrumb__link">
-                <span>UX Library</span>
+                <span>UX Library & Resources</span>
               </a>
             </li>
           </ol>
@@ -100,29 +100,29 @@ export default function Uxlibrary() {
 
         <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
           <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
-          <h2 className={styles.uxLibrarySectionSubheading}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+          <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
               <h2 className={styles.uxLibraryTitle}>Learning</h2>
-              <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr, sed diam nonumy eirmod</p>
+              <p className={styles.uxLibDisciplineDescription}>Apply UX principles to your project</p>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
               <h2 className={styles.uxLibraryTitle}>Development</h2>
-              <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur <br />sadipscing elitr, sed diam nonumy eirmod</p>
+              <p className={styles.uxLibDisciplineDescription}>Use what you’ve learned to create digital products</p>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
                 <h2 className={styles.uxLibraryTitle}>Design</h2>
-                <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur</p>
+                <p className={styles.uxLibDisciplineDescription}>Learn interactive and visual design principles</p>
               </div>
               <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
                 <h2 className={styles.uxLibraryTitle}>Download Components</h2>
-                <p className={styles.uxLibDisciplineDescription}>Lorem ipsum dolor sit amet, consetetur</p>
+                <p className={styles.uxLibDisciplineDescription}>Get UI kits, UX wireframes and more</p>
               </div>                           
             </div>
             

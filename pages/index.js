@@ -90,14 +90,21 @@ export default function Home() {
         </section>
         <section className="grid-container usa-section">
           <h1 className={styles.sectionHeading}>Mission</h1>
-          <h2 className={styles.sectionSubheading} className="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
+          <h2 className={styles.sectionSubheading}>Platform 327 provides a virtual schoolhouse experience for designers, developers, and cross-functional teams</h2>
+          <p>
+          Welcome to Platform 327, the Air Force’s first virtual design studio. We’ve put together all the 
+          resources and tools you’ll need to learn to design, engineer and deliver digital products. 
+          </p>
+          <p>
+          Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), 
+          an agile development lab. The BESPIN ecosystem fosters investigation, risk-taking and entrepreneurial 
+          thinking to turn innovation into reality. 
+          </p>
+          <p>
+          Human-centered product design means creating tailor-made 
+          solutions for the people you are designing for. Whether you’re a beginner who wants to know more or an
+           advanced designer or engineer seeking expertise, we have resources, toolkits, courses and training events for you. Learn to implement basic UX practices for design projects and engineer cutting-edge products that can solve even the most difficult problems, from human resources management to training, retention and beyond.
+          </p>
 
               <br />
             <div>

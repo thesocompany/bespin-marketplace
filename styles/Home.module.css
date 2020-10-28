@@ -204,10 +204,18 @@
   margin-bottom: 5px;
   margin-top: 0px;
   text-align: center;
+  color: #01103F;
+
 }
 
 .sectionSubheading {
   margin-top: 5px;
+  margin-bottom: 20px;
+
+  color: #01103F;
+  text-align: center;
+
+
 }
 
 .contactTextArea {

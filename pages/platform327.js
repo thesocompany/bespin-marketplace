@@ -199,22 +199,23 @@ export default function Platform327() {
               <div class="grid-row">
                 <div className="tablet:grid-col-3 margin-right-6">
                   <h1>Start</h1>
-                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-                        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-                        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
-                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
-                        sit amet.
+                    <p>
+                      Platform 327 can help project teams learn to design and develop digital Air Force 
+                      applications to address the most pressing issues. We’ve compiled a list of courses 
+                      and training events to help build skill sets, identify problems and build 
+                      lasting solutions. 
                     </p>
-                    <p>    
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                        Lorem ipsum dolor sit amet, consetetur sadipscing.
+                    <p>                   
+                      Select a training event on this page and fill in the form with your name, email address
+                      and phone number. You can also add a message. 
                     </p>
+                    <p>
+                      When you sign up for training, you’ll 
+                      have the option to take a UX Skills Assessment. Our skills assessment will help us 
+                      evaluate your product design skills so we can identify what you’re good at and areas
+                      where you can grow and refine your knowledge. 
+                    </p>
+
                 </div>
                 <div className="tablet:grid-col-8">
                 <Tabs>

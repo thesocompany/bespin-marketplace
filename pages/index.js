@@ -143,7 +143,7 @@ export default function Home() {
             </div>
             <div className="grid-row" >
               <Label htmlFor="testInput">Message</Label>
-              <TextArea className={styles.TextArea}/>
+              <TextArea className={styles.homeContactTextArea}/>
             </div>
             <div className="grid-row margin-top-2">
             <Button>Submit</Button>

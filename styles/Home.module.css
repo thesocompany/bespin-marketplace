@@ -502,3 +502,15 @@
   margin: 20px auto;
   padding: 20px 20px 20px 20px;
 }
+
+.partnersSectionHeading {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: center;
+    color: #01103F
+}
+
+.homeContactTextArea {
+  max-height: 4rem;
+
+}

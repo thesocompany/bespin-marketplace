@@ -24,7 +24,7 @@ export default function FAQ() {
 
   const testItems = [
     {
-      title: 'Lorem Ipsum',
+      title: 'What is Platform 327, and how does it help design teams?',
       content: (
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
@@ -42,7 +42,7 @@ export default function FAQ() {
       id: '1',
     },
     {
-      title: 'Lorem Ipsum',
+      title: 'I am a new UX designer for my project team; how can Platform 327 help my team and me?',
       content: (
         <>
         <p>
@@ -58,11 +58,11 @@ export default function FAQ() {
         </p>
         </>
       ),
-      expanded: true,
+      expanded: false,
       id: '2',
     },
     {
-      title: 'Lorem Ipsum',
+      title: 'How can you sign up for sessions?',
       content: (
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
@@ -80,7 +80,7 @@ export default function FAQ() {
       id: '3',
     },
     {
-      title: 'Lorem Ipsum',
+      title: 'What is UX Skills Assessment, and why should I consider taking one?',
       content: (
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
@@ -98,7 +98,7 @@ export default function FAQ() {
       id: '4',
     },
     {
-      title: 'Lorem Ipsum',
+      title: 'What resources are available for UX designers, engineers and project teams?',
       content: (
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
@@ -114,6 +114,42 @@ export default function FAQ() {
       ),
       expanded: false,
       id: '5',
+    },
+    {
+      title: 'How are Platform 327 and Air Force BESPIN related?',
+      content: (
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
+          accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+          sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing 
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
+          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor 
+          sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+          et dolore magna
+        </p>
+      ),
+      expanded: false,
+      id: '6',
+    },
+    {
+      title: 'I am from an AF Base and/or from another DoD unit interested in finding a team with design and UX capabilities; how can I find a project team?',
+      content: (
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
+          accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+          sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing 
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
+          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor 
+          sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+          et dolore magna
+        </p>
+      ),
+      expanded: false,
+      id: '7',
     },
   ]
 

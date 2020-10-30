@@ -591,3 +591,7 @@
   margin-top: 0px
 }
 
+.footerbar {
+  background: transparent url('../public/footerbar.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}

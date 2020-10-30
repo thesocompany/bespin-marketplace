@@ -85,8 +85,8 @@ export default function Home() {
       <main id="main-content">
         <section className ={styles.heroSection}>
           {/* <img src={heroImage} /> */}
-          <h1 className="usa-hero_heading" className={styles.headerTitle}><span className="usa-hero__heading--alt">Hero Header</span></h1>
-          <span className={styles.heroIntro}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</span>
+          <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Design. Build. Grow.</span></h1>
+          <p className={styles.heroIntro}>Get everything you need to build digital<br />Air Force solutions</p>
         </section>
         <section className="grid-container usa-section">
           <h1 className={styles.sectionHeading}>Mission</h1>

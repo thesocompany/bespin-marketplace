@@ -122,8 +122,6 @@ export default function Platform327() {
           <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
           <link rel="stylesheet" href="https://use.typekit.net/mvi3aaj.css" />
           <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-  
         </Head>
       <>
       <GovBanner />
@@ -212,9 +210,7 @@ export default function Platform327() {
                     We’ve compiled a list of courses 
                     and training events to help build skill sets, identify problems and build lasting solutions. 
                     </p>
-
                       <img src="/working.png" />
-
                 </div>
 
                 <div className="tablet:grid-col-8">

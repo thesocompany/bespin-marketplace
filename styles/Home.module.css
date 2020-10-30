@@ -655,3 +655,23 @@
   background-color: #1a1a1a;
   display: inline-block;
 }
+
+.allAppsTitle2 {
+  color: #01103F;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+
+.allAppsHero {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 10rem;
+  padding-top:10rem;
+  background-image: url(../src/assets/images/appsHeroImage.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}

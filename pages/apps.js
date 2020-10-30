@@ -83,47 +83,47 @@ export default function Apps() {
     </>
       {/* <main className={styles.main}> */}
       <main id="main-content">
-        <section className ={styles.heroSection}>
+        <section className ={styles.allAppsHero}>
           {/* <img src={heroImage} /> */}
-          <h1 className="usa-hero_heading" className={styles.headerTitle}><span className="usa-hero__heading--alt">Hero Header</span></h1>
-          <span className={styles.heroIntro}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</span>
+          <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Creating Excellence in UX</span></h1>
+          <p className={styles.heroIntro}>Discover our featured applications and <br />in their case studies in UX practices.</p>
         </section>
 
         <section className="grid-container usa-section">
-          <h1 className={styles.uxLibrarySectionHeading}>Apps</h1>
-          <h2 className={styles.uxLibrarySectionSubheading}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</h2>
+          <h1 className={styles.uxLibrarySectionHeading}>Featured Apps</h1>
+          <h2 className={styles.uxLibrarySectionSubheading}>This growing collection of apps utilizes Platform 327's lab to build and <br />improve upon their main capabilities</h2>
           <div className="grid-row margin-top-7">
-            <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className={styles.allAppsTitle}>Project Name</h2>
-              <div><p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p></div>
+            <div className="tablet:grid-col margin-top-2">
+              <img className={styles.appsIcon} src="/pointsync.png" />
+              <h2 className={styles.allAppsTitle}>PointSync</h2>
+              <div><p className={styles.uxLibDisciplineDescription}>Data Collection, Field<br />Operations Wearables</p></div>
             </div>
             <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className={styles.allAppsTitle}>Project Name</h2>
-              <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+              <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
+              <h2 className={styles.allAppsTitle}>ARMS</h2>
+              <p className={styles.uxLibDisciplineDescription}>Data Collection, Information <br />management, Analytics,</p>
             </div>
             <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-              <h2 className={styles.allAppsTitle}>Project Name</h2>
-              <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+              <img className={styles.appsIcon} src="/whatsapp.png" />
+              <h2 className={styles.allAppsTitle2}>What’s Up USAFA App</h2>
+              <p className={styles.uxLibDisciplineDescription}>Social Network, Information <br />Management, Analytics,<br /></p>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className={styles.allAppsTitle}>Project Name</h2>
-                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+                <img className={styles.appsIcon} src="/Logo_CorellianCorp.png" />
+                <h2 className={styles.allAppsTitle}>Corellian Corp</h2>
+                <p className={styles.uxLibDisciplineDescription}>Data Collection, Information <br />management, Analytics,</p>
               </div>
               <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className={styles.allAppsTitle}>Project Name</h2>
-                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+                <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
+                <h2 className={styles.allAppsTitle}>AF GearFit</h2>
+                <p className={styles.uxLibDisciplineDescription}>Agile Combat, Data Collection</p>
               </div>
               <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/100/100" />
-                <h2 className={styles.allAppsTitle}>Project Name</h2>
-                <p className={styles.uxLibDisciplineDescription}>Simple description cupida tat non <br />proident, sunt in</p>
+                <img className={styles.appsIcon} src="/drudonna.png" />
+                <h2 className={styles.allAppsTitle}>DruDonna</h2>
+                <p className={styles.uxLibDisciplineDescription}>Integrated Learning</p>
               </div>                                    
             </div>
             

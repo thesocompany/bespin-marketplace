@@ -228,9 +228,9 @@ export default function Platform327() {
                       <div class="grid-row">
                         <h1>Sign up here</h1>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-                          At vero eos et accusam et justo duo dolores et ea rebum.
+                          When you sign up for training, you’ll have the option to take a UX Skills Assessment. 
+                          Our skills assessment will help us evaluate your product design skills so we can identify 
+                          what you’re good at and areas where you can grow and refine your knowledge.
                         </p>
                       </div>
                       <div class="grid-row">
@@ -269,11 +269,21 @@ export default function Platform327() {
                   </TabPanel>
                   <TabPanel>
                   <div class="grid-container">
-                      <div class="grid-row margin-top-3">
+                      <div class="grid-row">
+                        <h2 className="margin-bottom-neg-1">Register</h2>
+                        <p>Select an event on this page and fill in the form with your name, email address and phone number. You can also add a message.</p>
+                      </div>
+                      <div class="grid-row margin-top-1">
                         <div class="tablet:grid-col" onClick={showModal}>
-                          <img src={stickynotesImg} /> <br />
+                          <section className={styles.platform327uXEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 2 - UX Intro</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                          </section>
+                          {/* <img src={stickynotesImg} /> <br />
                           <div className={styles.eventTitle}>Nov 2 - UX Intro</div> <br />
-                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
+                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div> */}
                         </div>
                         <div class="tablet:grid-col">
                           <img src={markersImg} />

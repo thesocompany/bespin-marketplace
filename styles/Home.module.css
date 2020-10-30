@@ -248,10 +248,11 @@
 }
 
 .eventDescription {
-  font: italic normal normal 14px/16px Public Sans;
+  /* font: italic normal normal 14px/16px Public Sans;
   color: #171717;
   max-width: 253px;
-  margin-bottom: .5rem;
+  margin-bottom: .5rem; */
+  padding-left: 9px;
 }
 
 
@@ -532,5 +533,33 @@
   opacity: 1;
   font: normal normal bold 36px/33px Public Sans;
   margin-bottom: 2px;
-
 }
+
+.platform327uXEvent {
+  font-family: Public Sans;
+  /* font-size: 1.06rem; */
+  line-height: 1.5;
+  /* padding-bottom: 11rem;
+  padding-top: 11rem; */
+  background-image: url(../src/assets/images/uxintro.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+
+  /* color: #fff; */
+}
+
+.eventBoxTitle {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font: normal normal 800 18px/21px Public Sans;
+  text-decoration: underline;
+  padding-top: 23px;
+  padding-left: 9px;
+  margin-top: 0px
+}
+

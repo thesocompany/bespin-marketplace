@@ -537,18 +537,24 @@
 
 .platform327uXEvent {
   font-family: Public Sans;
-  /* font-size: 1.06rem; */
   line-height: 1.5;
-  /* padding-bottom: 11rem;
-  padding-top: 11rem; */
   background-image: url(../src/assets/images/uxintro.png);
   background-position: center;
   background-size: cover;
   height: 201px;
   width: 262px;
   color: #FFFFFF;
+}
 
-  /* color: #fff; */
+.platform327DesignEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/designevent.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
 }
 
 .eventBoxTitle {

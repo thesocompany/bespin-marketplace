@@ -281,27 +281,32 @@ export default function Platform327() {
                               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
                             </p>
                           </section>
-                          {/* <img src={stickynotesImg} /> <br />
-                          <div className={styles.eventTitle}>Nov 2 - UX Intro</div> <br />
-                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div> */}
                         </div>
                         <div class="tablet:grid-col">
-                          <img src={markersImg} />
-                          <div className={styles.eventTitle}>Nov 3 - Design Strategy</div> <br />
-                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>                          
+                        <section className={styles.platform327DesignEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 3 - Design Strategy</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                        </section>                          
                         </div>
                       </div>
                       <div class="grid-row margin-top-3">
                         <div class="tablet:grid-col">
-                          <img src={usertestingImg} />
-                          <div className={styles.eventTitle}>Nov 5 - User Testing</div> <br />
-                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>                          
+                        <section className={styles.platform327uXEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 5 - User Testing</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                        </section>   
                         </div>
                         <div class="tablet:grid-col">
-                          <img src={collabImg} />
-                          <div className={styles.eventTitle}>Nov 10 - Event: Adobe XD</div> <br />
-                          <div className={styles.eventDescription}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
-                          {/* <Button onClick={showModal}>Show modal</Button> */}
+                        <section className={styles.platform327uXEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 10 - Event: Adobe XD</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                        </section>   
                           
                         </div>
                       </div>                                          

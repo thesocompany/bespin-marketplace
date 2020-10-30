@@ -169,6 +169,7 @@
   font-weight: bold;
   font-weight: 700;
   font-size: 40px;
+  color:#FFFFFF
 }
 
 .headerLogo {
@@ -277,7 +278,9 @@
   left: 20%;
   bottom: 30%;
   background-color: #FFFFFF;
-
+  border-image: url(../public/guy.png) 30 solid;
+  border: 10px solid url(/public/border.png);
+  /* padding: 15px */
 }
 
 .modalCloseButton {
@@ -591,3 +594,64 @@
   margin-top: 0px
 }
 
+.footerbar {
+  background: transparent url('../src/assets/images/footerbar.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.footerText {
+  color: white !important
+}
+
+.socialLinks {
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkFacebook {
+  background-image: url(../public/facebook25.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkTwitter {
+  background-image: url(../public/twitter16.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.25rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkLinkedin {
+  background-image: url(../public/linkedin.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkRss {
+  background-image: url(../src/assets/images/rss25.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}

@@ -136,7 +136,6 @@ export default function Home() {
                     </li>
                   </ul>
               </div>
-
             </div>
             <div className="tablet:grid-col">
               <div className={styles.homeBoxMissonFaceMonitorImg}>
@@ -146,18 +145,23 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid-container" className={styles.partnersSection}>
-          <h1 className="text-center">Partners</h1>
-        <div className="grid-container buttonCenter">
-          <div className="grid-row buttonCenter">
-            <div className="tablet:grid-col"></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"></div>
+        <section className={styles.partnersSection}>
+          <div className="grid-container">
+            <div className="grid-row">
+              <div className="tablet:grid-col margin-right-8">
+                <h2 className={styles.h1Title}>Join Platform327</h2>
+                  <p className="line-height-mono-4">Learn to implement critical UX practices for design projects and 
+                    engineer cutting-edge products that can solve even the most difficult 
+                    problems, from human resources management to training, retention and beyond.
+                  </p>
+                  <br />
+                  <Button>Sign Up</Button>
+              </div>
+              <div className="tablet:grid-col">
+                <img src="/joindrawing.png"/>
+              </div>
+            </div>
           </div>
-        </div>
         </section>
         <section className="grid-container usa-section">
           <h1 className={styles.sectionHeading}>Contact Us</h1>

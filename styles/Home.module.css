@@ -735,3 +735,14 @@
   height: 313.69px;
   background-image: url(../src/assets/images/facemonitor.png);
 }
+
+.h1Title {
+  color: #01103F;
+  font: normal normal bold 28px/33px Public Sans;
+}
+
+.homeBoxJoinImg {
+  width: 390px;  
+  height: 390px;
+  /* background-image: url(../src/assets/images/joindrawing.svg); */
+}

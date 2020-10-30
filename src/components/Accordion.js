@@ -30,17 +30,18 @@ export function AccordionItem(props) {
         <>
             <h2 className={headingClasses}>
                 <button
+                    id={id}
                     type="button"
                     className="usa-accordion__button"
                     aria-expanded={expanded}
                     aria-controls={id}
                     data-testid={`accordionButton_${id}`}
-                    onClick={handleToggle}>
+                    onClick={handleToggle}>   
                     {title}
                 </button>
             </h2>
             <div
-                id={id}
+                // id={id}
                 data-testid={`accordionItem_${id}`}
                 className={contentClasses}
                 hidden={!expanded}>

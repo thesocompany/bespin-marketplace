@@ -125,8 +125,8 @@
     font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-size: 1.06rem;
     line-height: 1.5;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 20rem;
+    padding-top:20rem;
     background-image: url(../src/assets/images/hero-hands.png);
     background-position: center;
     background-size: cover;
@@ -512,5 +512,25 @@
 
 .homeContactTextArea {
   max-height: 4rem;
+}
+
+.platform327HeroSection {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 11rem;
+  padding-top: 11rem;
+  background-image: url(../src/assets/images/platform327-header.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.platformHeaderTitle {
+  padding-left: 30px;
+  text-shadow: 0px 2px 4px #2C2C2C93;
+  opacity: 1;
+  font: normal normal bold 36px/33px Public Sans;
+  margin-bottom: 2px;
 
 }

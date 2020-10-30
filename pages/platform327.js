@@ -179,6 +179,11 @@ export default function Platform327() {
       </>
 
         <main id="main-content">
+        <section className ={styles.platform327HeroSection}>
+          {/* <img src={heroImage} /> */}
+          <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Get started.</span></h1>
+          <span className={styles.heroIntro}>Enroll in training. Sign up for an event. Schedule studio time.</span>
+        </section>
           <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
             <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >
               <li class="usa-breadcrumb__list-item">
@@ -200,23 +205,18 @@ export default function Platform327() {
                 <div className="tablet:grid-col-3 margin-right-6">
                   <h1>Start</h1>
                     <p>
-                      Platform 327 can help project teams learn to design and develop digital Air Force 
-                      applications to address the most pressing issues. We’ve compiled a list of courses 
-                      and training events to help build skill sets, identify problems and build 
-                      lasting solutions. 
+                    Platform 327 can help project teams learn to design and develop digital Air Force 
+                    applications to address the most pressing issues. 
                     </p>
-                    <p>                   
-                      Select a training event on this page and fill in the form with your name, email address
-                      and phone number. You can also add a message. 
-                    </p>
-                    <p>
-                      When you sign up for training, you’ll 
-                      have the option to take a UX Skills Assessment. Our skills assessment will help us 
-                      evaluate your product design skills so we can identify what you’re good at and areas
-                      where you can grow and refine your knowledge. 
+                    <p>  
+                    We’ve compiled a list of courses 
+                    and training events to help build skill sets, identify problems and build lasting solutions. 
                     </p>
 
+                      <img src="/working.png" />
+
                 </div>
+
                 <div className="tablet:grid-col-8">
                 <Tabs>
                   <TabList>

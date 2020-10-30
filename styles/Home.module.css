@@ -680,6 +680,7 @@
   width: 470px;  
   height: 313.69px;
   background-image: url(../src/assets/images/collab.png);
+  backdrop-filter: blur(55px);
 }
 
 .homeBoxMissonWelcome {

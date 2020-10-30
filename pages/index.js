@@ -89,8 +89,7 @@ export default function Home() {
           <p className={styles.heroIntro}>Get everything you need to build digital<br />Air Force solutions</p>
         </section>
         <section className="grid-container usa-section">
-        <h1 className={styles.sectionHeading}>Mission</h1>
-
+        <h1 className={styles.sectionHeading}>Our Mission</h1>
         <div className="grid-row">
           <h2 className={styles.sectionSubheading}>Platform 327 provides a virtual schoolhouse experience for designers, developers, and cross-functional teams</h2>
           </div>
@@ -164,10 +163,10 @@ export default function Home() {
           </div>
         </section>
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Contact Us</h1>
+          <h1 className={styles.sectionHeading}>Want to know more? Contact us.</h1>
           <div className="grid-row">
             <div className="tablet:grid-col-4 margin-right-6 margin-top-3">
-              <img src="https://picsum.photos/seed/picsum/360/282" />
+              <img height="221px" width="337px"src="/contactuswave.svg" />
             </div>
             <div className="tablet:grid-col-6">
             <div className="grid-row">
@@ -186,66 +185,11 @@ export default function Home() {
             <Button>Submit</Button>
           </div>
           </div>
-
-
           </div>
-
-
-
-          {/* <div className="grid-row">
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-          </div>
-
-          <div className="grid-row">
-            <div className="tablet:grid-col-4">.tablet:grid-col-4</div>
-            <div className="tablet:grid-col-8">.tablet:grid-col-8</div>
-          </div> */}
-
         </section>
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
         </div>
-      {/* <Button type="button">Click Me</Button>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
       </main>
 
       <div className="usa-footer__primary-section">

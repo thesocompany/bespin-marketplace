@@ -85,52 +85,88 @@ export default function Home() {
       <main id="main-content">
         <section className ={styles.heroSection}>
           {/* <img src={heroImage} /> */}
-          <h1 className="usa-hero_heading" className={styles.headerTitle}><span className="usa-hero__heading--alt">Hero Header</span></h1>
-          <span className={styles.heroIntro}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</span>
+          <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Design. Build. Grow.</span></h1>
+          <p className={styles.heroIntro}>Get everything you need to build digital<br />Air Force solutions</p>
         </section>
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Mission</h1>
+        <h1 className={styles.sectionHeading}>Our Mission</h1>
+        <div className="grid-row">
           <h2 className={styles.sectionSubheading}>Platform 327 provides a virtual schoolhouse experience for designers, developers, and cross-functional teams</h2>
-          <p>
-          Welcome to Platform 327, the Air Force’s first virtual design studio. We’ve put together all the 
-          resources and tools you’ll need to learn to design, engineer and deliver digital products. 
-          </p>
-          <p>
-          Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), 
-          an agile development lab. The BESPIN ecosystem fosters investigation, risk-taking and entrepreneurial 
-          thinking to turn innovation into reality. 
-          </p>
-          <p>
-          Human-centered product design means creating tailor-made 
-          solutions for the people you are designing for. Whether you’re a beginner who wants to know more or an
-          advanced designer or engineer seeking expertise, we have resources, toolkits, courses and training events for you. 
-          </p>
-
-              <br />
-            <div>
-              <Button className={styles.buttonCenter}>Contact Us</Button>
+          </div>
+          <div className="grid-row">
+            <div className="tablet:grid-col margin-right-205">
+              <div className={styles.homeBoxMissonCollabImg}>
+              &nbsp;
+              </div>
             </div>
-            
+            <div className="tablet:grid-col">
+              <div className={styles.homeBoxMissonWelcome}>
+                <span className={styles.homeBoxTitle}>
+                  Welcome to Platform 327, the Air Force’s<br />
+                </span>
+                <span className={styles.homeBoxTitle}>first virtual design studio</span>
+                <ul>
+                  <li>
+                    We’ve put together all the resources and tools you’ll need to learn to design, engineer and deliver digital products.
+                  </li>
+                  <br />
+                  <li>
+                    Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="grid-row margin-top-205">
+            <div className="tablet:grid-col margin-right-205">
+              <div className={styles.homeBoxEcosystemMsg}>
+                  <span className={styles.homeBoxEcosystemTitle}>The BESPIN ecosystem fosters</span> 
+                  <span className={styles.homeBoxEcosystemTitle}> investigation, risk-taking and</span>
+                  <span className={styles.homeBoxEcosystemTitle}> entrepreneurial thinking to turn</span>
+                  <span className={styles.homeBoxEcosystemTitle}> innovation into reality.</span>
+                  <ul>
+                    <li>
+                      Human-centered product design means creating tailor-made solutions for the people you are designing for.
+                    </li>
+                    <br />
+                    <li>
+                      Whether you’re a beginner who wants to know more or an advanced designer or engineer seeking expertise, 
+                      we have resources, toolkits, courses and training events for you.
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div className="tablet:grid-col">
+              <div className={styles.homeBoxMissonFaceMonitorImg}>
+                &nbsp;
+              </div>
+            </div>
+          </div>
         </section>
 
-        <section className="grid-container" className={styles.partnersSection}>
-          <h1 className="text-center">Partners</h1>
-        <div className="grid-container buttonCenter">
-          <div className="grid-row buttonCenter">
-            <div className="tablet:grid-col"></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"><img className={styles.appsIcon} src="https://picsum.photos/seed/picsum/100/100" /></div>
-            <div className="tablet:grid-col"></div>
+        <section className={styles.partnersSection}>
+          <div className="grid-container">
+            <div className="grid-row">
+              <div className="tablet:grid-col margin-right-8">
+                <h2 className={styles.h1Title}>Join Platform327</h2>
+                  <p className="line-height-mono-4">Learn to implement critical UX practices for design projects and 
+                    engineer cutting-edge products that can solve even the most difficult 
+                    problems, from human resources management to training, retention and beyond.
+                  </p>
+                  <br />
+                  <Button>Sign Up</Button>
+              </div>
+              <div className="tablet:grid-col">
+                <img src="/joindrawing.png"/>
+              </div>
+            </div>
           </div>
-        </div>
         </section>
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Contact Us</h1>
+          <h1 className={styles.sectionHeading}>Want to know more? Contact us.</h1>
           <div className="grid-row">
             <div className="tablet:grid-col-4 margin-right-6 margin-top-3">
-              <img src="https://picsum.photos/seed/picsum/360/282" />
+              <img height="221px" width="337px"src="/contactuswave.svg" />
             </div>
             <div className="tablet:grid-col-6">
             <div className="grid-row">
@@ -149,66 +185,11 @@ export default function Home() {
             <Button>Submit</Button>
           </div>
           </div>
-
-
           </div>
-
-
-
-          {/* <div className="grid-row">
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-            <div className="tablet:grid-col">.tablet:grid-col</div>
-          </div>
-
-          <div className="grid-row">
-            <div className="tablet:grid-col-4">.tablet:grid-col-4</div>
-            <div className="tablet:grid-col-8">.tablet:grid-col-8</div>
-          </div> */}
-
         </section>
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
         </div>
-      {/* <Button type="button">Click Me</Button>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
       </main>
 
       <div className="usa-footer__primary-section">

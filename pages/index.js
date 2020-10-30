@@ -89,28 +89,36 @@ export default function Home() {
           <p className={styles.heroIntro}>Get everything you need to build digital<br />Air Force solutions</p>
         </section>
         <section className="grid-container usa-section">
-          <h1 className={styles.sectionHeading}>Mission</h1>
-          <h2 className={styles.sectionSubheading}>Platform 327 provides a virtual schoolhouse experience for designers, developers, and cross-functional teams</h2>
-          <p>
-          Welcome to Platform 327, the Air Force’s first virtual design studio. We’ve put together all the 
-          resources and tools you’ll need to learn to design, engineer and deliver digital products. 
-          </p>
-          <p>
-          Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), 
-          an agile development lab. The BESPIN ecosystem fosters investigation, risk-taking and entrepreneurial 
-          thinking to turn innovation into reality. 
-          </p>
-          <p>
-          Human-centered product design means creating tailor-made 
-          solutions for the people you are designing for. Whether you’re a beginner who wants to know more or an
-          advanced designer or engineer seeking expertise, we have resources, toolkits, courses and training events for you. 
-          </p>
+        <h1 className={styles.sectionHeading}>Mission</h1>
 
-              <br />
-            <div>
-              <Button className={styles.buttonCenter}>Contact Us</Button>
+        <div className="grid-row">
+          <h2 className={styles.sectionSubheading}>Platform 327 provides a virtual schoolhouse experience for designers, developers, and cross-functional teams</h2>
+          </div>
+          <div className="grid-row">
+            <div className="tablet:grid-col">
+              <div className={styles.homeBoxMissonCollabImg}>
+              &nbsp;
+              </div>
             </div>
-            
+            <div className="tablet:grid-col">
+            <div className={styles.homeBoxMissonWelcome}>
+              <span className={styles.homeBoxTitle}>
+                Welcome to Platform 327, the Air Force’s<br />
+              </span>
+              <span className={styles.homeBoxTitle}>first virtual design studio</span>
+              <ul>
+                <li>
+                  We’ve put together all the resources and tools you’ll need to learn to design, engineer and deliver digital products.
+                </li>
+                <li>
+                  Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div className="grid-row">
+          </div>
         </section>
 
         <section className="grid-container" className={styles.partnersSection}>

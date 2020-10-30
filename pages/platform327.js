@@ -353,7 +353,7 @@ export default function Platform327() {
               <div class="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div class="usa-footer__social-links grid-row grid-gap-1">
                   <div class="grid-col-auto">
-                    <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
+                    <a className={styles.socialLinkFacebook} href="javascript:void(0);">
                       <span>Facebook</span>
                     </a>
                   </div>

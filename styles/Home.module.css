@@ -600,3 +600,23 @@ opacity: 1;
 .footerText {
   color: white !important
 }
+
+.socialLinks {
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkFacebook {
+  background-image: url(../public/facebook25.png);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}

@@ -104,7 +104,7 @@ export default function Contact() {
             <br />
             <div class="grid-container">
               <div class="grid-row">
-                <div class="grid-col-auto"><img src="https://picsum.photos/id/1015/538/363" /></div>
+                <div class="grid-col-auto"><img src="/guy.png" /></div>
                 <div class="grid-col-auto margin-left-9"><span className="font-sans-lg text-bold">BESPIN</span> <br />123 Main Street <br />Montgomery, AL 32018<br /><br /><br /> Call: (546) 684-4168<br /> Call: (546) 684-4168<br /> Email: sfad@bespin.com <br /><br /><br /><Button>Schedule Time With Us</Button></div>
               </div>
             </div>

@@ -557,6 +557,28 @@
   color: #FFFFFF;
 }
 
+.platform327UTEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/usertesting.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.platform327AdobeEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/adobeevent.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
 .eventBoxTitle {
   text-align: left;
   letter-spacing: 0px;

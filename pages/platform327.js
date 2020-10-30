@@ -293,7 +293,7 @@ export default function Platform327() {
                       </div>
                       <div class="grid-row margin-top-3">
                         <div class="tablet:grid-col">
-                        <section className={styles.platform327uXEvent}>
+                        <section className={styles.platform327UTEvent}>
                             <h3 className={styles.eventBoxTitle}>Nov 5 - User Testing</h3>
                             <p className={styles.eventDescription}>
                               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
@@ -301,7 +301,7 @@ export default function Platform327() {
                         </section>   
                         </div>
                         <div class="tablet:grid-col">
-                        <section className={styles.platform327uXEvent}>
+                        <section className={styles.platform327AdobeEvent}>
                             <h3 className={styles.eventBoxTitle}>Nov 10 - Event: Adobe XD</h3>
                             <p className={styles.eventDescription}>
                               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.

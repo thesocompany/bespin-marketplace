@@ -125,8 +125,8 @@
     font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-size: 1.06rem;
     line-height: 1.5;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 20rem;
+    padding-top:20rem;
     background-image: url(../src/assets/images/hero-hands.png);
     background-position: center;
     background-size: cover;
@@ -248,10 +248,11 @@
 }
 
 .eventDescription {
-  font: italic normal normal 14px/16px Public Sans;
+  /* font: italic normal normal 14px/16px Public Sans;
   color: #171717;
   max-width: 253px;
-  margin-bottom: .5rem;
+  margin-bottom: .5rem; */
+  padding-left: 9px;
 }
 
 
@@ -512,5 +513,81 @@
 
 .homeContactTextArea {
   max-height: 4rem;
-
 }
+
+.platform327HeroSection {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 11rem;
+  padding-top: 11rem;
+  background-image: url(../src/assets/images/platform327-header.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.platformHeaderTitle {
+  padding-left: 30px;
+  text-shadow: 0px 2px 4px #2C2C2C93;
+  opacity: 1;
+  font: normal normal bold 36px/33px Public Sans;
+  margin-bottom: 2px;
+}
+
+.platform327uXEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/uxintro.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.platform327DesignEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/designevent.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.platform327UTEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/usertesting.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.platform327AdobeEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/adobeevent.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.eventBoxTitle {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font: normal normal 800 18px/21px Public Sans;
+  text-decoration: underline;
+  padding-top: 23px;
+  padding-left: 9px;
+  margin-top: 0px
+}
+

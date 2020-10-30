@@ -37,7 +37,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '1',
+      id: 'one',
     },
     {
       title: 'I am a new UX designer for my project team; how can Platform 327 help my team and me?',
@@ -53,7 +53,7 @@ export default function FAQ() {
         </>
       ),
       expanded: false,
-      id: '2',
+      id: 'two',
     },
     {
       title: 'How can you sign up for sessions?',
@@ -264,7 +264,7 @@ export default function FAQ() {
                   </a>
                 </div>
                 <div class="grid-col-auto">
-                  <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+                  <a class="usa-social-link usa-social-link--linkedin" href="javascript:void(0);">
                     <span>YouTube</span>
                   </a>
                 </div>

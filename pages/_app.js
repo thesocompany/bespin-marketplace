@@ -5,9 +5,9 @@ import { ModalProvider } from "react-modal-hook";
 
 function MyApp({ Component, pageProps }) {
   return (
-  <ModalProvider>
-  <Component {...pageProps} />
-  </ModalProvider>
+    <ModalProvider>
+    <Component {...pageProps} />
+    </ModalProvider>
   )
 }
 

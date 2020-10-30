@@ -358,17 +358,17 @@ export default function Platform327() {
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
+                    <a className={styles.socialLinkTwitter} href="javascript:void(0);">
                       <span>Twitter</span>
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
+                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
                       <span>YouTube</span>
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
+                    <a className={styles.socialLinkRss} href="javascript:void(0);">
                       <span>RSS</span>
                     </a>
                   </div>

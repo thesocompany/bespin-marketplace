@@ -278,7 +278,9 @@
   left: 20%;
   bottom: 30%;
   background-color: #FFFFFF;
-
+  border-image: url(../public/guy.png) 30 solid;
+  border: 10px solid url(/public/border.png);
+  /* padding: 15px */
 }
 
 .modalCloseButton {
@@ -611,7 +613,40 @@ opacity: 1;
 }
 
 .socialLinkFacebook {
-  background-image: url(../public/facebook25.png);
+  background-image: url(../public/facebook25.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkTwitter {
+  background-image: url(../public/twitter16.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.25rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkLinkedin {
+  background-image: url(../public/linkedin.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkRss {
+  background-image: url(../src/assets/images/rss25.svg);
   background-repeat: no-repeat;
   height: 3rem;
   width: 3rem;

@@ -88,7 +88,20 @@ export default function Apps() {
           <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Creating Excellence in UX</span></h1>
           <p className={styles.heroIntro}>Discover our featured applications and <br />in their case studies in UX practices.</p>
         </section>
-
+        <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
+          <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
+            <li class="usa-breadcrumb__list-item">
+              <a href="/" class="usa-breadcrumb__link">
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="usa-breadcrumb__list-item">
+              <a href="#" class="usa-breadcrumb__link">
+                <span>Apps</span>
+              </a>
+            </li>
+          </ol>
+        </nav>    
         <section className="grid-container usa-section">
           <h1 className={styles.uxLibrarySectionHeading}>Featured Apps</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>This growing collection of apps utilizes Platform 327's lab to build and <br />improve upon their main capabilities</h2>
@@ -199,17 +212,6 @@ export default function Apps() {
             </div>
           </div>
         </div>
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer> */}
-     {/* </div> */}
      </>
   )
 }

@@ -339,7 +339,7 @@ export default function Platform327() {
           </nav>
         </div>
         <div className={styles.footerbar}>&nbsp;</div>
-        <div class="usa-footer__secondary-section">
+        <div class="usa-footer__secondary-section bg-black">
           <div class="grid-container">
             <div class="grid-row grid-gap">
               <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
@@ -373,14 +373,14 @@ export default function Platform327() {
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading">Agency Contact</h3>
+                <h3 class="usa-footer__contact-heading text-white">Agency Contact</h3>
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      <a href="tel:1-800-555-5555">(800) 888-1234</a>
+                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
                     </div>
                     <div class="grid-col-auto">
-                      <a href="mailto:info@agency.gov">info@platform327.org</a>
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
                     </div>
                   </div>
                 </address>

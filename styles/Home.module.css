@@ -169,6 +169,7 @@
   font-weight: bold;
   font-weight: 700;
   font-size: 40px;
+  color:#FFFFFF
 }
 
 .headerLogo {
@@ -594,4 +595,8 @@
 .footerbar {
   background: transparent url('../public/footerbar.png') 0% 0% no-repeat padding-box;
 opacity: 1;
+}
+
+.footerText {
+  color: white !important
 }

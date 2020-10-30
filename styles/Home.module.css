@@ -595,8 +595,8 @@
 }
 
 .footerbar {
-  background: transparent url('../public/footerbar.png') 0% 0% no-repeat padding-box;
-opacity: 1;
+  background: transparent url('../src/assets/images/footerbar.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .footerText {

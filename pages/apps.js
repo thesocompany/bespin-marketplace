@@ -149,55 +149,56 @@ export default function Apps() {
           </ul>
         </nav>
       </div>
-      <div class="usa-footer__secondary-section">
-        <div class="grid-container">
-          <div class="grid-row grid-gap">
-            <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-              <div class="mobile-lg:grid-col-auto">
-                <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
-              </div>
-              <div class="mobile-lg:grid-col-auto">
-                <span className={styles.footerTitle}>BESPIN</span>
-              </div>
-            </div>
-            <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-              <div class="usa-footer__social-links grid-row grid-gap-1">
-                <div class="grid-col-auto">
-                  <a class="usa-social-link usa-social-link--facebook" href="javascript:void(0);">
-                    <span>Facebook</span>
-                  </a>
+      <div className={styles.footerbar}>&nbsp;</div>
+        <div class="usa-footer__secondary-section bg-black">
+          <div class="grid-container">
+            <div class="grid-row grid-gap">
+              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div class="mobile-lg:grid-col-auto">
+                  <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
                 </div>
-                <div class="grid-col-auto">
-                  <a class="usa-social-link usa-social-link--twitter" href="javascript:void(0);">
-                    <span>Twitter</span>
-                  </a>
-                </div>
-                <div class="grid-col-auto">
-                  <a class="usa-social-link usa-social-link--youtube" href="javascript:void(0);">
-                    <span>YouTube</span>
-                  </a>
-                </div>
-                <div class="grid-col-auto">
-                  <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
-                    <span>RSS</span>
-                  </a>
+                <div class="mobile-lg:grid-col-auto">
+                  <span className={styles.footerTitle}>BESPIN</span>
                 </div>
               </div>
-              <h3 class="usa-footer__contact-heading">Agency Contact</h3>
-              <address class="usa-footer__address">
-                <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div class="usa-footer__social-links grid-row grid-gap-1">
                   <div class="grid-col-auto">
-                    <a href="tel:1-800-555-5555">(800) CALL-GOVT</a>
+                    <a className={styles.socialLinkFacebook} href="javascript:void(0);">
+                      <span>Facebook</span>
+                    </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a href="mailto:info@agency.gov">info@agency.gov</a>
+                    <a className={styles.socialLinkTwitter} href="javascript:void(0);">
+                      <span>Twitter</span>
+                    </a>
+                  </div>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
+                      <span>YouTube</span>
+                    </a>
+                  </div>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkRss} href="javascript:void(0);">
+                      <span>RSS</span>
+                    </a>
                   </div>
                 </div>
-              </address>
+                <h3 class="usa-footer__contact-heading text-white">Agency Contact</h3>
+                <address class="usa-footer__address">
+                  <div class="usa-footer__contact-info grid-row grid-gap">
+                    <div class="grid-col-auto">
+                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
+                    </div>
+                    <div class="grid-col-auto">
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
+                    </div>
+                  </div>
+                </address>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

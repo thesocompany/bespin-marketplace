@@ -95,29 +95,54 @@ export default function Home() {
           <h2 className={styles.sectionSubheading}>Platform 327 provides a virtual schoolhouse experience for designers, developers, and cross-functional teams</h2>
           </div>
           <div className="grid-row">
-            <div className="tablet:grid-col">
+            <div className="tablet:grid-col margin-right-205">
               <div className={styles.homeBoxMissonCollabImg}>
               &nbsp;
               </div>
             </div>
             <div className="tablet:grid-col">
-            <div className={styles.homeBoxMissonWelcome}>
-              <span className={styles.homeBoxTitle}>
-                Welcome to Platform 327, the Air Force’s<br />
-              </span>
-              <span className={styles.homeBoxTitle}>first virtual design studio</span>
-              <ul>
-                <li>
-                  We’ve put together all the resources and tools you’ll need to learn to design, engineer and deliver digital products.
-                </li>
-                <li>
-                  Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
-                </li>
-              </ul>
-            </div>
+              <div className={styles.homeBoxMissonWelcome}>
+                <span className={styles.homeBoxTitle}>
+                  Welcome to Platform 327, the Air Force’s<br />
+                </span>
+                <span className={styles.homeBoxTitle}>first virtual design studio</span>
+                <ul>
+                  <li>
+                    We’ve put together all the resources and tools you’ll need to learn to design, engineer and deliver digital products.
+                  </li>
+                  <br />
+                  <li>
+                    Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="grid-row">
+          <div className="grid-row margin-top-205">
+            <div className="tablet:grid-col margin-right-205">
+              <div className={styles.homeBoxEcosystemMsg}>
+                  <span className={styles.homeBoxEcosystemTitle}>The BESPIN ecosystem fosters</span> 
+                  <span className={styles.homeBoxEcosystemTitle}> investigation, risk-taking and</span>
+                  <span className={styles.homeBoxEcosystemTitle}> entrepreneurial thinking to turn</span>
+                  <span className={styles.homeBoxEcosystemTitle}> innovation into reality.</span>
+                  <ul>
+                    <li>
+                      Human-centered product design means creating tailor-made solutions for the people you are designing for.
+                    </li>
+                    <br />
+                    <li>
+                      Whether you’re a beginner who wants to know more or an advanced designer or engineer seeking expertise, 
+                      we have resources, toolkits, courses and training events for you.
+                    </li>
+                  </ul>
+              </div>
+
+            </div>
+            <div className="tablet:grid-col">
+              <div className={styles.homeBoxMissonFaceMonitorImg}>
+                &nbsp;
+              </div>
+            </div>
           </div>
         </section>
 

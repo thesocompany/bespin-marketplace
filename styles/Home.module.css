@@ -396,6 +396,23 @@
 .projectPageImage {
   margin: 0 auto;
   padding: 20px;
+  /* display:block;
+  margin-left:auto;
+  margin-right:auto; */
+}
+
+.projectPageBodyImg {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.projectPageBodyText {
+  text-align: left;
+  font: normal normal normal 16px/25px Public Sans;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
 }
 
 .appPageDownloadButton {

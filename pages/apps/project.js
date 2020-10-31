@@ -121,9 +121,9 @@ export default function Project() {
                   </div>
                   <br />
                 </div>
-                <div className="grid-row">
+                {/* <div className="grid-row">
                   <div className={styles.piechart} title="This app does this"></div>
-                </div>
+                </div> */}
 
               </div>
               <div className="grid-col-4">
@@ -133,38 +133,62 @@ export default function Project() {
             <div className="grid-row">
               <div className="tablet:grid-col">
                 <h1 className={styles.uxLibrarySectionHeading}>About</h1>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
-                    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                     At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                     no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-                     consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                      magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
-                      ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit 
-                      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos 
-                      et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-                      sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing 
-                      elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                       sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-                       kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor 
-                       sit amet, consetetur sadipscing.
-                  </p>
-                  <img className={styles.paragraphImg} src="https://picsum.photos/id/279/369/435" />
-                  <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
-                  </p>
-                  <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
-                  </p>
-                  <img className={styles.paragraphImg2} src="https://picsum.photos/id/279/369/435" />
-                  <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
-                  </p>
               </div>
             </div>
+            <div className="grid-row margin-top-3">
+              <div className="grid-col-6">
+                <span className={styles.projectPageBodyText}>
+                As part of Space Force, AFB Buckley spent the last two years ramping up the base vehicle and 
+                cargo movement operations that helped deliver hardware and small prototypes for test fuel systems. 
+                Airmen at AF Buckley use PointSync, to efficiently plan hardware delivery and storage and track 
+                hardware for prototype assembly. The app eliminates manual paper entry and using data collected 
+                from smartphones and wearable tech to reduce overall hardware delivery time by 35%.
+                </span>
+                <h2 className="margin-left-2 margin-bottom-4" style={{width:"369px"}}>"Most importantly, we needed to optimize how we track materials and new prototypes being assembled 
+                  at speed, never done before. The development of PointSpot made help our service teams to become more 
+                  integrated into the greater Space Force mission."
+                </h2>
+                <span className="text-bold">PROBLEMS IDENTIFIED:</span>
+                <span className={styles.projectPageBodyText}>
+                  <ul>
+                    <li className="margin-bottom-2">The cargo itinerary was managed by a small service team utilizing 
+                      lightweight vehicles and all done with manual entry to base's EPICORE system.
+                    </li>
+                    <li>Traditional GPS tracking systems were not sufficient in supplying accurate location data of this 
+                      specific cargo for onsite facilities.
+                    </li>
+                  </ul>
+                </span>
+              </div>
+              <div className="grid-col-4 margin-left-6">
+                <img className={styles.projectPageBodyImg}  src="/app-hand.png" />
+              </div>
+            </div>
+            <div className="grid-row">
+            <div className="tablet:grid-col margin-right-205">
+              <div className={styles.homeBoxMissonCollabImg}>
+              &nbsp;
+              </div>
+            </div>
+            <div className="tablet:grid-col">
+              <div className={styles.homeBoxMissonWelcome}>
+                <span className={styles.homeBoxTitle}>
+                  Welcome to Platform 327, the Air Force’s<br />
+                </span>
+                <span className={styles.homeBoxTitle}>first virtual design studio</span>
+                <ul>
+                  <li>
+                    We’ve put together all the resources and tools you’ll need to learn to design, engineer and deliver digital products.
+                  </li>
+                  <br />
+                  <li>
+                    Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
 
             <div className="grid-row" className={styles.projectLowerDownloadBtn}>
               <Button>Download</Button>

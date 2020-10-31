@@ -173,23 +173,24 @@ export default function Project() {
             <div className="tablet:grid-col">
               <div className={styles.homeBoxMissonWelcome}>
                 <span className={styles.homeBoxTitle}>
-                  Welcome to Platform 327, the Air Force’s<br />
+                How did Platform 327 help?<br />
                 </span>
-                <span className={styles.homeBoxTitle}>first virtual design studio</span>
                 <ul>
-                  <li>
-                    We’ve put together all the resources and tools you’ll need to learn to design, engineer and deliver digital products.
+                  <li className="margin-bottom-2">
+                    After developing the first beta design of PointSync, the design team worked with Platform 327 
+                    to create a UX testing plan to track user pain points.
                   </li>
-                  <br />
+                  <li className="margin-bottom-2">
+                    Conducted remote working sessions to audit the app's data collection and delivery recording 
+                    and verification.
+                  </li>
                   <li>
-                    Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
+                    Develop user feedback function in app's onboarding to inform design team's product roadmap.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-
-
             <div className="grid-row" className={styles.projectLowerDownloadBtn}>
               <Button>Download</Button>
             </div>

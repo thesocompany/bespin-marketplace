@@ -97,7 +97,7 @@ export default function Project() {
             </li>
             <li class="usa-breadcrumb__list-item">
               <a href="#" class="usa-breadcrumb__link">
-                <span>Project</span>
+                <span>Project Name</span>
               </a>
             </li>
           </ol>
@@ -106,13 +106,12 @@ export default function Project() {
           <div className="grid-container">
             <div className="grid-row">
               <div className="grid-col-4">
-                <img className={styles.projectPageImage} src="https://picsum.photos/id/255/280/369" />
+                <img className={styles.projectPageImage} src="/projectleft.png" />
               </div>
               <div className="grid-col-4">
                 <div className={styles.thisisatest}>
-                  <h1 className={styles.uxLibrarySectionHeading}>Project Name</h1>
-                  <p className={styles.projectSubheading}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-                    tempor invidunt ut labore et dolore
+                  <h1 className={styles.uxLibrarySectionHeading}>PointSync</h1>
+                  <p className={styles.projectSubheading}>PointSync is a multi-device app that streamlines cargo location data and delivery times.
                   </p>
                   <div className={styles.appPageDownloadButton}><Button>Download</Button></div>
                   <br />
@@ -123,7 +122,7 @@ export default function Project() {
 
               </div>
               <div className="grid-col-4">
-                <img className={styles.projectPageImage} src="https://picsum.photos/id/255/280/369" />
+                <img className={styles.projectPageImage} src="/projectright.png" />
               </div>                        
             </div>
             <div className="grid-row">

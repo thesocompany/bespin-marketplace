@@ -401,24 +401,45 @@
 .appPageDownloadButton {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .thisisatest {
-  background-color: #F0F0F0;
+  /* background-color: #F0F0F0; */
   margin: 0 auto;
   padding: 20px;
   margin-top: 20px;
-  /* height: 369px;
-  width: 366px; */
+  height: 369px;
+  background-image: url("../public/project-center-background.png")
+}
+
+
+.projectCenterTitle {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.projectCenterIconText {
+  font: normal normal bold 16px/19px Public Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-bottom: 10px;
 }
 
 .projectSubheading {
   margin-top: 5px;
-  color: #01103F;
+  color: #FFFFFF;
   text-align: center;
   font-size: 22px;
   font-weight: normal;
   font-family: Public Sans;
+  opacity: 1;
+
 }
 
 .paragraphImg {

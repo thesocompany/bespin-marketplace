@@ -110,10 +110,15 @@ export default function Project() {
               </div>
               <div className="grid-col-4">
                 <div className={styles.thisisatest}>
-                  <h1 className={styles.uxLibrarySectionHeading}>PointSync</h1>
+                  <h1 className={styles.projectCenterTitle}>PointSync</h1>
                   <p className={styles.projectSubheading}>PointSync is a multi-device app that streamlines cargo location data and delivery times.
                   </p>
                   <div className={styles.appPageDownloadButton}><Button>Download</Button></div>
+
+                  <div className="grid-row">
+                    <div className="tablet:grid-col text-center"><span className={styles.projectCenterIconText}>Design</span><br /> <img src="/design-icon.svg" /></div>
+                    <div className="tablet:grid-col text-center"><span className={styles.projectCenterIconText}>Learning</span><br /> <img src="/design-icon.svg" /></div>
+                  </div>
                   <br />
                 </div>
                 <div className="grid-row">

@@ -266,26 +266,29 @@ export default function Project() {
                     <div class="grid-row">
                       <div className="tablet:grid-col">
                         <img className={styles.projectPageBodyImg} src="/user.svg" />
-                        <div className="text-center">
-                          First Last<br />
-                          Rank // Job on <br />
+                        <div className="text-center margin-top-2">
+                        <span className={styles.projectTeamTitle}>First Last</span><br />
+                          <span className={styles.projectTeamDescription}>Rank // Job on <br />
                           Project
+                          </span>
                         </div>
-                      </div>
+                      </div>  
                       <div className="tablet:grid-col">
                         <img className={styles.projectPageBodyImg} src="/user.svg" />
-                        <div className="text-center">
-                          First Last<br />
-                          Rank // Job on <br />
+                        <div className="text-center margin-top-2">
+                        <span className={styles.projectTeamTitle}>First Last</span><br />
+                          <span className={styles.projectTeamDescription}>Rank // Job on <br />
                           Project
+                          </span>
                         </div>
-                      </div>
+                      </div>  
                       <div className="tablet:grid-col">
                         <img className={styles.projectPageBodyImg} src="/user.svg" />
-                        <div className="text-center">
-                          First Last<br />
-                          Rank // Job on <br />
+                        <div className="text-center margin-top-2">
+                        <span className={styles.projectTeamTitle}>First Last</span><br />
+                          <span className={styles.projectTeamDescription}>Rank // Job on <br />
                           Project
+                          </span>
                         </div>
                       </div>                    </div>
                     <div class="grid-row text-center">

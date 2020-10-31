@@ -136,7 +136,7 @@ export default function Project() {
               </div>
             </div>
             <div className="grid-row margin-top-3">
-              <div className="grid-col-6">
+              <div className="grid-col-7">
                 <span className={styles.projectPageBodyText}>
                 As part of Space Force, AFB Buckley spent the last two years ramping up the base vehicle and 
                 cargo movement operations that helped deliver hardware and small prototypes for test fuel systems. 
@@ -144,7 +144,7 @@ export default function Project() {
                 hardware for prototype assembly. The app eliminates manual paper entry and using data collected 
                 from smartphones and wearable tech to reduce overall hardware delivery time by 35%.
                 </span>
-                <h2 className="margin-left-2 margin-bottom-4" style={{width:"369px"}}>"Most importantly, we needed to optimize how we track materials and new prototypes being assembled 
+                <h2 className="margin-left-2 margin-bottom-4" style={{width:"440px"}}>"Most importantly, we needed to optimize how we track materials and new prototypes being assembled 
                   at speed, never done before. The development of PointSpot made help our service teams to become more 
                   integrated into the greater Space Force mission."
                 </h2>
@@ -263,7 +263,7 @@ export default function Project() {
               <div class="grid-row">
                 <div className="tablet:grid-col">
                   <div className={styles.homeBoxMissonWelcome} style={{height: "390px"}}>
-                    <div class="grid-row">
+                    <div class="grid-row" style={{width: "470px"}}>
                       <div className="tablet:grid-col">
                         <img className={styles.projectPageBodyImg} src="/user.svg" />
                         <div className="text-center margin-top-2">

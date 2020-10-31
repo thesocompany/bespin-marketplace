@@ -259,7 +259,7 @@ export default function Project() {
             <br />
             <br />
             <h1 className={styles.sectionHeading}>The Team</h1>
-            <div class="grid-container margin-top-4">
+            <div class="grid-container margin-top-4 margin-bottom-4">
               <div class="grid-row">
                 <div className="tablet:grid-col">
                   <div className={styles.homeBoxMissonWelcome} style={{height: "390px"}}>
@@ -290,9 +290,16 @@ export default function Project() {
                           Project
                           </span>
                         </div>
-                      </div>                    </div>
-                    <div class="grid-row text-center">
-                    Stationed at <br />XXXX Base <br />123 Main Street Montgomery, AL 32018
+                      </div>                    
+                    </div>
+                    <div class="grid-row text-center margin-top-4">
+                      <div className="tablet:grid-col">
+                        <span className={styles.projectTeamDescription}>Stationed at </span>
+                        <br />
+                        <span className={styles.projectTeamTitle}>XXXX Base</span> 
+                        <br />
+                        <span className={styles.projectTeamAddress}>123 Main Street Montgomery, AL 32018</span>
+                      </div>
                     </div>
                   </div>
                 </div>

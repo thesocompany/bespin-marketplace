@@ -191,12 +191,12 @@ export default function Project() {
               </div>
             </div>
           </div>
-            <div className="grid-row" className={styles.projectLowerDownloadBtn}>
+            {/* <div className="grid-row" className={styles.projectLowerDownloadBtn}>
               <Button>Download</Button>
-            </div>
+            </div> */}
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="grid-container">
           <div className="grid-row margin-bottom-4">
             <div className="tablet:grid-col">
@@ -230,8 +230,8 @@ export default function Project() {
                                       
             </div>
           </div>
-        </section>
-        <section>
+        </section> */}
+        {/* <section>
         <div className="grid-container">
           <div className="grid-row margin-top-9">
             <div className="tablet:grid-col">
@@ -253,36 +253,71 @@ export default function Project() {
             </div>
           </div>
         </div>
-        </section>
-
+        </section> */}
         <section>
             <br />
             <br />
             <br />
-
-            <h1 className={styles.sectionHeading}>Contact The Team</h1>
+            <h1 className={styles.sectionHeading}>The Team</h1>
             <div class="grid-container">
               <div class="grid-row">
-                <Label htmlFor="testInput">Name</Label>
-              </div>
-              <div class="grid-row">
-                <TextInput className={styles.contactUsTextInput} />
-              </div>
-              <div class="grid-row">
-                <Label htmlFor="testInput">Email</Label>
-              </div>
-              <div class="grid-row">              
-                <TextInput className={styles.contactUsTextInput} />
-              </div>
-               <div class="grid-row">
-                 <Label htmlFor="testInput">Message</Label>
-               </div>
-               <div class="grid-row">
-                 <TextArea className={styles.contactUsTextInput} />
-               </div>                
+                <div className="tablet:grid-col">
+                  <div className={styles.homeBoxMissonWelcome}>
+                    <div class="grid-row">
+                      <div className="tablet:grid-col">
+                        <img className={styles.projectPageBodyImg} src="/user.svg" />
+                        <div className="text-center">
+                          First Last<br />
+                          Rank // Job on <br />
+                          Project
+                        </div>
+                      </div>
+                      <div className="tablet:grid-col">
+                        <img className={styles.projectPageBodyImg} src="/user.svg" />
+                        <div className="text-center">
+                          First Last<br />
+                          Rank // Job on <br />
+                          Project
+                        </div>
+                      </div>
+                      <div className="tablet:grid-col">
+                        <img className={styles.projectPageBodyImg} src="/user.svg" />
+                        <div className="text-center">
+                          First Last<br />
+                          Rank // Job on <br />
+                          Project
+                        </div>
+                      </div>                    </div>
+                    <div class="grid-row text-center">
+                    Stationed at <br />XXXX Base <br />123 Main Street Montgomery, AL 32018
+                    </div>
+                  </div>
+                </div>
+                <div className="tablet:grid-col">
+                  <div class="grid-row">
+                    <Label htmlFor="testInput">Name</Label>
+                  </div>
+                  <div class="grid-row">
+                    <TextInput className={styles.contactUsTextInput} />
+                  </div>
+                  <div class="grid-row">
+                    <Label htmlFor="testInput">Email</Label>
+                  </div>
+                  <div class="grid-row">              
+                    <TextInput className={styles.contactUsTextInput} />
+                  </div>
+                   <div class="grid-row">
+                     <Label htmlFor="testInput">Message</Label>
+                   </div>
+                   <div class="grid-row">
+                     <TextArea className={styles.contactUsTextInput} />
+                  </div>      
+                  <br />
+                <Button className={styles.buttonCenter}>Submit</Button>          
+                </div>
             </div>
-            <br />
-            <Button className={styles.buttonCenter}>Submit</Button>
+            </div>
+
           </section>
 
 

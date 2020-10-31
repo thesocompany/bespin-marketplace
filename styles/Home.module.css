@@ -787,3 +787,10 @@
   height: 390px;
   /* background-image: url(../src/assets/images/joindrawing.svg); */
 }
+
+#projectPageContact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 422px;
+}

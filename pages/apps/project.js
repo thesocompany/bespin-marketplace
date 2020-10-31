@@ -259,10 +259,10 @@ export default function Project() {
             <br />
             <br />
             <h1 className={styles.sectionHeading}>The Team</h1>
-            <div class="grid-container">
+            <div class="grid-container margin-top-4">
               <div class="grid-row">
                 <div className="tablet:grid-col">
-                  <div className={styles.homeBoxMissonWelcome}>
+                  <div className={styles.homeBoxMissonWelcome} style={{height: "390px"}}>
                     <div class="grid-row">
                       <div className="tablet:grid-col">
                         <img className={styles.projectPageBodyImg} src="/user.svg" />
@@ -294,23 +294,19 @@ export default function Project() {
                   </div>
                 </div>
                 <div className="tablet:grid-col">
-                  <div class="grid-row">
+                  <h1 className={styles.sectionHeading}>Contact The Team</h1>
+                  <div class="grid-row" id={styles.projectPageContact}>
                     <Label htmlFor="testInput">Name</Label>
-                  </div>
-                  <div class="grid-row">
                     <TextInput className={styles.contactUsTextInput} />
                   </div>
-                  <div class="grid-row">
-                    <Label htmlFor="testInput">Email</Label>
-                  </div>
-                  <div class="grid-row">              
+
+                  <div class="grid-row" id={styles.projectPageContact}>
+                    <Label htmlFor="testInput">Email</Label>            
                     <TextInput className={styles.contactUsTextInput} />
                   </div>
-                   <div class="grid-row">
+                   <div class="grid-row" id={styles.projectPageContact}>
                      <Label htmlFor="testInput">Message</Label>
-                   </div>
-                   <div class="grid-row">
-                     <TextArea className={styles.contactUsTextInput} />
+                     <TextArea className={styles.contactUsTextInput} style={{height: "70px"}}/>
                   </div>      
                   <br />
                 <Button className={styles.buttonCenter}>Submit</Button>          

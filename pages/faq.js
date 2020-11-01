@@ -64,7 +64,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '3',
+      id: 'three',
     },
     {
       title: 'What is UX Skills Assessment, and why should I consider taking one?',
@@ -81,7 +81,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '4',
+      id: 'four',
     },
     {
       title: 'What resources are available for UX designers, engineers and project teams?',
@@ -95,7 +95,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '5',
+      id: 'five',
     },
     {
       title: 'How are Platform 327 and Air Force BESPIN related?',
@@ -109,7 +109,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '6',
+      id: 'six',
     },
     {
       title: 'I am from an AF Base and/or from another DoD unit interested in finding a team with design and UX capabilities; how can I find a project team?',
@@ -126,7 +126,7 @@ export default function FAQ() {
         </p>
       ),
       expanded: false,
-      id: '7',
+      id: 'seven',
     },
   ]
 

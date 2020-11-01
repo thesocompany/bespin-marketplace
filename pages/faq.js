@@ -88,7 +88,10 @@ export default function FAQ() {
       content: (
         <p>
           Check out our BESPIN Apps page and see recent apps developed by designers within BESPIN, 
-          and look at the BESPIN Ecosystem and Case Studies for best UX practices from those projects. 
+          and look at the BESPIN Ecosystem and Case Studies for best UX practices from those projects.
+          <br />
+          <br />
+ 
           You can also go to our contact page and submit a request for a UX designer or UX design team 
           for your project.The Platform 327 studio team will get back to you soon for next steps and 
           recommendations.
@@ -103,8 +106,10 @@ export default function FAQ() {
         <p>
           Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation 
           (BESPIN) at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
-          quickly implement ideas aimed at improving mission support capabilities. Platform 327 is 
-          a virtual schoolhouse for designers, developers and cross-functional teams learning to 
+          quickly implement ideas aimed at improving mission support capabilities. 
+          <br />
+          <br />
+          Platform 327 is a virtual schoolhouse for designers, developers and cross-functional teams learning to 
           create the digital solutions that will ultimately improve the lives of airmen and women.
         </p>
       ),

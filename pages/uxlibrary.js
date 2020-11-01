@@ -103,28 +103,40 @@ export default function Uxlibrary() {
           <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-              <h2 className={styles.uxLibraryTitle}>Learning</h2>
-              <p className={styles.uxLibDisciplineDescription}>Apply UX principles to your project</p>
+              <div id={styles.uxLearning}>
+                <div className={styles.uxLibraryBoxText}>
+                  <h2 className={styles.uxLibraryTitle}>Learning</h2>
+                  <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
+                </div>
+              </div>
             </div>
             <div className="tablet:grid-col">
-              <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-              <h2 className={styles.uxLibraryTitle}>Development</h2>
-              <p className={styles.uxLibDisciplineDescription}>Use what you’ve learned to create digital products</p>
+              <div id={styles.uxDesign}>
+                <div className={styles.uxLibraryBoxText}>
+                  <h2 className={styles.uxLibraryTitle}>Design</h2>
+                  <p className={styles.uxLibDisciplineDescription}>Learn interactive and <br /> visual design principles</p> 
+                </div>
+              </div>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-                <h2 className={styles.uxLibraryTitle}>Design</h2>
-                <p className={styles.uxLibDisciplineDescription}>Learn interactive and visual design principles</p>
+              <div id={styles.uxDevelopment}>
+                <div className={styles.uxLibraryBoxText}>
+                  <h2 className={styles.uxLibraryTitle}>Development</h2>
+                  <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
+                </div>
               </div>
-              <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="https://picsum.photos/id/180/122/122" />
-                <h2 className={styles.uxLibraryTitle}>Download Components</h2>
-                <p className={styles.uxLibDisciplineDescription}>Get UI kits, UX wireframes and more</p>
-              </div>                           
             </div>
+            <div className="tablet:grid-col">
+              <div id={styles.uxUIcomponents}>
+                <div className={styles.uxLibraryBoxText}>
+                  <h2 className={styles.uxLibraryTitle}>UI Components</h2>
+                  <p className={styles.uxLibDisciplineDescription}>Get UI kits, UX <br />wireframes and more </p> 
+                </div>
+              </div>
+            </div>
+          </div>
             
         </section>
 

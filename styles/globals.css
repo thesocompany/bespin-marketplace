@@ -27,3 +27,34 @@ a {
 #footerText {
   color: white;
 }
+
+.usa-accordion__button {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  background-image: url(/public/plus.svg);
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  background-position: right 1.25rem center;
+  background-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  padding: 1rem 3.5rem 1rem 1.25rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.usa-accordion__button[aria-expanded=false] {
+  background-image: url(/plus-button.svg),linear-gradient(transparent,transparent);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-color: #f0f0f0;
+
+}

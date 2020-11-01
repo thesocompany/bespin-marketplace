@@ -43,6 +43,7 @@ export function AccordionItem(props) {
             <div
                 // id={id}
                 data-testid={`accordionItem_${id}`}
+                id={`accordion-body_${id}`}
                 className={contentClasses}
                 hidden={!expanded}>
                 {content}

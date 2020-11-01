@@ -17,13 +17,109 @@ a {
 }
 
 #one {
-  background-color: #7E48CE
+  background-color: #7E48CE;
+
+}
+
+#accordion-body_one {
+  border: 2px solid #7E48CE;
+  opacity: 1;
+
 }
 
 #two {
   background-color: #5B60D6
 }
 
+#accordion-body_two {
+  border: 2px solid #7E48CE;
+  opacity: 1;
+
+}
+
+#three {
+  background-color: #3877DD
+}
+
+#accordion-body_three {
+  border: 2px solid #3877DD;
+  opacity: 1;
+
+}
+#four {
+  background-color: #168DE4
+}
+
+#accordion-body_four {
+  border: 2px solid #168DE4;
+  opacity: 1;
+
+}
+#five {
+  background-color: #07A1E7
+}
+
+#accordion-body_five {
+  border: 2px solid #07A1E7;
+  opacity: 1;
+
+}
+#six {
+  background-color: #15B2E5
+}
+
+#accordion-body_six {
+  border: 2px solid #15B2E5;
+  opacity: 1;
+
+}
+#seven {
+  background-color: #28C7E1
+}
+
+#accordion-body_seven {
+  border: 2px solid #28C7E1;
+  opacity: 1;
+
+}
+
 #footerText {
   color: white;
+}
+
+.usa-accordion__button {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  background-image: url(/minus.svg);
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  background-position: right 1.25rem center;
+  background-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  padding: 1rem 3.5rem 1rem 1.25rem;
+  text-decoration: none;
+  width: 100%;
+  
+}
+
+.usa-accordion__button[aria-expanded=false] {
+  background-image: url(/plus.svg);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-color: #f0f0f0;
+}
+
+.usa-accordion__button:hover {
+    background-color: #dfe1e2;
+    color: #FFFFFF;
+    text-decoration: none;
 }

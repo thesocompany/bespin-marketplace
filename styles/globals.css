@@ -87,7 +87,7 @@ a {
   color: white;
 }
 
-.usa-accordion__button {
+.usaf-accordion__button {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: subpixel-antialiased;
   border: 0;
@@ -111,14 +111,14 @@ a {
   
 }
 
-.usa-accordion__button[aria-expanded=false] {
+.usaf-accordion__button[aria-expanded=false] {
   background-image: url(/plus.svg);
   background-repeat: no-repeat;
   background-size: 1rem;
   background-color: #f0f0f0;
 }
 
-.usa-accordion__button:hover {
+.usaf-accordion__button:hover {
     background-color: #dfe1e2;
     color: #FFFFFF;
     text-decoration: none;

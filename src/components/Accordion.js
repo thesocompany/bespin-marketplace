@@ -32,7 +32,7 @@ export function AccordionItem(props) {
                 <button
                     id={id}
                     type="button"
-                    className="usa-accordion__button"
+                    className="usaf-accordion__button"
                     aria-expanded={expanded}
                     aria-controls={id}
                     data-testid={`accordionButton_${id}`}

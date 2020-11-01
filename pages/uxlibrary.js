@@ -123,7 +123,7 @@ export default function Uxlibrary() {
             <div className="tablet:grid-col">
               <div id={styles.uxDevelopment}>
                 <div className={styles.uxLibraryBoxText}>
-                  <h2 className={styles.uxLibraryTitle}>Learning</h2>
+                  <h2 className={styles.uxLibraryTitle}>Development</h2>
                   <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
                 </div>
               </div>
@@ -131,8 +131,8 @@ export default function Uxlibrary() {
             <div className="tablet:grid-col">
               <div id={styles.uxUIcomponents}>
                 <div className={styles.uxLibraryBoxText}>
-                  <h2 className={styles.uxLibraryTitle}>Learning</h2>
-                  <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
+                  <h2 className={styles.uxLibraryTitle}>UI Components</h2>
+                  <p className={styles.uxLibDisciplineDescription}>Get UI kits, UX <br />wireframes and more </p> 
                 </div>
               </div>
             </div>

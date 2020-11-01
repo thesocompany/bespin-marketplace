@@ -17,7 +17,14 @@ a {
 }
 
 #one {
-  background-color: #7E48CE
+  background-color: #7E48CE;
+
+}
+
+#accordion-body_one {
+  border: 2px solid #7E48CE;
+  opacity: 1;
+
 }
 
 #two {
@@ -36,7 +43,7 @@ a {
   box-shadow: none;
   padding: 0;
   text-align: left;
-  background-image: url(/public/plus.svg);
+  background-image: url(/minus.svg);
   background-repeat: no-repeat;
   background-color: #f0f0f0;
   background-position: right 1.25rem center;
@@ -49,12 +56,18 @@ a {
   padding: 1rem 3.5rem 1rem 1.25rem;
   text-decoration: none;
   width: 100%;
+  
 }
 
 .usa-accordion__button[aria-expanded=false] {
-  background-image: url(/plus-button.svg),linear-gradient(transparent,transparent);
+  background-image: url(/plus.svg);
   background-repeat: no-repeat;
   background-size: 1rem;
   background-color: #f0f0f0;
+}
 
+.usa-accordion__button:hover {
+    background-color: #dfe1e2;
+    color: #FFFFFF;
+    text-decoration: none;
 }

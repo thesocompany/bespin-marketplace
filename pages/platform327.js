@@ -180,7 +180,8 @@ export default function Platform327() {
         <section className ={styles.platform327HeroSection}>
           {/* <img src={heroImage} /> */}
           <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Get started.</span></h1>
-          <span className={styles.heroIntro}>Enroll in training. Sign up for an event. Schedule studio time.</span>
+          <span className={styles.heroIntro}>Enroll in training. Sign up for an event. <br /></span> 
+          <span className={styles.heroIntro}>Schedule studio time.</span>
         </section>
           <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
             <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >

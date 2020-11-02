@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link'
+
 import styles from '../styles/Home.module.css'
 import Header from '../src/components/Header'
 import Title from '../src/components/Title'
@@ -14,7 +16,7 @@ import TextInput from '../src/components/TextInput'
 import Button from '../src/components/Button'
 import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
-import Link from '../src/components/Link'
+// import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
@@ -103,20 +105,28 @@ export default function Uxlibrary() {
           <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
+              <Link href="https://mmanalo-soco.medium.com/ux-learning-resources-687b754aded0">
+              <a>
               <div id={styles.uxLearning}>
                 <div className={styles.uxLibraryBoxText}>
                   <h2 className={styles.uxLibraryTitle}>Learning</h2>
                   <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
                 </div>
               </div>
+              </a>
+              </Link>
             </div>
             <div className="tablet:grid-col">
+              <Link href="https://mmanalo-soco.medium.com/design-resources-and-checklist-cf3f7eef0609">
+              <a>
               <div id={styles.uxDesign}>
                 <div className={styles.uxLibraryBoxText}>
                   <h2 className={styles.uxLibraryTitle}>Design</h2>
                   <p className={styles.uxLibDisciplineDescription}>Learn interactive and <br /> visual design principles</p> 
                 </div>
               </div>
+              </a>
+              </Link>
             </div>
           </div>
           <div className="grid-row margin-top-7">
@@ -129,22 +139,23 @@ export default function Uxlibrary() {
               </div>
             </div>
             <div className="tablet:grid-col">
+            <Link href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert">
+              <a>
               <div id={styles.uxUIcomponents}>
                 <div className={styles.uxLibraryBoxText}>
                   <h2 className={styles.uxLibraryTitle}>UI Components</h2>
                   <p className={styles.uxLibDisciplineDescription}>Get UI kits, UX <br />wireframes and more </p> 
                 </div>
               </div>
+              </a>
+              </Link>
             </div>
           </div>
-            
         </section>
-
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
         </div>
       </main>
-
       <div className="usa-footer__primary-section">
         <nav className="usa-footer__nav" aria-label="Footer navigation">
           <ul className="grid-row grid-gap">
@@ -209,17 +220,6 @@ export default function Uxlibrary() {
           </div>
         </div>
       </div>
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer> */}
-     {/* </div> */}
      </>
   )
 }

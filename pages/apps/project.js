@@ -191,69 +191,8 @@ export default function Project() {
               </div>
             </div>
           </div>
-            {/* <div className="grid-row" className={styles.projectLowerDownloadBtn}>
-              <Button>Download</Button>
-            </div> */}
           </div>
         </section>
-        {/* <section>
-          <div className="grid-container">
-          <div className="grid-row margin-bottom-4">
-            <div className="tablet:grid-col">
-              <h1 className={styles.uxLibrarySectionHeading}>Project Name</h1>
-            </div>
-
-          </div>
-
-            <div className="grid-row">
-              <div className="grid-col-4">
-                <div className={styles.wrapper}>
-                  <div className={styles.user}></div>
-                </div>
-                <h2 className={styles.uxLibraryTitle}>First Last</h2>
-                <p className={styles.uxLibDisciplineDescription}>Rank // Job on Project</p>
-              </div>
-              <div className="grid-col-4">
-                <div className={styles.wrapper}>
-                  <div className={styles.user}></div>
-                </div>
-                <h2 className={styles.uxLibraryTitle}>First Last</h2>
-                <p className={styles.uxLibDisciplineDescription}>Rank // Job on Project</p>                  
-              </div>
-              <div className="grid-col-4">
-                <div className={styles.wrapper}>
-                  <div className={styles.user}></div>
-                </div>
-                <h2 className={styles.uxLibraryTitle}>First Last</h2>
-                <p className={styles.uxLibDisciplineDescription}>Rank // Job on Project</p>  
-              </div>
-                                      
-            </div>
-          </div>
-        </section> */}
-        {/* <section>
-        <div className="grid-container">
-          <div className="grid-row margin-top-9">
-            <div className="tablet:grid-col">
-              <img className={styles.mapImage} src="https://picsum.photos/id/10/390/286?blur=2" />
-            </div>
-            <div className="tablet:grid-col">
-            Developed at <br /> <span className="text-bold font-body-lg">XXXX Base</span> <br />123 Main Street <br />Montgomery, AL 32018
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <Button>About the Base</Button>
-            </div>
-          </div>
-        </div>
-        </section> */}
         <section>
             <br />
             <br />

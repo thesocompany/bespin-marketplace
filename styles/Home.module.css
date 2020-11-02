@@ -378,7 +378,7 @@
 }
 
 .uxLibDisciplineDescription {
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
 }
 
@@ -589,6 +589,7 @@
   height: 201px;
   width: 262px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .platform327DesignEvent {

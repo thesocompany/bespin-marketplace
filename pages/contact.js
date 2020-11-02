@@ -86,14 +86,14 @@ export default function Contact() {
 
         <main id="main-content">
           <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
-            <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >
-              <li class="usa-breadcrumb__list-item">
-                <a href="/" class="usa-breadcrumb__link">
+            <ol className={styles.breadcrumbList} >
+              <li className="usa-breadcrumb__list-item">
+                <a href="/" className="usa-breadcrumb__link">
                   <span>Home</span>
                 </a>
               </li>
-              <li class="usa-breadcrumb__list-item">
-                <a href="#" class="usa-breadcrumb__link">
+              <li className="usa-breadcrumb__list-item">
+                <a href="#" className="usa-breadcrumb__link">
                   <span>Contact Us</span>
                 </a>
               </li>
@@ -102,10 +102,19 @@ export default function Contact() {
           <section>
             <h1 className={styles.sectionHeading}>Contact Us</h1>
             <br />
-            <div class="grid-container">
-              <div class="grid-row">
-                <div class="grid-col-auto"><img src="/guy.png" /></div>
-                <div class="grid-col-auto margin-left-9"><span className="font-sans-lg text-bold">BESPIN</span> <br />123 Main Street <br />Montgomery, AL 32018<br /><br /><br /> Call: (546) 684-4168<br /> Call: (546) 684-4168<br /> Email: sfad@bespin.com <br /><br /><br /><Button>Schedule Time With Us</Button></div>
+            <div className="grid-container">
+              <div className="grid-row">
+                <div className="grid-col-auto"><img src="/guy.png" /></div>
+                <div className="grid-col-auto margin-left-9"> 
+                 <div className="font-sans-lg text-bold">PLATFORM327</div> 
+                  <br />123 Main Street 
+                  <br />Montgomery, AL 32018
+                  <br /><br />
+                  <br /> <a className={styles.link} href="tel:">Call: (800) 888-1234</a>
+                  <br /> <a className={styles.link} href="tel:">Call: (588) 123-4168</a>
+                  <br /> <a className={styles.link} href="mailto:">Email: info@bespin.com </a>
+                  <br /><br /><br />
+                </div>
               </div>
             </div>
           </section>
@@ -115,29 +124,29 @@ export default function Contact() {
             <br />
 
             <h1 className={styles.sectionHeading}>Send Us A Message</h1>
-            <div class="grid-container">
-              <div class="grid-row">
+            <div className="grid-container">
+              <div className="grid-row">
                 <Label htmlFor="testInput">Name</Label>
               </div>
-              <div class="grid-row">
+              <div className="grid-row">
                 <TextInput className={styles.contactUsTextInput} />
               </div>
-              <div class="grid-row">
+              <div className="grid-row">
                 <Label htmlFor="testInput">Email</Label>
               </div>
-              <div class="grid-row">              
+              <div className="grid-row">              
                 <TextInput className={styles.contactUsTextInput} />
               </div>
-              <div class="grid-row">
+              <div className="grid-row">
                   <Label htmlFor="testInput">Phone Number</Label>
               </div>
-              <div class="grid-row">
+              <div className="grid-row">
                   <TextInput className={styles.contactUsTextInput} />
                </div>
-               <div class="grid-row">
+               <div className="grid-row">
                  <Label htmlFor="testInput">Message</Label>
                </div>
-               <div class="grid-row">
+               <div className="grid-row">
                  <TextArea className={styles.contactUsTextInput} />
                </div>                
             </div>
@@ -159,53 +168,53 @@ export default function Contact() {
                 <a className="usa-footer__primary-link" href="#">Contact</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-                <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+                <a className="usa-footer__primary-link" href="#">Privacy Policy</a>
               </li>
             </ul>
           </nav>
         </div>
         <div className={styles.footerbar}>&nbsp;</div>
-        <div class="usa-footer__secondary-section bg-black">
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-                <div class="mobile-lg:grid-col-auto">
+        <div className="usa-footer__secondary-section bg-black">
+          <div className="grid-container">
+            <div className="grid-row grid-gap">
+              <div className="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div className="mobile-lg:grid-col-auto">
                   <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
                 </div>
-                <div class="mobile-lg:grid-col-auto">
+                <div className="mobile-lg:grid-col-auto">
                   <span className={styles.footerTitle}>BESPIN</span>
                 </div>
               </div>
-              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-                <div class="usa-footer__social-links grid-row grid-gap-1">
-                  <div class="grid-col-auto">
-                    <a className={styles.socialLinkFacebook} href="javascript:void(0);">
+              <div className="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div className="usa-footer__social-links grid-row grid-gap-1">
+                  <div className="grid-col-auto">
+                    <a className={styles.socialLinkFacebook} href="#">
                       <span>Facebook</span>
                     </a>
                   </div>
-                  <div class="grid-col-auto">
-                    <a className={styles.socialLinkTwitter} href="javascript:void(0);">
+                  <div className="grid-col-auto">
+                    <a className={styles.socialLinkTwitter} href="#">
                       <span>Twitter</span>
                     </a>
                   </div>
-                  <div class="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
+                  <div className="grid-col-auto">
+                    <a className={styles.socialLinkLinkedin} href="#">
                       <span>YouTube</span>
                     </a>
                   </div>
-                  <div class="grid-col-auto">
-                    <a className={styles.socialLinkRss} href="javascript:void(0);">
+                  <div className="grid-col-auto">
+                    <a className={styles.socialLinkRss} href="#">
                       <span>RSS</span>
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact</h3>
-                <address class="usa-footer__address">
-                  <div class="usa-footer__contact-info grid-row grid-gap">
-                    <div class="grid-col-auto">
+                <h3 className="usa-footer__contact-heading text-white">Agency Contact</h3>
+                <address className="usa-footer__address">
+                  <div className="usa-footer__contact-info grid-row grid-gap">
+                    <div className="grid-col-auto">
                       <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
                     </div>
-                    <div class="grid-col-auto">
+                    <div className="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
                     </div>
                   </div>

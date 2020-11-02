@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Header from '../src/components/Header'
 import Title from '../src/components/Title'
@@ -14,7 +15,7 @@ import TextInput from '../src/components/TextInput'
 import Button from '../src/components/Button'
 import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
-import Link from '../src/components/Link'
+// import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
@@ -106,10 +107,15 @@ export default function Apps() {
           <h1 className={styles.uxLibrarySectionHeading}>Featured Apps</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>This growing collection of apps utilizes Platform 327's lab to build and <br />improve upon their main capabilities</h2>
           <div className="grid-row margin-top-7">
+
             <div className="tablet:grid-col margin-top-2">
+            <Link href="/apps/project">
+              <a>
               <img className={styles.appsIcon} src="/pointsync.png" />
               <h2 className={styles.allAppsTitle}>PointSync</h2>
               <div><p className={styles.uxLibDisciplineDescription}>Data Collection, Field<br />Operations Wearables</p></div>
+              </a>
+              </Link>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
@@ -124,15 +130,15 @@ export default function Apps() {
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="/Logo_CorellianCorp.png" />
-                <h2 className={styles.allAppsTitle}>Corellian Corp</h2>
-                <p className={styles.uxLibDisciplineDescription}>Data Collection, Information <br />management, Analytics,</p>
-              </div>
-              <div className="tablet:grid-col">
-                <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
-                <h2 className={styles.allAppsTitle}>AF GearFit</h2>
-                <p className={styles.uxLibDisciplineDescription}>Agile Combat, Data Collection</p>
-              </div>
+              <img className={styles.appsIcon} src="/Logo_CorellianCorp.png" />
+              <h2 className={styles.allAppsTitle}>Corellian Corp</h2>
+              <p className={styles.uxLibDisciplineDescription}>Data Collection, Information <br />management, Analytics,</p>
+            </div>
+            <div className="tablet:grid-col">
+              <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
+              <h2 className={styles.allAppsTitle}>AF GearFit</h2>
+              <p className={styles.uxLibDisciplineDescription}>Agile Combat, Data Collection</p>
+            </div>
               <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="/drudonna.png" />
                 <h2 className={styles.allAppsTitle}>DruDonna</h2>

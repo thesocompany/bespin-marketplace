@@ -84,7 +84,7 @@ export default function Project() {
     </>
       <main id="main-content">
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
-          <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
+          <ol className={styles.breadcrumbListFaq} >
             <li class="usa-breadcrumb__list-item">
               <a href="/" class="usa-breadcrumb__link">
                 <span>Home</span>

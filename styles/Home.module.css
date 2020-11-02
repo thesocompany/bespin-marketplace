@@ -387,6 +387,11 @@
 }
 
 .uxLibDisciplineDescription {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.appsDescription {
   text-align: center;
   padding-left: 20px;
 }

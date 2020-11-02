@@ -113,36 +113,36 @@ export default function Apps() {
               <a>
               <img className={styles.appsIcon} src="/pointsync.png" />
               <h2 className={styles.allAppsTitle}>PointSync</h2>
-              <div><p className={styles.uxLibDisciplineDescription}>Data Collection, Field<br />Operations Wearables</p></div>
+              <div><p className={styles.appsDescription}>Data Collection, Field<br />Operations Wearables</p></div>
               </a>
               </Link>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
               <h2 className={styles.allAppsTitle}>ARMS</h2>
-              <p className={styles.uxLibDisciplineDescription}>Data Collection, Information <br />management, Analytics,</p>
+              <p className={styles.appsDescription}>Data Collection, Information <br />management, Analytics,</p>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="/whatsapp.png" />
               <h2 className={styles.allAppsTitle2}>What’s Up USAFA App</h2>
-              <p className={styles.uxLibDisciplineDescription}>Social Network, Information <br />Management, Analytics,<br /></p>
+              <p className={styles.appsDescription}>Social Network, Information <br />Management, Analytics,<br /></p>
             </div>
           </div>
           <div className="grid-row margin-top-7">
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="/Logo_CorellianCorp.png" />
               <h2 className={styles.allAppsTitle}>Corellian Corp</h2>
-              <p className={styles.uxLibDisciplineDescription}>Data Collection, Information <br />management, Analytics,</p>
+              <p className={styles.appsDescription}>Data Collection, Information <br />management, Analytics,</p>
             </div>
             <div className="tablet:grid-col">
               <img className={styles.appsIcon} src="/BESPIN-Logo.png" />
               <h2 className={styles.allAppsTitle}>AF GearFit</h2>
-              <p className={styles.uxLibDisciplineDescription}>Agile Combat, Data Collection</p>
+              <p className={styles.appsDescription}>Agile Combat, Data Collection</p>
             </div>
               <div className="tablet:grid-col">
                 <img className={styles.appsIcon} src="/drudonna.png" />
                 <h2 className={styles.allAppsTitle}>DruDonna</h2>
-                <p className={styles.uxLibDisciplineDescription}>Integrated Learning</p>
+                <p className={styles.appsDescription}>Integrated Learning</p>
               </div>                                    
             </div>
             

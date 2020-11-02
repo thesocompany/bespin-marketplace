@@ -312,7 +312,7 @@
 
 .successModal {
   width: 600px;
-  height: 262px;
+  height: 300px;
   display:flex;
   position: absolute; 
   top: 25%;
@@ -320,6 +320,15 @@
   left: 30%;
   bottom: 25%;
   background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 25px;
+  -moz-border-image: url(../src/assets/images/borderimage.png) ;
+  -webkit-border-image: url(../src/assets/images/borderimage.png)  ;
+  -o-border-image: url(../src/assets/images/borderimage.png)  ;
+  border-image: url(../src/assets/images/borderimage.png) 55;
+  /* border-image: url(../src/assets/images/borderimage.png) 20 stretch;
+  border: 15px solid transparent;      	
+  padding: 5px;  */
 }
 
 .ReactModal__Overlay {

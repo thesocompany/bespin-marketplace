@@ -316,16 +316,14 @@ export default function Project() {
                   </div>
                    <div class="grid-row" id={styles.projectPageContact}>
                      <Label htmlFor="testInput">Message</Label>
-                     <TextArea className={styles.contactUsTextInput} style={{height: "70px"}}/>
+                     <TextArea className={styles.contactUsTextInput} style={{height: "70px"}} />
                   </div>      
                   <br />
                 <Button className={styles.buttonCenter}>Submit</Button>          
                 </div>
             </div>
             </div>
-
           </section>
-
 
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>

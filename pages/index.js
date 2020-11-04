@@ -58,7 +58,7 @@ export default function Home() {
                   id="testDropDownOne"
                 />
               </>,
-              <a href="/" key="two" className="usa-nav__link">
+              <a href="/" key="two" className="usa-nav__link usa-current">
                 <span>Home</span>
               </a>,
               <a href="/faq" key="three" className="usa-nav__link">

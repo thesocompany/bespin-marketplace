@@ -177,7 +177,7 @@ export default function FAQ() {
               <a href="/" key="two" className="usa-nav__link">
                 <span>Home</span>
               </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link usa-current">
                 <span>FAQ</span>
               </a>,
               <a href="/uxlibrary" key="three" className="usa-nav__link">

@@ -68,7 +68,7 @@ export default function Apps() {
               <a href="/uxlibrary" key="three" className="usa-nav__link">
               <span>UX Library</span>
             </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link usa-current">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">

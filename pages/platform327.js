@@ -164,7 +164,7 @@ export default function Platform327() {
               <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link usa-current">
               <span>Platform327</span>
             </a>,                                      
             ]}

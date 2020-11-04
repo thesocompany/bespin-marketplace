@@ -60,7 +60,7 @@ export default function Alt() {
                   id="testDropDownOne"
                 />
               </>,
-              <a href="/" key="two" className="usa-nav__link">
+              <a href="/" key="two" className="usa-nav__link usa-current">
                 <span>Home</span>
               </a>,
               <a href="/faq" key="three" className="usa-nav__link">
@@ -85,7 +85,7 @@ export default function Alt() {
       </>
 
         <main id="main-content">
-          <img src="/althome.png" style={{margin: "auto"}, {display: "block", margin: "auto"}}/>
+          <img src="/althome.png" style={{display: "block", margin: "auto"}}/>
         </main>
 
         <div className="usa-footer__primary-section">

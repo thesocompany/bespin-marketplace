@@ -66,7 +66,7 @@ export default function Uxlibrary() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="#" key="three" className="usa-nav__link usa-current">
               <span>UX Library</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">

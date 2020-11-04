@@ -216,7 +216,7 @@ export default function Platform327() {
 
                 <div className="tablet:grid-col-8">
                 <Tabs>
-                  <TabList>
+                  <TabList id="platform-tabs">
                     <Tab><span className={styles.tabLabel}>TRAINING</span></Tab>
                     <Tab><span className={styles.tabLabel}>EVENTS</span></Tab>
                   </TabList>

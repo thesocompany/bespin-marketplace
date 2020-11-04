@@ -123,3 +123,20 @@ a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+
+#platform-tabs {
+  border-bottom: 1px solid #175CA3BF;
+  margin-bottom: 0px;
+}
+
+.react-tabs__tab-panel--selected {
+  border: 1px solid #175CA3BF;
+  border-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+.react-tabs__tab--selected {
+  border-color: #175ca3bf !important;
+}

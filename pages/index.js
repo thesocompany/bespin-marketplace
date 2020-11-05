@@ -111,7 +111,7 @@ export default function Home() {
                   </li>
                   <br />
                   <li>
-                    Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation (BESPIN), an agile development lab.
+                    Platform 327 is part of the Air Force’s Business and Enterprise Systems Product Innovation (BESPIN), an agile development lab.
                   </li>
                 </ul>
               </div>

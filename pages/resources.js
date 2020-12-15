@@ -50,8 +50,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">Learning</h2>
-            <p>Apply UX principles to your project</p>
+            <h2 className="margin-top-0">Design</h2>
+            <p>Learn interactive and visual design principles</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
@@ -73,8 +73,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">Learning</h2>
-            <p>Apply UX principles to your project</p>
+            <h2 className="margin-top-0">UI Components</h2>
+            <p>Get UI kits, UX wireframes and more</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
@@ -96,8 +96,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">Learning</h2>
-            <p>Apply UX principles to your project</p>
+            <h2 className="margin-top-0">Development</h2>
+            <p>Use what you’ve learned to create digital products</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />

@@ -19,7 +19,7 @@ import classnames from 'classnames'
 export function LargeAccordionItem(props) {
     const { title, id, content, expanded, className, handleToggle, image, icon } = props
 
-    const headingClasses = classnames('usa-accordion__heading', className)
+    const headingClasses = classnames('usa-accordion__heading', className, )
     const contentClasses = classnames(
         'usa-accordion__content',
         'usa-prose',
@@ -28,6 +28,7 @@ export function LargeAccordionItem(props) {
 
     return (
         <>
+            <div className="margin-top-0">
             <h2 className={headingClasses}>
                 <button
                     id={id}
@@ -40,7 +41,7 @@ export function LargeAccordionItem(props) {
                     {
                       <div className="grid-container">
                         <div className="grid-row">
-                          <div className="grid-col-3 padding-right-5">{title}</div>
+                                <div className="grid-col-3 padding-right-5" style={{ width: "215px" }}>{title}</div>
                           <div className="grid-col-auto"><div className="">{icon}</div></div>
                           <div className="grid-col-4">{image}</div>
                         </div>
@@ -56,7 +57,8 @@ export function LargeAccordionItem(props) {
                 className={contentClasses}
                 hidden={!expanded}>
                 {content}
-            </div>
+                </div>
+          </div>
         </>
     )
 }

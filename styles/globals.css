@@ -1,4 +1,3 @@
-
 html,
 body {
   padding: 0;
@@ -17,70 +16,62 @@ a {
 }
 
 #one {
-  background-color: #7E48CE;
-
+  background-color: #7e48ce;
 }
 
 #accordion-body_one {
-  border: 2px solid #7E48CE;
+  border: 2px solid #7e48ce;
   opacity: 1;
-
 }
 
 #two {
-  background-color: #5B60D6
+  background-color: #5b60d6;
 }
 
 #accordion-body_two {
-  border: 2px solid #7E48CE;
+  border: 2px solid #7e48ce;
   opacity: 1;
-
 }
 
 #three {
-  background-color: #3877DD
+  background-color: #3877dd;
 }
 
 #accordion-body_three {
-  border: 2px solid #3877DD;
+  border: 2px solid #3877dd;
   opacity: 1;
-
 }
 #four {
-  background-color: #168DE4
+  background-color: #168de4;
 }
 
 #accordion-body_four {
-  border: 2px solid #168DE4;
+  border: 2px solid #168de4;
   opacity: 1;
-
 }
 #five {
-  background-color: #07A1E7
+  background-color: #07a1e7;
 }
 
 #accordion-body_five {
-  border: 2px solid #07A1E7;
+  border: 2px solid #07a1e7;
   opacity: 1;
-
 }
 #six {
-  background-color: #15B2E5
+  background-color: #15b2e5;
 }
 
 #accordion-body_six {
-  border: 2px solid #15B2E5;
+  border: 2px solid #15b2e5;
   opacity: 1;
-
 }
 #seven {
-  background-color: #28C7E1
+  background-color: #28c7e1;
 }
 
 #accordion-body_seven {
-  border: 2px solid #28C7E1;
+  border: 2px solid #28c7e1;
   opacity: 1;
-
 }
 
 #footerText {
@@ -108,10 +99,9 @@ a {
   padding: 1rem 3.5rem 1rem 1.25rem;
   text-decoration: none;
   width: 100%;
-  
 }
 
-.usaf-accordion__button[aria-expanded=false] {
+.usaf-accordion__button[aria-expanded='false'] {
   background-image: url(/plus.svg);
   background-repeat: no-repeat;
   background-size: 1rem;
@@ -119,19 +109,75 @@ a {
 }
 
 .usaf-accordion__button:hover {
-    background-color: #dfe1e2;
-    color: #FFFFFF;
-    text-decoration: none;
+  background-color: #dfe1e2;
+  color: #ffffff;
+  text-decoration: none;
 }
 
+.usaf-accordion__button {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  background-image: url(/minus.svg);
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  background-position: right 1.25rem center;
+  background-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  padding: 1rem 3.5rem 1rem 1.25rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.usaf-large-accordion__button[aria-expanded='false'] {
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-color: #f0f0f0;
+}
+
+.usaf-large-accordion__button:hover {
+  background-color: #dfe1e2;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.usaf-large-accordion__button {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  background-position: right 1.25rem center;
+  background-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  padding: 1rem 3.5rem 1rem 1.25rem;
+  text-decoration: none;
+  width: 100%;
+}
 
 #platform-tabs {
-  border-bottom: 1px solid #175CA3BF;
+  border-bottom: 1px solid #175ca3bf;
   margin-bottom: 0px;
 }
 
 .react-tabs__tab-panel--selected {
-  border: 1px solid #175CA3BF;
+  border: 1px solid #175ca3bf;
   border-top: 0px;
   padding-bottom: 30px;
   margin-bottom: 0px;

@@ -7,7 +7,7 @@ import classnames from 'classnames'
 //   expanded: boolean
 //   id: string
 //   className?: string
-//   handleToggle?: (event: React.MouseEvent<HTMLButtonElement>) => void
+//   toggleItem?: (event: React.MouseEvent<HTMLButtonElement>) => void
 // }
 
 // interface AccordionProps {
@@ -32,17 +32,17 @@ export function LargeAccordionItem(props) {
                 <button
                     id={id}
                     type="button"
-                    className="usaf-accordion__button"
+                    className="usaf-large-accordion__button"
                     aria-expanded={expanded}
                     aria-controls={id}
                     data-testid={`accordionButton_${id}`}
                     onClick={handleToggle}>  
                     {
-                      <div class="grid-container">
-                        <div class="grid-row">
-                          <div class="tablet:grid-col">{title}</div>
-                          <div class="tablet:grid-col">{description}</div>
-                          <div class="tablet:grid-col">{image}</div>
+                      <div className="grid-container">
+                        <div className="grid-row">
+                          <div className="grid-col-3 padding-right-5">{title}</div>
+                          <div className="grid-col-auto">{description}</div>
+                          <div className="grid-col-4">{image}</div>
                         </div>
                       </div>
                     }
@@ -85,7 +85,6 @@ export function LargeAccordion(props) {
         } else {
             newOpenItems.push(itemId)
         }
-
         setOpenState(newOpenItems)
     }
 

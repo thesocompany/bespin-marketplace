@@ -33,7 +33,7 @@ export default function Resources() {
         ),
       description: (<img className={styles.appsIcon} src="/drudonna.png" />
       ), 
-      image: (<img className={styles.appsIcon} src="/resources/learning-desk.svg" />
+      image: (<img className={styles.appsIcon} src="/resources/learning-desk.png" />
       ),
       content: (
         <div class="grid-container">

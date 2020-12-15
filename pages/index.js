@@ -37,7 +37,7 @@ export default function Home() {
           <div className="usa-navbar">
           <div className="grid-row margin-bottom-3">
             <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Marketplace</a></span></div>          </div>  
+            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Platform 32</a></span></div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
@@ -64,8 +64,8 @@ export default function Home() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="/uxlibrary" key="three" className="usa-nav__link">
-              <span>UX Library</span>
+              <a href="/resources" key="three" className="usa-nav__link">
+              <span>Resources</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>

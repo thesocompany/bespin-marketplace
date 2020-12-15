@@ -18,11 +18,128 @@ import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
 // import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
+import LargeAccordion from '../src/components/LargeAccordion'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
-export default function Uxlibrary() {
+
+export default function Resources() {
+    const resourceAccordionItems = [
+    {
+      title: 'Learning',
+      description: 'Apply UX principles to your project', 
+      image: (<img className={styles.appsIcon} src="/pointsync.png" />
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">col one</div>
+            <div class="tablet:grid-col">col two</div>
+            <div class="tablet:grid-col">col three</div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'one',
+    },
+    {
+      title: 'I am a new UX designer for my project team; how can Platform 327 help my team and me?',
+      content: (
+        <>
+        <p>
+          Platform 327 offers a UX Skills Assessment to identify strengths, priorities and interests 
+          and determine areas where you can grow to make the most impact. Our Introduction to UX training 
+          prepares designers to create effective and efficient products that meet the user’s needs. 
+          Our UX Library includes a category specifically dedicated to designers, as well as a bank of 
+          additional learning resources.
+        </p>
+        </>
+      ),
+      expanded: false,
+      id: 'two',
+    },
+    {
+      title: 'How can you sign up for sessions?',
+      content: (
+        <p>
+          Visit the Platform 327 page. This will tell you where to start. Select the course you’re 
+          interested in and fill out the form.
+        </p>
+      ),
+      expanded: false,
+      id: 'three',
+    },
+    {
+      title: 'What is UX Skills Assessment, and why should I consider taking one?',
+      content: (
+        <p>
+          A UX Skills Assessment will help identify strengths, priorities and interests. 
+          It also identifies areas for growth so that you and your team can make the most 
+          impact. 
+          <br />
+          <br />
+          Human-centered product design can require a broad range of skills, including
+          usability testing, information architecture and visual design. Our skills assessment 
+          will help ensure your team has all the necessary skills to succeed.
+        </p>
+      ),
+      expanded: false,
+      id: 'four',
+    },
+    {
+      title: 'What resources are available for UX designers, engineers and project teams?',
+      content: (
+        <p>
+          Check out our BESPIN Apps page and see recent apps developed by designers within BESPIN, 
+          and look at the BESPIN Ecosystem and Case Studies for best UX practices from those projects.
+          <br />
+          <br />
+ 
+          You can also go to our contact page and submit a request for a UX designer or UX design team 
+          for your project.The Platform 327 studio team will get back to you soon for next steps and 
+          recommendations.
+        </p>
+      ),
+      expanded: false,
+      id: 'five',
+    },
+    {
+      title: 'How are Platform 327 and Air Force BESPIN related?',
+      content: (
+        <p>
+          Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation 
+          (BESPIN) at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
+          quickly implement ideas aimed at improving mission support capabilities. 
+          <br />
+          <br />
+          Platform 327 is a virtual schoolhouse for designers, developers and cross-functional teams learning to 
+          create the digital solutions that will ultimately improve the lives of airmen and women.
+        </p>
+      ),
+      expanded: false,
+      id: 'six',
+    },
+    {
+      title: 'I am from an AF Base and/or from another DoD unit interested in finding a team with design and UX capabilities; how can I find a project team?',
+      content: (
+        <p>
+          For UX designers, check out our UX Library page, which houses design and UX resources, 
+          the BESPIN Design System, a link to core Digital UX courses and tracks, and UX toolkits.
+        <br />
+        <br />
+
+          For engineers and project teams, we’ve put together toolkits and guides on how to implement 
+          basic UX practices and testing for design projects. We also provide ongoing workshops and 
+          events on Platform 327.
+        </p>
+      ),
+      expanded: false,
+      id: 'seven',
+    },
+  ]
+
   return (
     // <div className={styles.container}>
+    
     <>
       <Head>
         <title>BESPIN Marketplace</title>
@@ -100,7 +217,7 @@ export default function Uxlibrary() {
           </ol>
         </nav>    
 
-        <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
+        {/* <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
           <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
           <div className="grid-row margin-top-7">
@@ -150,6 +267,15 @@ export default function Uxlibrary() {
               </a>
               </Link>
             </div>
+          </div>
+        </section> */}
+        <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
+          <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
+          <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
+
+          <div className="grid-row margin-top-7">
+            <LargeAccordion bordered={false} items={resourceAccordionItems} />
+
           </div>
         </section>
         <div className="grid-container usa-footer__return-to-top">

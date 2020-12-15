@@ -186,3 +186,10 @@ a {
 .react-tabs__tab--selected {
   border-color: #175ca3bf !important;
 }
+
+.accordion-large-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}

@@ -1,0 +1,898 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.heroSection {
+    font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    padding-bottom: 20rem;
+    padding-top:20rem;
+    background-image: url(../src/assets/images/hero-hands.png);
+    background-position: center;
+    background-size: cover;
+    /* color: #fff; */
+}
+
+.buttonCenter {
+  display: block !important; 
+  margin: auto !important;
+}
+
+.test {
+  background-color: red;
+}
+
+.partnersSection {
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  background-color: #F0F0F0;
+}
+
+.usa-textarea {
+  height: 6rem;
+}
+
+.heroSection {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  background-image: url(../src/assets/images/hero-hands.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.footerTitle {
+  font-family: Prometo;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 40px;
+  color:#FFFFFF
+}
+
+.headerLogo {
+  height: 80px;
+  padding-top: 25px;
+}
+
+
+.headerTitle {
+  padding-left: 30px;
+  text-shadow: 0px 2px 4px #2C2C2C93;
+  opacity: 1;
+  font: normal normal bold 28px/33px Public Sans;
+  margin-bottom: 2px;
+}
+
+.navTitle {
+  font-family: Prometo;
+  font-weight: bold;
+  font-size: 23px;
+  color: #01103f
+}
+
+.heroIntro {
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  color: #F6F6F6;
+  text-shadow: 0px 2px 4px #2C2C2C93;
+  padding-left: 30px;
+}
+
+.sectionHeading {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
+  color: #01103F;
+
+}
+
+.sectionSubheading {
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  color: #01103F;
+  text-align: center;
+
+
+}
+
+.contactTextArea {
+  max-height: 100px;
+}
+
+.breadcrumbList {
+  margin-left: 12.5rem;
+}
+
+.breadcrumbListFaq {
+  margin-left: 12.5rem;
+  margin-bottom: 0;
+}
+.contactUsTextInput {
+  max-width: 200rem;
+}
+
+.oneandhalf {
+  line-height: 1.3em;
+  margin-top: 33px
+}
+
+.signupTextArea {
+  max-width: 36rem;
+}
+
+.formCheckboxes {
+  display: inline-block;
+}
+
+.eventDescription {
+  /* font: italic normal normal 14px/16px Public Sans;
+  color: #171717;
+  max-width: 253px;
+  margin-bottom: .5rem; */
+  padding-left: 9px;
+}
+
+
+.eventTitle {
+  margin-top: 0.5rem;
+}
+.eventTitle:hover {
+  text-decoration: underline;
+}
+
+.tabsComponent {
+  border: 1px solid #175CA3BF
+}
+
+.eventModal {
+  width: 880px;
+  height: 547px;
+  display:flex;
+  position: absolute; 
+  top: 15%;
+  right: 15%;
+  left: 20%;
+  bottom: 30%;
+  background-color: #FFFFFF;
+  border-image: url(../public/guy.png) 30 solid;
+  border: 10px solid url(/public/border.png);
+  /* padding: 15px */
+}
+
+.modalCloseButton {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  height: 16px;
+  width: 16px;
+}
+
+.modalTitle {
+  font-family: Prometo;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.successModalButton {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.successModalCaption {
+  /* margin-left:auto;
+  margin-right:auto; */
+}
+
+.successModal {
+  width: 600px;
+  height: 300px;
+  display:flex;
+  position: absolute; 
+  top: 25%;
+  right: 25%;
+  left: 30%;
+  bottom: 25%;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 15px;
+  -moz-border-image: url(../src/assets/images/borderimage.png) ;
+  -webkit-border-image: url(../src/assets/images/borderimage.png)  ;
+  -o-border-image: url(../src/assets/images/borderimage.png)  ;
+  border-image: url(../src/assets/images/borderimage.png) 100;
+  /* border-image: url(../src/assets/images/borderimage.png) 20 stretch;
+  border: 15px solid transparent;      	
+  padding: 5px;  */
+}
+
+.ReactModal__Overlay {
+  background-color: #323A45CC;
+}
+
+
+.successModalCloseButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 16px;
+  width: 16px;
+}
+
+.tabLabel {
+  font-family: Public Sans;  
+  color: #52687C80;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #52687C80;
+  opacity: 1;
+}
+
+.headingTitle {
+  text-align: center;
+}
+
+.appsIcon {
+  display:block;
+  margin:auto;
+}
+
+
+.uxLibrarySectionHeading {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
+  color: #01103F
+}
+
+
+.uxLibrarySectionSubheading {
+  margin-top: 5px;
+  color: #01103F;
+  text-align: center;
+}
+
+.uxLibraryTitle {
+  color: #FFFFFF;
+  text-align: left;
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  padding-left: 20px;
+}
+
+.uxLibDisciplineDescription {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.appsDescription {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.allAppsTitle {
+  color: #01103F;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+
+.appPageBox {
+  background-color: #01103F;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.projectPageImage {
+  margin: 0 auto;
+  padding: 20px;
+  /* display:block;
+  margin-left:auto;
+  margin-right:auto; */
+}
+
+.projectPageBodyImg {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.projectPageBodyText {
+  text-align: left;
+  font: normal normal normal 16px/25px Public Sans;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
+}
+
+.appPageDownloadButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.thisisatest {
+  /* background-color: #F0F0F0; */
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  height: 369px;
+  background-image: url("../public/project-center-background.png")
+}
+
+
+.projectCenterTitle {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.projectCenterIconText {
+  font: normal normal bold 16px/19px Public Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+.projectSubheading {
+  margin-top: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: Public Sans;
+  opacity: 1;
+
+}
+
+.paragraphImg {
+  float: left;
+  padding-right: 25px;
+}
+
+.paragraphImg2 {
+  float: right;
+  padding-left: 25px;
+}
+
+.projectLowerDownloadBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.projectLowerDownloadBtnActual {
+  font-size: 22px;
+  width: 161px;
+  height: 62px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+
+.user {
+  width: 200px;
+  height: 200px;
+  border: 24px solid #F1F9FF;
+  border-radius: 50%;
+  background-color: #F1F9FF;
+  position: relative;
+  overflow: hidden;
+}
+
+.user::before {
+  content : '';
+  display: block;
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+}
+
+.user::after {
+  content : '';
+  display: block;
+  width: 120px;
+  height:150px;
+  background:#fff;
+  border-radius:50%;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translateX(-50%);
+}
+
+.mapImage {
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.piechart {
+	background:
+		conic-gradient(
+			#2699FB 0,
+			#2699FB 40%,
+			#BCE0FD 0,
+			#BCE0FD 100%
+	);
+  border-radius: 50%;
+	position: relative;
+	width: 142px;
+  min-height: 142px;
+  margin: 20px auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.partnersSectionHeading {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: center;
+    color: #01103F
+}
+
+.homeContactTextArea {
+  max-height: 4rem;
+}
+
+.platform327HeroSection {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 11rem;
+  padding-top: 11rem;
+  background-image: url(../src/assets/images/platform327-header.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.platformHeaderTitle {
+  padding-left: 30px;
+  text-shadow: 0px 2px 4px #2C2C2C93;
+  opacity: 1;
+  font: normal normal bold 36px/33px Public Sans;
+  margin-bottom: 2px;
+}
+
+.platform327uXEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/uxintro.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.platform327DesignEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/designevent.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.platform327UTEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/usertesting.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.platform327AdobeEvent {
+  font-family: Public Sans;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/adobeevent.png);
+  background-position: center;
+  background-size: cover;
+  height: 201px;
+  width: 262px;
+  color: #FFFFFF;
+}
+
+.eventBoxTitle {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font: normal normal 800 18px/21px Public Sans;
+  text-decoration: underline;
+  padding-top: 23px;
+  padding-left: 9px;
+  margin-top: 0px
+}
+
+.footerbar {
+  background: transparent url('../src/assets/images/footerbar.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.footerText {
+  color: white !important
+}
+
+.socialLinks {
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkFacebook {
+  background-image: url(../public/facebook25.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkTwitter {
+  background-image: url(../public/twitter16.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.25rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkLinkedin {
+  background-image: url(../public/linkedin.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.socialLinkRss {
+  background-image: url(../src/assets/images/rss25.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.5rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
+.allAppsTitle2 {
+  color: #01103F;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+
+.allAppsHero {
+  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 10rem;
+  padding-top:10rem;
+  background-image: url(../src/assets/images/appsHeroImage.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.homeBoxMissonCollabImg {
+  width: 470px;  
+  height: 313.69px;
+  background-image: url(../src/assets/images/collab.png);
+  backdrop-filter: blur(55px);
+}
+
+.homeBoxMissonWelcome {
+  width: 470px;  
+  height: 313.69px;
+  background-color: #446EDA;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 16px/25px Public Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.homeBoxTitle {
+  text-align: left;
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding: 19px 19px 0px 19px;
+  margin: 19px 19px 0px 0px
+}
+
+.homeBoxEcosystemMsg {
+  width: 470px;  
+  height: 313.69px;
+  background-color: #FFFFFF;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 16px/25px Public Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.homeBoxEcosystemTitle {
+  text-align: left;
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding: 19px 19px 0px 19px;
+  margin: 19px 19px 0px 0px
+}
+
+.homeBoxMissonFaceMonitorImg {
+  width: 470px;  
+  height: 313.69px;
+  background-image: url(../src/assets/images/facemonitor.png);
+}
+
+.h1Title {
+  color: #01103F;
+  font: normal normal bold 28px/33px Public Sans;
+}
+
+.homeBoxJoinImg {
+  width: 390px;  
+  height: 390px;
+  /* background-image: url(../src/assets/images/joindrawing.svg); */
+}
+
+.projectTeamTitle {
+  text-align: left;
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.projectTeamDescription {
+  font-size: 14px;
+
+}
+
+.projectTeamAddress{
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+#uxLearning {
+  font-family: Public Sans;
+  font-size: 14px;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/ux-learning.png);
+  background-position: center;
+  color: #FFFFFF;
+  width: 325px;
+  height: 337px;
+  display: block;
+  margin-left: auto;
+  margin-right: 22.5px;
+}
+
+#uxDesign {
+  font-family: Public Sans;
+  font-size: 14px;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/ux-design.png);
+  background-position: center;
+  color: #FFFFFF;
+  width: 325px;
+  height: 337px;
+  display: block;
+  margin-left: 22.5px;
+  margin-right: auto;
+  text-align: left;
+}
+
+#uxDevelopment {
+  font-family: Public Sans;
+  font-size: 14px;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/ux-development.png);
+  background-position: center;
+  color: #FFFFFF;
+  width: 325px;
+  height: 337px;
+  display: block;
+  margin-left: auto;
+  margin-right: 22.5px;
+  text-align: left;
+}
+
+
+#uxUIcomponents {
+  font-family: Public Sans;
+  font-size: 14px;
+  line-height: 1.5;
+  background-image: url(../src/assets/images/ux-uicomponents.png);
+  background-position: center;
+  color: #FFFFFF;
+  width: 325px;
+  height: 337px;
+  display: block;
+  margin-left: 22.5px;
+  margin-right: auto;
+  text-align: left;
+  /* width: 50%; */
+}
+
+.uxLibraryBoxText {
+  margin-top: 0px;
+  padding-top: 8px;
+  text-align: left;
+}
+
+.link {
+  text-decoration: underline;
+  font: normal normal normal 16px/18px Public Sans;
+  letter-spacing: 0px;
+  color: #009CE9;
+}

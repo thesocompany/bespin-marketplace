@@ -251,7 +251,7 @@ export default function Resources() {
           </div>
         </section> */}
         <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
-          <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
+          <h1 className={styles.uxLibrarySectionHeading}>Resources</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
 
           <div className="grid-row margin-top-7">

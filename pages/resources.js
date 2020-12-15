@@ -25,9 +25,15 @@ import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 export default function Resources() {
     const resourceAccordionItems = [
     {
-      title: 'Learning',
-      description: 'Apply UX principles to your project', 
-      image: (<img className={styles.appsIcon} src="/pointsync.png" />
+        title: (
+          <>
+            <h2>Learning</h2>
+            <p>Apply UX principles to your project</p>
+          </>
+        ),
+      description: (<img className={styles.appsIcon} src="/drudonna.png" />
+      ), 
+      image: (<img className={styles.appsIcon} src="/resources/learning-desk.svg" />
       ),
       content: (
         <div class="grid-container">

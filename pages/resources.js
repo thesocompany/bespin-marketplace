@@ -54,9 +54,9 @@ export default function Resources() {
             <p>Learn interactive and visual design principles</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
+        icon: (<img className="margin-top-205" src="/resources/design-icon.png" />
       ), 
-      image: (<img className={styles.appsIcon} src="/resources/learning-desk.png" />
+      image: (<img className={styles.appsIcon} src="/resources/design-board.svg" />
       ),
       content: (
         <div class="grid-container">
@@ -77,9 +77,9 @@ export default function Resources() {
             <p>Get UI kits, UX wireframes and more</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
+        icon: (<img className="margin-top-205" src="/resources/UIComponents-icon.png" />
       ), 
-      image: (<img className={styles.appsIcon} src="/resources/learning-desk.png" />
+      image: (<img className={styles.appsIcon} src="resources/uicomponents-ladder.svg" />
       ),
       content: (
         <div class="grid-container">
@@ -100,9 +100,9 @@ export default function Resources() {
             <p>Use what you’ve learned to create digital products</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
+        icon: (<img className="margin-top-205" src="/resources/development-icon.png" />
       ), 
-      image: (<img className={styles.appsIcon} src="/resources/learning-desk.png" />
+      image: (<img className={styles.appsIcon} src="resources/development-puzzle.svg" />
       ),
       content: (
         <div class="grid-container">

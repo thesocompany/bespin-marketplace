@@ -28,9 +28,10 @@ export function LargeAccordionItem(props) {
 
     return (
         <>
-            <div className="margin-top-0">
-            <h2 className={headingClasses}>
+            <div className="margin-top-0" >
+            <h2 className={headingClasses} >
                 <button
+                    style={{height: "169px"}}
                     id={id}
                     type="button"
                     className="usaf-large-accordion__button"

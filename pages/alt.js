@@ -117,24 +117,16 @@ export default function Alt() {
               </div>
               <div className="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div className="usa-footer__social-links grid-row grid-gap-1">
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkFacebook} href="#">
-                      <span>Facebook</span>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkTwitter} href="#">
-                      <span>Twitter</span>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="#">
-                      <span>YouTube</span>
-                    </a>
-                  </div>
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkRss} href="#">
-                      <span>RSS</span>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>

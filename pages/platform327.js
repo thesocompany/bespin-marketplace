@@ -357,16 +357,15 @@ export default function Platform327() {
               <div class="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div class="usa-footer__social-links grid-row grid-gap-1">
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkFacebook} href="javascript:void(0);">
-                      <span>Facebook</span>
+                    <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
+                    <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkYoutube} href="javascript:void(0);">
+                    <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>

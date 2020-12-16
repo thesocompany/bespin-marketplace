@@ -194,17 +194,16 @@ export default function Contact() {
               </div>
               <div className="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div className="usa-footer__social-links grid-row grid-gap-1">
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkFacebook} href="#">
-                      <span>Facebook</span>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
+                    <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkYoutube} href="javascript:void(0);">
+                    <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>

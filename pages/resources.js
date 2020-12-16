@@ -28,8 +28,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">Learning</h2>
-            <p>Apply UX principles to your project</p>
+            <h2 className={styles.accordionLargeKeyTitle}>Learning</h2>
+            <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
@@ -71,8 +71,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">Design</h2>
-            <p>Learn interactive and visual design principles</p>
+            <h2 className={styles.accordionLargeKeyTitle}>Design</h2>
+            <p className={styles.accordionLargeKeyDescription}>Learn interactive and visual design principles</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/design-icon.png" />
@@ -109,8 +109,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">UI Components</h2>
-            <p>Get UI kits, UX wireframes and more</p>
+            <h2 className={styles.accordionLargeKeyTitle}>UI Components</h2>
+            <p className={styles.accordionLargeKeyDescription}>Get UI kits, UX wireframes and more</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/UIComponents-icon.png" />
@@ -144,8 +144,8 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className="margin-top-0">Development</h2>
-            <p>Use what you’ve learned to create digital products</p>
+            <h2 className={styles.accordionLargeKeyTitle}>Development</h2>
+            <p className={styles.accordionLargeKeyDescription}>Use what you’ve learned to create digital products</p>
           </>
         ),
         icon: (<img className="margin-top-205" src="/resources/development-icon.png" />
@@ -358,15 +358,15 @@ export default function Resources() {
               <div class="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div class="usa-footer__social-links grid-row grid-gap-1">
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkFacebook} href="javascript:void(0);">
+                    <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
+                    <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkYoutube} href="javascript:void(0);">
+                    <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>

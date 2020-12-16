@@ -18,7 +18,7 @@ import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import Accordion from '../src/components/Accordion'
-import { faqData } from './data/faqData'
+import faqData from './data/faqData'
 
 export default function FAQ() {
 
@@ -111,7 +111,7 @@ export default function FAQ() {
           <div class="grid-container">
               <h1 className="text-center margin-top-0">FAQ</h1>
             <div class="grid-row margin-x-9 margin-bottom-6">              
-              <Accordion bordered={false} items={faqData} />
+              <Accordion bordered={false} items={faqData()} />
             </div>
           </div>
         </section>    

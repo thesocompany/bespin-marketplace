@@ -1,4 +1,6 @@
-  export const faqData = [
+export default function faqData() {
+
+  let data = [
     {
       title: 'What is Platform 327, and how does it help design teams?',
       content: (
@@ -110,3 +112,6 @@
       id: 'seven',
     },
   ]
+
+  return data;
+}

@@ -20,7 +20,7 @@ import TextArea from '../src/components/TextArea'
 // import FooterNav from '../src/components/FooterNav'
 import LargeAccordion from '../src/components/LargeAccordion'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
-import { resourceAccordionItems } from './data/resourcesData';
+import resourceAccordionItems from './data/resourcesData';
 
 
 export default function Resources() {
@@ -170,7 +170,7 @@ export default function Resources() {
           <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
 
           <div className="grid-row margin-top-7">
-            <LargeAccordion bordered={false} items={resourceAccordionItems} />
+            <LargeAccordion bordered={false} items={resourceAccordionItems()} />
 
           </div>
         </section>

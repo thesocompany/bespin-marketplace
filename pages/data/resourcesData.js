@@ -2,7 +2,8 @@
 import styles from '../../styles/Home.module.css'
 
 
-export const resourceAccordionItems = [
+export default function resourceAccordionItems() {
+  const data = [
     {
       title: (
           <>
@@ -152,4 +153,6 @@ export const resourceAccordionItems = [
       expanded: false,
       id: 'seven',
     }
-  ]
+  ] 
+  return data;
+} 

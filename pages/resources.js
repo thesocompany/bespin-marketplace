@@ -39,7 +39,7 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img src="/resources/content-design-icon.png" />
+              <img src="/resources/content-learning-icon.png" />
               <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
               <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
                 <ul className="padding-left-205">
@@ -50,13 +50,13 @@ export default function Resources() {
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img src="/resources/content-design-icon.png" />
+              <img src="/resources/content-learning-icon.png" />
               <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
               <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img src="/resources/content-design-icon.png" />
+              <img src="/resources/content-learning-icon.png" />
               <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
               <p className="font-body-3xs margin-top-05">All in one toolkit for everything <br />related to user experience interviews
               </p>
@@ -81,9 +81,24 @@ export default function Resources() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col"><img className="margin-top-205" src="/resources/content-design-icon.png" /></div>
-            <div class="tablet:grid-col">col two</div>
-            <div class="tablet:grid-col">col three</div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
+              <p className="font-body-3xs margin-top-05">Make sure that all design<br /> elements in UI are spot on
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
+              <p className="font-body-3xs margin-top-05">Quick guide on going over your<br /> design features
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Interaction Templates</p>
+              <p className="font-body-3xs margin-top-05">For mobile design, quick <br /> interactions to go
+              </p>
+            </div>
           </div>
         </div>
       ),
@@ -104,9 +119,21 @@ export default function Resources() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">col one</div>
-            <div class="tablet:grid-col">col two</div>
-            <div class="tablet:grid-col">col three</div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-uicomp-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UI Components</p>
+              <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (Figma File)
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-uicomp-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Core Design System</p>
+              <p className="font-body-3xs margin-top-05">This Storybook hub breaks down<br /> the all CSS and HTML code
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+            </div>
+
           </div>
         </div>
       ),
@@ -127,9 +154,19 @@ export default function Resources() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">col one</div>
-            <div class="tablet:grid-col">col two</div>
-            <div class="tablet:grid-col">col three</div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
+              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
+              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              </p>
+            </div>
+            <div class="tablet:grid-col"></div>
           </div>
         </div>
       ),

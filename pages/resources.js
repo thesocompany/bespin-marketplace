@@ -222,7 +222,7 @@ export default function Resources() {
                 <span>FAQ</span>
               </a>,
               <a href="#" key="three" className="usa-nav__link usa-current">
-              <span>UX Library</span>
+              <span>Resources</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>
@@ -249,7 +249,7 @@ export default function Resources() {
             </li>
             <li class="usa-breadcrumb__list-item">
               <a href="#" class="usa-breadcrumb__link">
-                <span>UX Library & Resources</span>
+                <span>Resources</span>
               </a>
             </li>
           </ol>

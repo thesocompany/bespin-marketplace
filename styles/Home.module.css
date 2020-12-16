@@ -699,6 +699,17 @@
   display: inline-block;
 }
 
+.socialLinkYoutube {
+  background-image: url(../public/youtube.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 3rem;
+  background-position: center center;
+  background-size: auto 1.2rem;
+  background-color: #1a1a1a;
+  display: inline-block;
+}
+
 .allAppsTitle2 {
   color: #01103f;
   text-align: center;

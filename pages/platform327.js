@@ -172,7 +172,7 @@ export default function Platform327() {
               <span>Apps</span>
             </a>,
               <a href="#" key="three" className="usa-nav__link  usa-current">
-              <span>Platform327</span>
+              <span>Enroll Now</span>
             </a>,                                      
             ]}
             mobileExpanded={null}

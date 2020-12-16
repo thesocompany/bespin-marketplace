@@ -80,7 +80,7 @@ export default function Contact() {
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
-              <span>Platform327</span>
+              <span>Enroll Now</span>
             </a>,                                      
             ]}
             mobileExpanded={null}

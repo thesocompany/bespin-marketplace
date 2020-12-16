@@ -20,7 +20,7 @@ import TextArea from '../src/components/TextArea'
 // import FooterNav from '../src/components/FooterNav'
 import LargeAccordion from '../src/components/LargeAccordion'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
-import { resourceAccordionItems } from './resourcesData';
+import { resourceAccordionItems } from './data/resourcesData';
 
 
 export default function Resources() {
@@ -86,7 +86,7 @@ export default function Resources() {
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
-              <span>Platform327</span>
+              <span>Enroll Now</span>
             </a>,                                      
             ]}
             mobileExpanded={null}
@@ -209,17 +209,14 @@ export default function Resources() {
                 <div class="usa-footer__social-links grid-row grid-gap-1">
                   <div class="grid-col-auto">
                     <a className={styles.socialLinkFacebook} href="javascript:void(0);">
-                      {/* <span>Facebook</span> */}
                     </a>
                   </div>
                   <div class="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
-                      {/* <span>YouTube</span> */}
                     </a>
                   </div>
                   <div class="grid-col-auto">
                     <a className={styles.socialLinkYoutube} href="javascript:void(0);">
-                      {/* <span>YouTube</span> */}
                     </a>
                   </div>
                 </div>

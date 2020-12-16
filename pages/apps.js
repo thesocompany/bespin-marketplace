@@ -72,14 +72,14 @@ export default function Apps() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="/resources" key="three" className="usa-nav__link">
               <span>Resources</span>
             </a>,
-              <a href="/apps" key="three" className="usa-nav__link usa-current">
+              <a href="#" key="three" className="usa-nav__link usa-current">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
-              <span>Platform327</span>
+              <span>Enroll Now</span>
             </a>,                                      
             ]}
             mobileExpanded={null}

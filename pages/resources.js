@@ -192,9 +192,9 @@ export default function Resources() {
       <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-          <div className="grid-row margin-bottom-3">
+          <div className="grid-row margin-bottom-3" style={{width: '243px'}}>
             <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Marketplace</a></span></div>          </div>  
+            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN{<br />}Platform327</a></span></div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
@@ -374,10 +374,10 @@ export default function Resources() {
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
+                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
-                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>
                 </address>

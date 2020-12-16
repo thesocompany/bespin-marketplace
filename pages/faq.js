@@ -148,12 +148,19 @@ export default function FAQ() {
     <>
     <GovBanner />
     <div className='usa-overlay' ></div>
-    <Header basic={true}>
+      <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-          <div className="grid-row margin-bottom-3">
-            <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Marketplace</a></span></div>          </div>  
+          <div className="grid-row margin-bottom-3" style={{width: '243px'}}>
+            <div
+              className="grid-col-auto"
+              className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a>
+            </div>
+            <div
+              className="grid-col-auto"
+              className={styles.oneandhalf}>
+              <span className={styles.navTitle}><a href="/">BESPIN{<br />}Platform 327</a></span>
+            </div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
@@ -177,11 +184,11 @@ export default function FAQ() {
               <a href="/" key="two" className="usa-nav__link">
                 <span>Home</span>
               </a>,
-              <a href="#" key="three" className="usa-nav__link usa-current">
+              <a href="/faq" key="three" className="usa-nav__link usa-current">
                 <span>FAQ</span>
               </a>,
-              <a href="/uxlibrary" key="three" className="usa-nav__link">
-              <span>UX Library</span>
+              <a href="#" key="three" className="usa-nav__link">
+              <span>Resources</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>

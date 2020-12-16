@@ -44,8 +44,15 @@ export default function Resources() {
         <div className="usa-nav-container">
           <div className="usa-navbar">
           <div className="grid-row margin-bottom-3" style={{width: '243px'}}>
-            <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN{<br />}Platform327</a></span></div>          </div>  
+            <div
+              className="grid-col-auto"
+              className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a>
+            </div>
+            <div
+              className="grid-col-auto"
+              className={styles.oneandhalf}>
+              <span className={styles.navTitle}><a href="/">BESPIN{<br />}Platform 327</a></span>
+            </div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
@@ -211,7 +218,7 @@ export default function Resources() {
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
+                    <a className={styles.socialLinkYoutube} href="javascript:void(0);">
                       {/* <span>YouTube</span> */}
                     </a>
                   </div>

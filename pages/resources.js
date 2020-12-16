@@ -38,7 +38,17 @@ export default function Resources() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">col one</div>
+            <div class="tablet:grid-col">
+              <img className="margin-top-205" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
+              <p className="font-body-3xs">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="">Design Track 1</a></li>
+                  <li><a className={styles.accordionLink} href=""> Design Track 2</a></li>
+                  <li><a className={styles.accordionLink} href="">Design Track 3</a></li>
+                </ul>
+              </p>
+            </div>
             <div class="tablet:grid-col">col two</div>
             <div class="tablet:grid-col">col three</div>
           </div>
@@ -61,7 +71,7 @@ export default function Resources() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">col one</div>
+            <div class="tablet:grid-col"><img className="margin-top-205" src="/resources/content-design-icon.png" /></div>
             <div class="tablet:grid-col">col two</div>
             <div class="tablet:grid-col">col three</div>
           </div>

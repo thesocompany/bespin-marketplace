@@ -122,19 +122,20 @@
 }
 
 .heroSection {
-    font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    font-size: 1.06rem;
-    line-height: 1.5;
-    padding-bottom: 20rem;
-    padding-top:20rem;
-    background-image: url(../src/assets/images/hero-hands.png);
-    background-position: center;
-    background-size: cover;
-    /* color: #fff; */
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.5;
+  padding-bottom: 20rem;
+  padding-top: 20rem;
+  background-image: url(../src/assets/images/hero-hands.png);
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
 }
 
 .buttonCenter {
-  display: block !important; 
+  display: block !important;
   margin: auto !important;
 }
 
@@ -145,7 +146,7 @@
 .partnersSection {
   padding-bottom: 4rem;
   padding-top: 2rem;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .usa-textarea {
@@ -153,7 +154,8 @@
 }
 
 .heroSection {
-  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
   font-size: 1.06rem;
   line-height: 1.5;
   padding-bottom: 8rem;
@@ -169,7 +171,7 @@
   font-weight: bold;
   font-weight: 700;
   font-size: 40px;
-  color:#FFFFFF
+  color: #ffffff;
 }
 
 .headerLogo {
@@ -177,10 +179,9 @@
   padding-top: 25px;
 }
 
-
 .headerTitle {
   padding-left: 30px;
-  text-shadow: 0px 2px 4px #2C2C2C93;
+  text-shadow: 0px 2px 4px #2c2c2c93;
   opacity: 1;
   font: normal normal bold 28px/33px Public Sans;
   margin-bottom: 2px;
@@ -190,14 +191,14 @@
   font-family: Prometo;
   font-weight: bold;
   font-size: 23px;
-  color: #01103f
+  color: #01103f;
 }
 
 .heroIntro {
   font: normal normal bold 22px/26px Public Sans;
   letter-spacing: 0px;
-  color: #F6F6F6;
-  text-shadow: 0px 2px 4px #2C2C2C93;
+  color: #f6f6f6;
+  text-shadow: 0px 2px 4px #2c2c2c93;
   padding-left: 30px;
 }
 
@@ -205,18 +206,15 @@
   margin-bottom: 5px;
   margin-top: 0px;
   text-align: center;
-  color: #01103F;
-
+  color: #01103f;
 }
 
 .sectionSubheading {
   margin-top: 5px;
   margin-bottom: 20px;
 
-  color: #01103F;
+  color: #01103f;
   text-align: center;
-
-
 }
 
 .contactTextArea {
@@ -237,7 +235,7 @@
 
 .oneandhalf {
   line-height: 1.3em;
-  margin-top: 33px
+  margin-top: 33px;
 }
 
 .signupTextArea {
@@ -256,7 +254,6 @@
   padding-left: 9px;
 }
 
-
 .eventTitle {
   margin-top: 0.5rem;
 }
@@ -265,19 +262,19 @@
 }
 
 .tabsComponent {
-  border: 1px solid #175CA3BF
+  border: 1px solid #175ca3bf;
 }
 
 .eventModal {
   width: 880px;
   height: 547px;
-  display:flex;
-  position: absolute; 
+  display: flex;
+  position: absolute;
   top: 15%;
   right: 15%;
   left: 20%;
   bottom: 30%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-image: url(../public/guy.png) 30 solid;
   border: 10px solid url(/public/border.png);
   /* padding: 15px */
@@ -296,13 +293,13 @@
   font-weight: bold;
   font-weight: 700;
   font-size: 40px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .successModalButton {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .successModalCaption {
@@ -313,18 +310,18 @@
 .successModal {
   width: 600px;
   height: 300px;
-  display:flex;
-  position: absolute; 
+  display: flex;
+  position: absolute;
   top: 25%;
   right: 25%;
   left: 30%;
   bottom: 25%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-style: solid;
   border-width: 15px;
-  -moz-border-image: url(../src/assets/images/borderimage.png) ;
-  -webkit-border-image: url(../src/assets/images/borderimage.png)  ;
-  -o-border-image: url(../src/assets/images/borderimage.png)  ;
+  -moz-border-image: url(../src/assets/images/borderimage.png);
+  -webkit-border-image: url(../src/assets/images/borderimage.png);
+  -o-border-image: url(../src/assets/images/borderimage.png);
   border-image: url(../src/assets/images/borderimage.png) 100;
   /* border-image: url(../src/assets/images/borderimage.png) 20 stretch;
   border: 15px solid transparent;      	
@@ -332,9 +329,8 @@
 }
 
 .ReactModal__Overlay {
-  background-color: #323A45CC;
+  background-color: #323a45cc;
 }
-
 
 .successModalCloseButton {
   position: absolute;
@@ -345,12 +341,12 @@
 }
 
 .tabLabel {
-  font-family: Public Sans;  
-  color: #52687C80;
+  font-family: Public Sans;
+  color: #52687c80;
   text-align: center;
   font-size: 22px;
   letter-spacing: 0px;
-  color: #52687C80;
+  color: #52687c80;
   opacity: 1;
 }
 
@@ -359,27 +355,25 @@
 }
 
 .appsIcon {
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
 }
-
 
 .uxLibrarySectionHeading {
   margin-bottom: 5px;
   margin-top: 0px;
   text-align: center;
-  color: #01103F
+  color: #01103f;
 }
-
 
 .uxLibrarySectionSubheading {
   margin-top: 5px;
-  color: #01103F;
+  color: #01103f;
   text-align: center;
 }
 
 .uxLibraryTitle {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: left;
   font: normal normal bold 22px/26px Public Sans;
   letter-spacing: 0px;
@@ -397,14 +391,13 @@
 }
 
 .allAppsTitle {
-  color: #01103F;
+  color: #01103f;
   text-align: center;
   margin-bottom: 3px;
 }
 
-
 .appPageBox {
-  background-color: #01103F;
+  background-color: #01103f;
   text-align: center;
   margin-bottom: 3px;
 }
@@ -418,9 +411,9 @@
 }
 
 .projectPageBodyImg {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectPageBodyText {
@@ -443,15 +436,14 @@
   padding: 20px;
   margin-top: 20px;
   height: 369px;
-  background-image: url("../public/project-center-background.png")
+  background-image: url('../public/project-center-background.png');
 }
-
 
 .projectCenterTitle {
   margin-bottom: 10px;
   margin-top: 0px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 0px;
   opacity: 1;
 }
@@ -459,20 +451,19 @@
 .projectCenterIconText {
   font: normal normal bold 16px/19px Public Sans;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   margin-bottom: 10px;
 }
 
 .projectSubheading {
   margin-top: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 22px;
   font-weight: normal;
   font-family: Public Sans;
   opacity: 1;
-
 }
 
 .paragraphImg {
@@ -498,7 +489,6 @@
   height: 62px;
 }
 
-
 .wrapper {
   display: flex;
   justify-content: center;
@@ -509,15 +499,15 @@
 .user {
   width: 200px;
   height: 200px;
-  border: 24px solid #F1F9FF;
+  border: 24px solid #f1f9ff;
   border-radius: 50%;
-  background-color: #F1F9FF;
+  background-color: #f1f9ff;
   position: relative;
   overflow: hidden;
 }
 
 .user::before {
-  content : '';
+  content: '';
   display: block;
   width: 75px;
   height: 75px;
@@ -530,12 +520,12 @@
 }
 
 .user::after {
-  content : '';
+  content: '';
   display: block;
   width: 120px;
-  height:150px;
-  background:#fff;
-  border-radius:50%;
+  height: 150px;
+  background: #fff;
+  border-radius: 50%;
   position: absolute;
   left: 50%;
   bottom: -65px;
@@ -548,26 +538,20 @@
 }
 
 .piechart {
-	background:
-		conic-gradient(
-			#2699FB 0,
-			#2699FB 40%,
-			#BCE0FD 0,
-			#BCE0FD 100%
-	);
+  background: conic-gradient(#2699fb 0, #2699fb 40%, #bce0fd 0, #bce0fd 100%);
   border-radius: 50%;
-	position: relative;
-	width: 142px;
+  position: relative;
+  width: 142px;
   min-height: 142px;
   margin: 20px auto;
   padding: 20px 20px 20px 20px;
 }
 
 .partnersSectionHeading {
-    margin-bottom: 5px;
-    margin-top: 0px;
-    text-align: center;
-    color: #01103F
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: center;
+  color: #01103f;
 }
 
 .homeContactTextArea {
@@ -575,7 +559,8 @@
 }
 
 .platform327HeroSection {
-  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
   font-size: 1.06rem;
   line-height: 1.5;
   padding-bottom: 11rem;
@@ -588,7 +573,7 @@
 
 .platformHeaderTitle {
   padding-left: 30px;
-  text-shadow: 0px 2px 4px #2C2C2C93;
+  text-shadow: 0px 2px 4px #2c2c2c93;
   opacity: 1;
   font: normal normal bold 36px/33px Public Sans;
   margin-bottom: 2px;
@@ -602,7 +587,7 @@
   background-size: cover;
   height: 201px;
   width: 262px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -614,7 +599,7 @@
   background-size: cover;
   height: 201px;
   width: 262px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .platform327UTEvent {
@@ -625,7 +610,7 @@
   background-size: cover;
   height: 201px;
   width: 262px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .platform327AdobeEvent {
@@ -636,28 +621,29 @@
   background-size: cover;
   height: 201px;
   width: 262px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .eventBoxTitle {
   text-align: left;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   font: normal normal 800 18px/21px Public Sans;
   text-decoration: underline;
   padding-top: 23px;
   padding-left: 9px;
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 .footerbar {
-  background: transparent url('../src/assets/images/footerbar.png') 0% 0% no-repeat padding-box;
+  background: transparent url('../src/assets/images/footerbar.png') 0% 0%
+    no-repeat padding-box;
   opacity: 1;
 }
 
 .footerText {
-  color: white !important
+  color: white !important;
 }
 
 .socialLinks {
@@ -714,19 +700,19 @@
 }
 
 .allAppsTitle2 {
-  color: #01103F;
+  color: #01103f;
   text-align: center;
   margin-bottom: 3px;
   margin-top: 10px;
 }
 
-
 .allAppsHero {
-  font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
   font-size: 1.06rem;
   line-height: 1.5;
   padding-bottom: 10rem;
-  padding-top:10rem;
+  padding-top: 10rem;
   background-image: url(../src/assets/images/appsHeroImage.png);
   background-position: center;
   background-size: cover;
@@ -734,21 +720,21 @@
 }
 
 .homeBoxMissonCollabImg {
-  width: 470px;  
+  width: 470px;
   height: 313.69px;
   background-image: url(../src/assets/images/collab.png);
   backdrop-filter: blur(55px);
 }
 
 .homeBoxMissonWelcome {
-  width: 470px;  
+  width: 470px;
   height: 313.69px;
-  background-color: #446EDA;
+  background-color: #446eda;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
   font: normal normal normal 16px/25px Public Sans;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   padding-top: 20px;
   padding-right: 10px;
@@ -758,16 +744,16 @@
   text-align: left;
   font: normal normal bold 22px/26px Public Sans;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   padding: 19px 19px 0px 19px;
-  margin: 19px 19px 0px 0px
+  margin: 19px 19px 0px 0px;
 }
 
 .homeBoxEcosystemMsg {
-  width: 470px;  
+  width: 470px;
   height: 313.69px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
   font: normal normal normal 16px/25px Public Sans;
@@ -785,22 +771,22 @@
   color: #000000;
   opacity: 1;
   padding: 19px 19px 0px 19px;
-  margin: 19px 19px 0px 0px
+  margin: 19px 19px 0px 0px;
 }
 
 .homeBoxMissonFaceMonitorImg {
-  width: 470px;  
+  width: 470px;
   height: 313.69px;
   background-image: url(../src/assets/images/facemonitor.png);
 }
 
 .h1Title {
-  color: #01103F;
+  color: #01103f;
   font: normal normal bold 28px/33px Public Sans;
 }
 
 .homeBoxJoinImg {
-  width: 390px;  
+  width: 390px;
   height: 390px;
   /* background-image: url(../src/assets/images/joindrawing.svg); */
 }
@@ -809,16 +795,15 @@
   text-align: left;
   font: normal normal bold 22px/26px Public Sans;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 
 .projectTeamDescription {
   font-size: 14px;
-
 }
 
-.projectTeamAddress{
+.projectTeamAddress {
   text-decoration: underline;
   font-size: 14px;
 }
@@ -829,7 +814,7 @@
   line-height: 1.5;
   background-image: url(../src/assets/images/ux-learning.png);
   background-position: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 325px;
   height: 337px;
   display: block;
@@ -843,7 +828,7 @@
   line-height: 1.5;
   background-image: url(../src/assets/images/ux-design.png);
   background-position: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 325px;
   height: 337px;
   display: block;
@@ -858,7 +843,7 @@
   line-height: 1.5;
   background-image: url(../src/assets/images/ux-development.png);
   background-position: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 325px;
   height: 337px;
   display: block;
@@ -867,14 +852,13 @@
   text-align: left;
 }
 
-
 #uxUIcomponents {
   font-family: Public Sans;
   font-size: 14px;
   line-height: 1.5;
   background-image: url(../src/assets/images/ux-uicomponents.png);
   background-position: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 325px;
   height: 337px;
   display: block;
@@ -894,5 +878,21 @@
   text-decoration: underline;
   font: normal normal normal 16px/18px Public Sans;
   letter-spacing: 0px;
-  color: #009CE9;
+  color: #009ce9;
+}
+
+.accordionLink {
+  text-decoration: underline;
+  font: normal normal normal 13.8px;
+  letter-spacing: 0px;
+  color: #009ce9;
+}
+
+.accordionLargeContentTitle {
+  color: #01103f;
+  font-weight: bold;
+  /* text-align: center; */
+  /* margin-bottom: 3px; */
+  margin: 0 0 0 0;
+  font-size: 22px;
 }

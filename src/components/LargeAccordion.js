@@ -1,21 +1,6 @@
 import React, { useState } from 'react'
 import classnames from 'classnames'
 
-// interface AccordionItem {
-//   title: React.ReactNode | string
-//   content: React.ReactNode
-//   expanded: boolean
-//   id: string
-//   className?: string
-//   toggleItem?: (event: React.MouseEvent<HTMLButtonElement>) => void
-// }
-
-// interface AccordionProps {
-//   bordered?: boolean
-//   items: AccordionItem[]
-//   className?: string
-// }
-
 export function LargeAccordionItem(props) {
     const { title, id, content, expanded, className, handleToggle, image, icon } = props
 

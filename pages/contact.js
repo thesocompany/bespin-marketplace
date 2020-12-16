@@ -73,7 +73,7 @@ export default function Contact() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#" key="three" className="usa-nav__link">
+              <a href="/resources" key="three" className="usa-nav__link">
               <span>Resources</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">
@@ -199,30 +199,23 @@ export default function Contact() {
                       <span>Facebook</span>
                     </a>
                   </div>
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkTwitter} href="#">
-                      <span>Twitter</span>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
                     </a>
                   </div>
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="#">
-                      <span>YouTube</span>
-                    </a>
-                  </div>
-                  <div className="grid-col-auto">
-                    <a className={styles.socialLinkRss} href="#">
-                      <span>RSS</span>
+                  <div class="grid-col-auto">
+                    <a className={styles.socialLinkYoutube} href="javascript:void(0);">
                     </a>
                   </div>
                 </div>
-                <h3 className="usa-footer__contact-heading text-white">Agency Contact</h3>
-                <address className="usa-footer__address">
-                  <div className="usa-footer__contact-info grid-row grid-gap">
-                    <div className="grid-col-auto">
-                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
+                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
+                <address class="usa-footer__address">
+                  <div class="usa-footer__contact-info grid-row grid-gap">
+                    <div class="grid-col-auto">
+                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
-                    <div className="grid-col-auto">
-                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
+                    <div class="grid-col-auto">
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>
                 </address>

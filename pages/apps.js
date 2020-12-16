@@ -195,29 +195,22 @@ export default function Apps() {
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkTwitter} href="javascript:void(0);">
-                      <span>Twitter</span>
-                    </a>
-                  </div>
-                  <div class="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
-                      <span>YouTube</span>
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkRss} href="javascript:void(0);">
-                      <span>RSS</span>
+                    <a className={styles.socialLinkYoutube} href="javascript:void(0);">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact</h3>
+                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
+                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
-                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>
                 </address>

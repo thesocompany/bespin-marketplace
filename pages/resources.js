@@ -39,18 +39,28 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img className="margin-top-205" src="/resources/content-design-icon.png" />
+              <img src="/resources/content-design-icon.png" />
               <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
-              <p className="font-body-3xs">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
+              <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
                 <ul className="padding-left-205">
                   <li><a className={styles.accordionLink} href="">Design Track 1</a></li>
-                  <li><a className={styles.accordionLink} href=""> Design Track 2</a></li>
+                  <li><a className={styles.accordionLink} href="">Design Track 2</a></li>
                   <li><a className={styles.accordionLink} href="">Design Track 3</a></li>
                 </ul>
               </p>
             </div>
-            <div class="tablet:grid-col">col two</div>
-            <div class="tablet:grid-col">col three</div>
+            <div class="tablet:grid-col">
+              <img src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
+              <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
+              <p className="font-body-3xs margin-top-05">All in one toolkit for everything <br />related to user experience interviews
+              </p>
+            </div>
           </div>
         </div>
       ),

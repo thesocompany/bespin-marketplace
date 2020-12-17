@@ -18,16 +18,16 @@ export default function Apps() {
 
     const appsAccordionItems = [
     {
-      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/igatm-icon.png" />
       ),
       title: (
         <>
-          <p className={styles.accordionMiddleKeyTitle}>iGATM</p>
+          <p className={styles.accordionMediumKeyTitle}>iGATM</p>
         </>
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+          <p className={styles.accordionLargeKeyDescription}>Social Network, Information<br /> Management, Analytics,</p>
         </>
       ),
       content: (
@@ -63,16 +63,16 @@ export default function Apps() {
       id: 'one',
     },
     {
-      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/wingfeedback-icon.png" />
       ),
       title: (
         <>
-          <p className={styles.accordionMiddleKeyTitle}>WingFeedback</p>
+          <p className={styles.accordionMediumKeyTitle}>WingFeedback</p>
         </>
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+          <p className={styles.accordionMediumKeyDescription}>User Feedback, Mapping,<br/> Analytics</p>
         </>
       ),
       content: (
@@ -103,16 +103,16 @@ export default function Apps() {
       id: 'two',
     },
     {
-      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/digitalu-icon.png" />
       ),
       title: (
         <>
-          <p className={styles.accordionMiddleKeyTitle}>Digital U</p>
+          <p className={styles.accordionMediumKeyTitle}>Digital U</p>
         </>
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+          <p className={styles.accordionLargeKeyDescription}>Integrated Learning</p>
         </>
       ),
       content: (
@@ -140,16 +140,16 @@ export default function Apps() {
       id: 'three',
     },
     {
-      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/whatsapp-icon.png" />
       ),
       title: (
         <>
-          <p className={styles.accordionMiddleKeyTitle}>What's Up USAFA App</p>
+          <p className={styles.accordionMediumKeyTitle}>What's Up USAFA App</p>
         </>
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+          <p className={styles.accordionLargeKeyDescription}>Social Network, Information<br /> Management, Analytics,</p>
         </>
       ),
       content: (
@@ -175,16 +175,16 @@ export default function Apps() {
       id: 'four',
       },
         {
-      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/corillean-icon.png" />
       ),
       title: (
         <>
-          <p className={styles.accordionMiddleKeyTitle}>Corellian Corp</p>
+          <p className={styles.accordionMediumKeyTitle}>Corellian Corp</p>
         </>
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+          <p className={styles.accordionMediumKeyDescription}>Data Collection, Information<br /> Management, Analytics</p>
         </>
       ),
       content: (
@@ -210,16 +210,16 @@ export default function Apps() {
       id: 'five',
       },
             {
-      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/pointsync-icon.png" />
       ),
       title: (
         <>
-          <p className={styles.accordionMiddleKeyTitle}>PointSync</p>
+          <p className={styles.accordionMediumKeyTitle}>PointSync</p>
         </>
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+          <p className={styles.accordionMediumKeyDescription}>Data Collection, Field Operations<br /> Wearables</p>
         </>
       ),
       content: (
@@ -246,7 +246,6 @@ export default function Apps() {
     }
   ] 
   return (
-    // <div className={styles.container}>
     <>
       <Head>
         <title>BESPIN Marketplace</title>

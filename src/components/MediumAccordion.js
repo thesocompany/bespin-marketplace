@@ -28,7 +28,7 @@ export function MediumAccordionItem(props) {
                       <div className="grid-container padding-left-0 padding-right-0">
                         <div className="grid-row">
                           <div className="grid-col-auto">{icon}</div>
-                          <div className="grid-col-3">{title}</div>
+                          <div className="grid-col-4">{title}</div>
                           <div className="grid-col-4">{description}</div>
                         </div>
                       </div>

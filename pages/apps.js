@@ -9,17 +9,242 @@ import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
-import PrimaryButton from '../src/components/Buttons'
-import TextInput from '../src/components/TextInput'
-// import heroImage from '../src/assets/images/hero1.png'
-import Button from '../src/components/Button'
-import Label from '../src/components/Label'
-import TextArea from '../src/components/TextArea'
-// import Link from '../src/components/Link'
-// import FooterNav from '../src/components/FooterNav'
+import MediumAccordion from '../src/components/MediumAccordion'
+
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
+
 export default function Apps() {
+
+    const appsAccordionItems = [
+    {
+      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMiddleKeyTitle}>iGATM</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <img src="/resources/content-learning-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
+              <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="">Design Track 1</a></li>
+                  <li><a className={styles.accordionLink} href="">Design Track 2</a></li>
+                  <li><a className={styles.accordionLink} href="">Design Track 3</a></li>
+                </ul>
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img src="/resources/content-learning-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
+              <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img src="/resources/content-learning-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
+              <p className="font-body-3xs margin-top-05">All in one toolkit for everything <br />related to user experience interviews
+              </p>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'one',
+    },
+    {
+      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMiddleKeyTitle}>WingFeedback</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
+              <p className="font-body-3xs margin-top-05">Make sure that all design<br /> elements in UI are spot on
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
+              <p className="font-body-3xs margin-top-05">Quick guide on going over your<br /> design features
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-design-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Interaction Templates</p>
+              <p className="font-body-3xs margin-top-05">For mobile design, quick <br /> interactions to go
+              </p>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'two',
+    },
+    {
+      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMiddleKeyTitle}>Digital U</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-uicomp-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UI Components</p>
+              <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (Figma File)
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-uicomp-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Core Design System</p>
+              <p className="font-body-3xs margin-top-05">This Storybook hub breaks down<br /> the all CSS and HTML code
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+            </div>
+
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'three',
+    },
+    {
+      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMiddleKeyTitle}>What's Up USAFA App</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
+              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
+              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              </p>
+            </div>
+            <div class="tablet:grid-col"></div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'four',
+      },
+        {
+      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMiddleKeyTitle}>Corellian Corp</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
+              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
+              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              </p>
+            </div>
+            <div class="tablet:grid-col"></div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'five',
+      },
+            {
+      icon: (<img className="padding-top-1 padding-left-1" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMiddleKeyTitle}>PointSync</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
+              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <img className="" src="/resources/content-development-icon.png" />
+              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
+              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              </p>
+            </div>
+            <div class="tablet:grid-col"></div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'six',
+    }
+  ] 
   return (
     // <div className={styles.container}>
     <>
@@ -114,8 +339,9 @@ export default function Apps() {
           <h1 className={styles.uxLibrarySectionHeading}>Featured Apps</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>This growing collection of apps utilizes Platform 327's lab to build and <br />improve upon their main capabilities</h2>
           <div className="grid-row margin-top-7">
+            <MediumAccordion bordered={false} items={appsAccordionItems} />
 
-            <div className="tablet:grid-col margin-top-2">
+            {/* <div className="tablet:grid-col margin-top-2">
             <Link href="/apps/project">
               <a>
               <img className={styles.appsIcon} src="/pointsync.png" />
@@ -150,7 +376,7 @@ export default function Apps() {
                 <img className={styles.appsIcon} src="/drudonna.png" />
                 <h2 className={styles.allAppsTitle}>DruDonna</h2>
                 <p className={styles.appsDescription}>Integrated Learning</p>
-              </div>                                    
+              </div>                                     */}
             </div>
             
         </section>

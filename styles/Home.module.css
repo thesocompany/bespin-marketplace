@@ -912,11 +912,18 @@
   font: normal normal bold 22px/26px Public Sans;
   letter-spacing: 0px;
   color: #ffffff;
-  margin-top: 0px;
 }
 
 .accordionLargeKeyDescription {
   font: normal normal normal 14px/16px Public Sans;
   letter-spacing: 0px;
   color: #ffffff;
+}
+
+.accordionMiddleKeyTitle {
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  min-height: 90%;
+  text-align: center;
 }

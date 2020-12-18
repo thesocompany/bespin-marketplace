@@ -10,6 +10,7 @@ import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
 import MediumAccordion from '../src/components/MediumAccordion'
+import Button from '../src/components/Button'
 
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
@@ -34,27 +35,18 @@ export default function Apps() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img src="/resources/content-learning-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
-              <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
-                <ul className="padding-left-205">
-                  <li><a className={styles.accordionLink} href="">Design Track 1</a></li>
-                  <li><a className={styles.accordionLink} href="">Design Track 2</a></li>
-                  <li><a className={styles.accordionLink} href="">Design Track 3</a></li>
-                </ul>
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Software tool implements<br />flexible and adaptable<br />communication to improve<br />resource access for Air Force.
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img src="/resources/content-learning-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
-              <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>US Air Force Teams - aircraft<br />program offices, avionics<br />engineers and budget planners
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img src="/resources/content-learning-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
-              <p className="font-body-3xs margin-top-05">All in one toolkit for everything <br />related to user experience interviews
-              </p>
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
             </div>
           </div>
         </div>
@@ -79,22 +71,18 @@ export default function Apps() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-design-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
-              <p className="font-body-3xs margin-top-05">Make sure that all design<br /> elements in UI are spot on
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Mobile ool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-design-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
-              <p className="font-body-3xs margin-top-05">Quick guide on going over your<br /> design features
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>Joint Base San Antonio
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-design-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Interaction Templates</p>
-              <p className="font-body-3xs margin-top-05">For mobile design, quick <br /> interactions to go
-              </p>
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
             </div>
           </div>
         </div>

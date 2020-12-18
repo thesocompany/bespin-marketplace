@@ -925,7 +925,8 @@
   letter-spacing: 0px;
   color: #ffffff;
   min-height: 90%;
-  text-align: center;
+  text-align: left;
+  padding-left: 29px;
 }
 
 .accordionMediumKeyDescription {
@@ -933,4 +934,13 @@
   letter-spacing: 0px;
   color: #ffffff;
   text-align: left;
+}
+
+.accordionMediumContentDescription {
+  text-align: left;
+  font: normal normal normal 14px/16px Public Sans;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
+  margin-top: 4px;
 }

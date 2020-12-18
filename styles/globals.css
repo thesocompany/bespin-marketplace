@@ -175,6 +175,7 @@ a {
   background-repeat: no-repeat;
   background-size: 1rem;
   background-color: #f0f0f0;
+  background-image: url(/downarrow.svg);
 }
 
 .usaf-medium-accordion__button:hover {
@@ -195,6 +196,8 @@ a {
   background-color: #f0f0f0;
   background-position: right 1.25rem center;
   background-size: 1rem;
+  background-image: url(/uparrow.png);
+
   color: #ffffff;
   cursor: pointer;
   display: inline-block;

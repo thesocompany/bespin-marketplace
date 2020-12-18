@@ -100,7 +100,7 @@ export default function Apps() {
         ),
       description: (
         <>
-          <p className={styles.accordionLargeKeyDescription}>Integrated Learning</p>
+          <p className={styles.accordionMediumKeyDescription}>Integrated Learning</p>
         </>
       ),
       content: (

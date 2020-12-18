@@ -34,7 +34,7 @@ export default function Apps() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">
+            <div class="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>Software tool implements<br />flexible and adaptable<br />communication to improve<br />resource access for Air Force.
               </p>
@@ -70,7 +70,7 @@ export default function Apps() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">
+            <div class="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>Mobile ool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
               </p>
@@ -106,21 +106,20 @@ export default function Apps() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">
-              <img className="" src="/resources/content-uicomp-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UI Components</p>
-              <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (Figma File)
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Online learning platform<br />catering to warfighters by<br />offering courses to improve their<br />technical skills.
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-uicomp-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Core Design System</p>
-              <p className="font-body-3xs margin-top-05">This Storybook hub breaks down<br /> the all CSS and HTML code
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>(USAF) US Air Force Teams
               </p>
             </div>
             <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
             </div>
-
           </div>
         </div>
       ),
@@ -143,19 +142,20 @@ export default function Apps() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
-              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Mobile application to create<br />awareness of and publicize<br />events for the United States Air<br />Force Academy.
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
-              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>Joint Base San Antonio
               </p>
             </div>
-            <div class="tablet:grid-col"></div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
+            </div>
           </div>
         </div>
       ),
@@ -178,19 +178,20 @@ export default function Apps() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
-              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>TBD
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
-              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>US Air Force project Teams
               </p>
             </div>
-            <div class="tablet:grid-col"></div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+              <Button className="margin-top-105">Contact the Team</Button>
+            </div>
           </div>
         </div>
       ),
@@ -213,19 +214,22 @@ export default function Apps() {
       content: (
         <div class="grid-container">
           <div class="grid-row">
-            <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
-              <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>A multi-device app that<br />streamlines cargo location data<br />and delivery times for AFB<br />Buckley teams.
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
-              <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>(USAF) US Air Force Logistic Teams
               </p>
             </div>
-            <div class="tablet:grid-col"></div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+              <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<br />with Platform 327 for a better<br />user experience
+              </p>
+              <Button className="margin-top-105">Learn more</Button>
+            </div>
           </div>
         </div>
       ),

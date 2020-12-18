@@ -9,19 +9,235 @@ import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
-import PrimaryButton from '../src/components/Buttons'
-import TextInput from '../src/components/TextInput'
-// import heroImage from '../src/assets/images/hero1.png'
+import MediumAccordion from '../src/components/MediumAccordion'
 import Button from '../src/components/Button'
-import Label from '../src/components/Label'
-import TextArea from '../src/components/TextArea'
-// import Link from '../src/components/Link'
-// import FooterNav from '../src/components/FooterNav'
+
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
+
 export default function Apps() {
+
+    const appsAccordionItems = [
+    {
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/igatm-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMediumKeyTitle}>iGATM</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Social Network, Information<br /> Management, Analytics,</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Software tool implements<br />flexible and adaptable<br />communication to improve<br />resource access for Air Force.
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>US Air Force Teams - aircraft<br />program offices, avionics<br />engineers and budget planners
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'one',
+    },
+    {
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/wingfeedback-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMediumKeyTitle}>WingFeedback</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionMediumKeyDescription}>User Feedback, Mapping,<br/> Analytics</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Mobile ool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>Joint Base San Antonio
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'two',
+    },
+    {
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/digitalu-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMediumKeyTitle}>Digital U</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionMediumKeyDescription}>Integrated Learning</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Online learning platform<br />catering to warfighters by<br />offering courses to improve their<br />technical skills.
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>(USAF) US Air Force Teams
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'three',
+    },
+    {
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/whatsapp-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMediumKeyTitle}>What's Up USAFA App</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionLargeKeyDescription}>Social Network, Information<br /> Management, Analytics,</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>Mobile application to create<br />awareness of and publicize<br />events for the United States Air<br />Force Academy.
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>Joint Base San Antonio
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Learn more</p>
+              <Button className="margin-top-105">See Case Study</Button>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'four',
+      },
+        {
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/corillean-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMediumKeyTitle}>Corellian Corp</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionMediumKeyDescription}>Data Collection, Information<br /> Management, Analytics</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>TBD
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>US Air Force project Teams
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+              <Button className="margin-top-105">Contact the Team</Button>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'five',
+      },
+            {
+      icon: (<img className="padding-top-1 padding-left-3" src="/apps/pointsync-icon.png" />
+      ),
+      title: (
+        <>
+          <p className={styles.accordionMediumKeyTitle}>PointSync</p>
+        </>
+        ),
+      description: (
+        <>
+          <p className={styles.accordionMediumKeyDescription}>Data Collection, Field Operations<br /> Wearables</p>
+        </>
+      ),
+      content: (
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="tablet:grid-col padding-left-7">
+              <p className={styles.accordionLargeContentTitle}>About the App</p>
+              <p className={styles.accordionMediumContentDescription}>A multi-device app that<br />streamlines cargo location data<br />and delivery times for AFB<br />Buckley teams.
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Audience</p>
+              <p className={styles.accordionMediumContentDescription}>(USAF) US Air Force Logistic Teams
+              </p>
+            </div>
+            <div class="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+              <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<br />with Platform 327 for a better<br />user experience
+              </p>
+              <Button className="margin-top-105">Learn more</Button>
+            </div>
+          </div>
+        </div>
+      ),
+      expanded: false,
+      id: 'six',
+    }
+  ] 
   return (
-    // <div className={styles.container}>
     <>
       <Head>
         <title>BESPIN Marketplace</title>
@@ -114,8 +330,9 @@ export default function Apps() {
           <h1 className={styles.uxLibrarySectionHeading}>Featured Apps</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>This growing collection of apps utilizes Platform 327's lab to build and <br />improve upon their main capabilities</h2>
           <div className="grid-row margin-top-7">
+            <MediumAccordion bordered={false} items={appsAccordionItems} />
 
-            <div className="tablet:grid-col margin-top-2">
+            {/* <div className="tablet:grid-col margin-top-2">
             <Link href="/apps/project">
               <a>
               <img className={styles.appsIcon} src="/pointsync.png" />
@@ -150,7 +367,7 @@ export default function Apps() {
                 <img className={styles.appsIcon} src="/drudonna.png" />
                 <h2 className={styles.allAppsTitle}>DruDonna</h2>
                 <p className={styles.appsDescription}>Integrated Learning</p>
-              </div>                                    
+              </div>                                     */}
             </div>
             
         </section>

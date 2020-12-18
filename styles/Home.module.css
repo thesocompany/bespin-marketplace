@@ -912,11 +912,38 @@
   font: normal normal bold 22px/26px Public Sans;
   letter-spacing: 0px;
   color: #ffffff;
-  margin-top: 0px;
 }
 
 .accordionLargeKeyDescription {
   font: normal normal normal 14px/16px Public Sans;
   letter-spacing: 0px;
   color: #ffffff;
+}
+
+.accordionMediumKeyTitle {
+  font: normal normal bold 22px/26px Public Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  min-height: 90%;
+  text-align: left;
+  padding-left: 29px;
+}
+
+.accordionMediumKeyDescription {
+  font: normal normal normal 14px/16px Public Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: left;
+  justify-content: center;
+  /* display: flex; */
+  align-items: center;
+}
+
+.accordionMediumContentDescription {
+  text-align: left;
+  font: normal normal normal 14px/16px Public Sans;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
+  margin-top: 4px;
 }

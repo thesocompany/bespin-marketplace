@@ -1,22 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-// import { Button } from '@trussworks/react-uswds'
 import Header from '../src/components/Header'
-import Title from '../src/components/Title'
 import NavMenuButton from '../src/components/NavMenuButton'
 import PrimaryNav from '../src/components/PrimaryNav'
-import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
-import PrimaryButton from '../src/components/Buttons'
-import TextInput from '../src/components/TextInput'
-// import heroImage from '../src/assets/images/hero1.png'
-import Button from '../src/components/Button'
-import Label from '../src/components/Label'
-import TextArea from '../src/components/TextArea'
 import Link from '../src/components/Link'
-// import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
@@ -92,22 +82,22 @@ export default function AltCarousel() {
             showStatus={false}
             dynamicHeight={false}
             showThumbs={false}
-            autoplay={true}
+            autoplay
             infiniteLoop={true}
             transitionTime={50}
-            interval={1000}
+            interval={3}
             swipeable={true}
             showIndicators={true}
             useKeyboardArrows={true}
           >
                 <div>
-                    <img src="/home1.png" />
+                  <img src="/home1.png" style={{width: '960px'}}/>
                 </div>
                 <div>
-                    <img src="/home2.png" />
+                  <img src="/home2.png" style={{width: '960px'}}/>
                 </div>
                 <div>
-                    <img src="/home3.png" />
+                  <img src="/home3.png" style={{width: '960px'}} />
                 </div>
           </Carousel>
         </main>

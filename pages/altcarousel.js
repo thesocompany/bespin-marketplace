@@ -8,8 +8,9 @@ import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
 import Link from '../src/components/Link'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+// import { Carousel } from 'react-responsive-carousel';
+import Carousel from 'react-elastic-carousel'
 
 
 export default function AltCarousel() {
@@ -77,7 +78,18 @@ export default function AltCarousel() {
       </>
 
         <main id="main-content">
-          <Carousel
+          <Carousel itemsToShow={2}>
+            <Item>
+              <img src="/home1.png" style={{width: '960px'}}/>
+            </Item>
+            <Item>
+              <img src="/home2.png" style={{width: '960px'}}/>
+            </Item>
+            <Item>
+              <img src="/home3.png" style={{width: '960px'}}/>
+            </Item>
+          </Carousel>
+          {/* <Carousel
             showArrows={false}
             showStatus={false}
             dynamicHeight={false}
@@ -99,7 +111,7 @@ export default function AltCarousel() {
                 <div>
                   <img src="/home3.png" style={{width: '960px'}} />
                 </div>
-          </Carousel>
+          </Carousel> */}
         </main>
 
         <div className="usa-footer__primary-section">

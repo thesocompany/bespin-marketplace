@@ -44,21 +44,27 @@ export default function Resources() {
               <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
               <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
                 <ul className="padding-left-205">
-                  <li><a className={styles.accordionLink} href="">Design Track 1</a></li>
-                  <li><a className={styles.accordionLink} href="">Design Track 2</a></li>
-                  <li><a className={styles.accordionLink} href="">Design Track 3</a></li>
+                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses">Design Track 1</a></li>
+                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses">Design Track 2</a></li>
+                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses">Design Track 3</a></li>
                 </ul>
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img src="/resources/content-learning-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
+              <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing">
+                <img src="/resources/content-learning-icon.png" />
+              </a>
+              <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing">
+                <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
+              </a>
               <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img src="/resources/content-learning-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
+              <a href="https://drive.google.com/drive/folders/1G0UPErrLjPBUVa2luA7i0Qe_V2rEcYJc?usp=sharing">
+                <img src="/resources/content-learning-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
+              </a>  
               <p className="font-body-3xs margin-top-05">All in one toolkit for everything <br />related to user experience interviews
               </p>
             </div>
@@ -83,21 +89,31 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-design-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
+              <a href="https://drive.google.com/drive/folders/1IKLqXuSl_eEAQtszh6fVDFRyjjgYIDIS?usp=sharing">
+                <img className="" src="/resources/content-design-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
+              </a>  
               <p className="font-body-3xs margin-top-05">Make sure that all design<br /> elements in UI are spot on
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-design-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
+              <a href="https://drive.google.com/drive/folders/1y1yWX7kgXThIfl2VmrBzK3XM3EDGHLtw?usp=sharing">
+                <img className="" src="/resources/content-design-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
+              </a>
               <p className="font-body-3xs margin-top-05">Quick guide on going over your<br /> design features
               </p>
             </div>
             <div class="tablet:grid-col">
               <img className="" src="/resources/content-design-icon.png" />
               <p className={styles.accordionLargeContentTitle}>Interaction Templates</p>
-              <p className="font-body-3xs margin-top-05">For mobile design, quick <br /> interactions to go
+              <p className="font-body-3xs margin-top-05">For mobile designs, interactions<br />Templates to get you started
+
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="https://developer.apple.com/design/resources/">Apple iOS,</a> <a className={styles.accordionLink} href="https://books.apple.com/book/id1467807216">Apple Playbook</a></li>
+                  <li><a className={styles.accordionLink} href="https://material.io/">Material Design</a></li>
+                  <li><a className={styles.accordionLink} href="https://docs.microsoft.com/en-us/windows/uwp/design/downloads/">Microsoft Windows</a></li>
+                </ul>
               </p>
             </div>
           </div>

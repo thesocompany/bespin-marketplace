@@ -137,14 +137,18 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-uicomp-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UI Components</p>
+              <a href="https://www.figma.com/file/UTR4CZWtii60nInBMGCiLv/USAF-USWDS-UI-Design-Kit?node-id=0%3A1">
+                <img className="" src="/resources/content-uicomp-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>UI Components</p>
+              </a>  
               <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (Figma File)
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-uicomp-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Core Design System</p>
+              <a href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert">
+                <img className="" src="/resources/content-uicomp-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>Core Design System</p>
+              </a>
               <p className="font-body-3xs margin-top-05">This Storybook hub breaks down<br /> the all CSS and HTML code
               </p>
             </div>
@@ -172,14 +176,18 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
+              <a href="https://drive.google.com/drive/folders/1yEmH_TyLZRhTgIjB0KiXmTHGf5RtJWao">
+                <img className="" src="/resources/content-development-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
+              </a>  
               <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
               </p>
             </div>
             <div class="tablet:grid-col">
-              <img className="" src="/resources/content-development-icon.png" />
-              <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
+              <a href="https://drive.google.com/drive/folders/1EDQNxJmk7OmFJnQG383f7JrJJ6H-ZLnr?usp=sharing">
+                <img className="" src="/resources/content-development-icon.png" />
+                <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
+              </a>
               <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
               </p>
             </div>

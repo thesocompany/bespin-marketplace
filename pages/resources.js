@@ -44,24 +44,24 @@ export default function Resources() {
               <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
               <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
                 <ul className="padding-left-205">
-                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses">Design Track 1</a></li>
-                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses">Design Track 2</a></li>
-                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses">Design Track 3</a></li>
+                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses" rel="noreferrer" target="_blank">Design Track 1</a></li>
+                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses" rel="noreferrer" target="_blank">Design Track 2</a></li>
+                  <li><a className={styles.accordionLink} href="https://digitalu.af.mil/Courses" rel="noreferrer" target="_blank">Design Track 3</a></li>
                 </ul>
               </p>
             </div>
             <div class="tablet:grid-col">
-              <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing" rel="noreferrer" target="_blank">
                 <img src="/resources/content-learning-icon.png" />
               </a>
-              <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing" rel="noreferrer" target="_blank">
                 <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
               </a>
               <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
               </p>
             </div>
             <div class="tablet:grid-col">
-              <a href="https://drive.google.com/drive/folders/1G0UPErrLjPBUVa2luA7i0Qe_V2rEcYJc?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1G0UPErrLjPBUVa2luA7i0Qe_V2rEcYJc?usp=sharing" rel="noreferrer" target="_blank">
                 <img src="/resources/content-learning-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
               </a>  
@@ -89,7 +89,7 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <a href="https://drive.google.com/drive/folders/1IKLqXuSl_eEAQtszh6fVDFRyjjgYIDIS?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1IKLqXuSl_eEAQtszh6fVDFRyjjgYIDIS?usp=sharing" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-design-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
               </a>  
@@ -97,7 +97,7 @@ export default function Resources() {
               </p>
             </div>
             <div class="tablet:grid-col">
-              <a href="https://drive.google.com/drive/folders/1y1yWX7kgXThIfl2VmrBzK3XM3EDGHLtw?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1y1yWX7kgXThIfl2VmrBzK3XM3EDGHLtw?usp=sharing" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-design-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
               </a>
@@ -110,9 +110,9 @@ export default function Resources() {
               <p className="font-body-3xs margin-top-05">For mobile designs, interactions<br />Templates to get you started
 
                 <ul className="padding-left-205">
-                  <li><a className={styles.accordionLink} href="https://developer.apple.com/design/resources/">Apple iOS,</a> <a className={styles.accordionLink} href="https://books.apple.com/book/id1467807216">Apple Playbook</a></li>
-                  <li><a className={styles.accordionLink} href="https://material.io/">Material Design</a></li>
-                  <li><a className={styles.accordionLink} href="https://docs.microsoft.com/en-us/windows/uwp/design/downloads/">Microsoft Windows</a></li>
+                  <li><a className={styles.accordionLink} href="https://developer.apple.com/design/resources/" rel="noreferrer" target="_blank">Apple iOS,</a> <a className={styles.accordionLink} href="https://books.apple.com/book/id1467807216">Apple Playbook</a></li>
+                  <li><a className={styles.accordionLink} href="https://material.io/" rel="noreferrer" target="_blank">Material Design</a></li>
+                  <li><a className={styles.accordionLink} href="https://docs.microsoft.com/en-us/windows/uwp/design/downloads/" rel="noreferrer" target="_blank">Microsoft Windows</a></li>
                 </ul>
               </p>
             </div>
@@ -137,7 +137,7 @@ export default function Resources() {
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <a href="https://www.figma.com/file/UTR4CZWtii60nInBMGCiLv/USAF-USWDS-UI-Design-Kit?node-id=0%3A1">
+              <a href="https://www.figma.com/file/UTR4CZWtii60nInBMGCiLv/USAF-USWDS-UI-Design-Kit?node-id=0%3A1" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-uicomp-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Components</p>
               </a>  
@@ -145,7 +145,7 @@ export default function Resources() {
               </p>
             </div>
             <div class="tablet:grid-col">
-              <a href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert">
+              <a href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-uicomp-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>Core Design System</p>
               </a>
@@ -170,13 +170,13 @@ export default function Resources() {
         ),
         icon: (<img className="margin-top-205" src="/resources/development-icon.png" />
       ), 
-      image: (<img className={styles.appsIcon} src="resources/development-puzzle.svg" />
+      image: (<img className={styles.appsIcon} src="/resources/development-puzzle.svg" />
       ),
       content: (
         <div class="grid-container">
           <div class="grid-row">
             <div class="tablet:grid-col">
-              <a href="https://drive.google.com/drive/folders/1yEmH_TyLZRhTgIjB0KiXmTHGf5RtJWao">
+              <a href="https://drive.google.com/drive/folders/1yEmH_TyLZRhTgIjB0KiXmTHGf5RtJWao" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-development-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
               </a>  
@@ -184,7 +184,7 @@ export default function Resources() {
               </p>
             </div>
             <div class="tablet:grid-col">
-              <a href="https://drive.google.com/drive/folders/1EDQNxJmk7OmFJnQG383f7JrJJ6H-ZLnr?usp=sharing">
+              <a href="https://drive.google.com/drive/folders/1EDQNxJmk7OmFJnQG383f7JrJJ6H-ZLnr?usp=sharing" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-development-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
               </a>
@@ -286,59 +286,6 @@ export default function Resources() {
             </li>
           </ol>
         </nav>    
-
-        {/* <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
-          <h1 className={styles.uxLibrarySectionHeading}>UX Library & Resources</h1>
-          <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>
-          <div className="grid-row margin-top-7">
-            <div className="tablet:grid-col">
-              <Link href="https://mmanalo-soco.medium.com/ux-learning-resources-687b754aded0">
-              <a target="_blank">
-              <div id={styles.uxLearning}>
-                <div className={styles.uxLibraryBoxText}>
-                  <h2 className={styles.uxLibraryTitle}>Learning</h2>
-                  <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
-                </div>
-              </div>
-              </a>
-              </Link>
-            </div>
-            <div className="tablet:grid-col">
-              <Link href="https://mmanalo-soco.medium.com/design-resources-and-checklist-cf3f7eef0609">
-              <a target="_blank">
-              <div id={styles.uxDesign}>
-                <div className={styles.uxLibraryBoxText}>
-                  <h2 className={styles.uxLibraryTitle}>Design</h2>
-                  <p className={styles.uxLibDisciplineDescription}>Learn interactive and <br /> visual design principles</p> 
-                </div>
-              </div>
-              </a>
-              </Link>
-            </div>
-          </div>
-          <div className="grid-row margin-top-7">
-            <div className="tablet:grid-col">
-              <div id={styles.uxDevelopment}>
-                <div className={styles.uxLibraryBoxText}>
-                  <h2 className={styles.uxLibraryTitle}>Development</h2>
-                  <p className={styles.uxLibDisciplineDescription}>Apply UX principles to <br />your project</p> 
-                </div>
-              </div>
-            </div>
-            <div className="tablet:grid-col">
-            <Link href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert">
-              <a target="_blank">
-              <div id={styles.uxUIcomponents}>
-                <div className={styles.uxLibraryBoxText}>
-                  <h2 className={styles.uxLibraryTitle}>UI Components</h2>
-                  <p className={styles.uxLibDisciplineDescription}>Get UI kits, UX <br />wireframes and more </p> 
-                </div>
-              </div>
-              </a>
-              </Link>
-            </div>
-          </div>
-        </section> */}
         <section className="grid-container usa-section margin-bottom-2 padding-bottom-4">
           <h1 className={styles.uxLibrarySectionHeading}>Resources</h1>
           <h2 className={styles.uxLibrarySectionSubheading}>Explore these helpful resources curated for designers, developers and the curious.</h2>

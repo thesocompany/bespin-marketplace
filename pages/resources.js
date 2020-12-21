@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 import styles from '../styles/Home.module.css'
 import Header from '../src/components/Header'
@@ -77,7 +77,7 @@ export default function Resources() {
     {
       title: (
           <>
-            <h2 className={styles.accordionLargeKeyTitle}>Design</h2>
+            <h2 id="design" className={styles.accordionLargeKeyTitle}>Design</h2>
             <p className={styles.accordionLargeKeyDescription}>Learn interactive and visual design principles</p>
           </>
         ),

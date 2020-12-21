@@ -58,7 +58,7 @@ export default function FAQ() {
       title: 'How can you sign up for sessions?',
       content: (
         <span>
-          Visit the Platform 327 page. This will tell you where to start. Select the course you’re 
+          Visit the <a href="/platform327" className={styles.link}>Enroll page</a>. This will tell you where to start. Select the course you’re 
           interested in and fill out the form.
         </span>
       ),
@@ -69,7 +69,7 @@ export default function FAQ() {
       title: 'What is UX Skills Assessment, and why should I consider taking one?',
       content: (
         <span>
-          A UX Skills Assessment will help identify strengths, priorities and interests. 
+          A <a href="/platform327" className={styles.link}>UX Skills Assessment</a> will help identify strengths, priorities and interests. 
           It also identifies areas for growth so that you and your team can make the most 
           impact. 
           <br />
@@ -86,7 +86,7 @@ export default function FAQ() {
       title: 'What resources are available for UX designers, engineers and project teams?',
       content: (
         <span>
-          Check out our BESPIN Apps page and see recent apps developed by designers within BESPIN, 
+          Check out our <a href="/apps" className={styles.link}>BESPIN Apps</a> page and see recent apps developed by designers within BESPIN, 
           and look at the BESPIN Ecosystem and Case Studies for best UX practices from those projects.
           <br />
           <br />
@@ -103,8 +103,8 @@ export default function FAQ() {
       title: 'How are Platform 327 and Air Force BESPIN related?',
       content: (
         <span>
-          Platform 327 is part of the Air Force’s Business Enterprise Systems Program Innovation 
-          (BESPIN) at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
+          Platform 327 is part of the Air Force’s <a href="/apps" className={styles.link} rel="noreferrer" target="_blank">Business Enterprise Systems Program Innovation 
+          (BESPIN)</a> at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
           quickly implement ideas aimed at improving mission support capabilities. 
           <br />
           <br />
@@ -119,12 +119,12 @@ export default function FAQ() {
       title: 'I am from an AF Base and/or from another DoD unit interested in finding a team with design and UX capabilities; how can I find a project team?',
       content: (
         <span>
-          For UX designers, check out our UX Library page, which houses design and UX resources, 
+          For UX designers, check out our <a href="/resources" className={styles.link}>Resources page</a>, which houses design and UX resources, 
           the BESPIN Design System, a link to core Digital UX courses and tracks, and UX toolkits.
         <br />
         <br />
 
-          For engineers and project teams, we’ve put together toolkits and guides on how to implement 
+          For engineers and project teams, we’ve put together <a href="/resources#design" className={styles.link}>toolkits and guides</a> on how to implement 
           basic UX practices and testing for design projects. We also provide ongoing workshops and 
           events on Platform 327.
         </span>

@@ -208,7 +208,7 @@ export default function Platform327() {
           <section>
             <div class="grid-container" >
               <div class="grid-row">
-                <div className="tablet:grid-col-3 margin-right-6">
+                {/* <div className="tablet:grid-col-3 margin-right-6">
                   <h1>Start</h1>
                     <p>
                     Platform 327 can help project teams learn to design and develop digital Air Force 
@@ -219,9 +219,9 @@ export default function Platform327() {
                     and training events to help build skill sets, identify problems and build lasting solutions. 
                     </p>
                       <img src="/working.png" />
-                </div>
+                </div> */}
 
-                <div className="tablet:grid-col-8">
+                <div className="tablet:grid-col-12">
                 <Tabs>
                   <TabList id="platform-tabs">
                     <Tab><span className={styles.tabLabel}>TRAINING</span></Tab>
@@ -229,14 +229,23 @@ export default function Platform327() {
                   </TabList>
                   <TabPanel>
                     <div class="grid-container">
-                      <div class="grid-row">
-                        <h1>Sign up here</h1>
-                        <p>
-                          When you sign up for training, you’ll have the option to take a UX Skills Assessment. 
-                          Our skills assessment will help us evaluate your product design skills so we can identify 
-                          what you’re good at and areas where you can grow and refine your knowledge.
-                        </p>
-                      </div>
+                        <div class="grid-row padding-top-4">
+                          <div className="tablet:grid-col-3 padding-right-3">
+                            <h2>Training Sign Up</h2>
+                            <p className="font-sans-3xs">
+                              Platform 327 can help project teams learn to design and develop digital 
+                              Air Force applications to address the most pressing issues. 
+                              <br />
+                              <br />
+                              When you sign up for training, you’ll have the option to take a UX Skills  
+                              Assessment. Our skills assessment will help us evaluate your product design 
+                              skills so we can identify what you’re good at and areas where you can grow 
+                              and refine your knowledge. 
+                            </p>
+                            <img src="/working.png" />
+                          </div>
+                          <div className="tablet:grid-col-9">
+
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
                         <div class="tablet:grid-col"><Label className="margin-bottom-2">Preferred Contact:*</Label></div>
@@ -267,7 +276,10 @@ export default function Platform327() {
                       </div>
                       <div class="grid-row">
                         <Button onClick={successModal}>Submit</Button>
-                      </div>                                               
+                          </div>
+                        </div>
+                      </div>
+    
                     </div>
 
                   </TabPanel>

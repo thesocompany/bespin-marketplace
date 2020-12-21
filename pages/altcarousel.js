@@ -78,17 +78,6 @@ export default function AltCarousel() {
       </>
 
         <main id="main-content">
-          <Carousel itemsToShow={2}>
-            <Item>
-              <img src="/home1.png" style={{width: '960px'}}/>
-            </Item>
-            <Item>
-              <img src="/home2.png" style={{width: '960px'}}/>
-            </Item>
-            <Item>
-              <img src="/home3.png" style={{width: '960px'}}/>
-            </Item>
-          </Carousel>
           {/* <Carousel
             showArrows={false}
             showStatus={false}

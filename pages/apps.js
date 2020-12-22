@@ -226,8 +226,9 @@ export default function Apps() {
               <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<br />with Platform 327 for a better<br />user experience
               </p>
               <Link href="/apps/project">
-                <Button className="margin-top-105">Learn more</Button>
-              </Link>            </div>
+                <a><Button className="margin-top-105">Learn more</Button></a>
+              </Link>
+            </div>
           </div>
         </div>
       ),

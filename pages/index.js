@@ -27,9 +27,16 @@ export default function AltCarousel() {
       <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-          <div className="grid-row margin-bottom-3">
-            <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Marketplace</a></span></div>          </div>  
+          <div className="grid-row margin-bottom-3" style={{width: '243px'}}>
+            <div
+              className="grid-col-auto"
+              className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a>
+            </div>
+            <div
+              className="grid-col-auto"
+              className={styles.oneandhalf}>
+              <span className={styles.navTitle}><a href="/">BESPIN{<br />}Platform 327</a></span>
+            </div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
@@ -61,7 +68,7 @@ export default function AltCarousel() {
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
-              <span>Enroll</span>
+              <span>Enroll Now</span>
             </a>,                                      
             ]}
             mobileExpanded={null}

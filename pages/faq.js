@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../src/components/Header'
-import Title from '../src/components/Title'
 import NavMenuButton from '../src/components/NavMenuButton'
 import PrimaryNav from '../src/components/PrimaryNav'
 import NavList from '../src/components/NavList'
@@ -10,12 +9,10 @@ import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
 import PrimaryButton from '../src/components/Buttons'
 import TextInput from '../src/components/TextInput'
-// import heroImage from '../src/assets/images/hero1.png'
 import Button from '../src/components/Button'
 import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
 import Link from '../src/components/Link'
-// import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import Accordion from '../src/components/Accordion'
 // import faqData from './data/faqData'
@@ -103,7 +100,7 @@ export default function FAQ() {
       title: 'How are Platform 327 and Air Force BESPIN related?',
       content: (
         <span>
-          Platform 327 is part of the Air Force’s <a href="/apps" className={styles.link} rel="noreferrer" target="_blank">Business Enterprise Systems Program Innovation 
+          Platform 327 is part of the Air Force’s <a href="https://www.teambespin.us/" className={styles.link} rel="noreferrer" target="_blank">Business Enterprise Systems Program Innovation 
           (BESPIN)</a> at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
           quickly implement ideas aimed at improving mission support capabilities. 
           <br />
@@ -177,7 +174,6 @@ export default function FAQ() {
                       Simple link Two
                     </a>,
                 ]}
-                  // isOpen={isOpen[0]}
                   id="testDropDownOne"
                 />
               </>,
@@ -232,10 +228,7 @@ export default function FAQ() {
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
         </div>         
-
       </main>
-
-
 
       <div className="usa-footer__primary-section">
         <nav className="usa-footer__nav" aria-label="Footer navigation">

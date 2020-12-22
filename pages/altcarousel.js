@@ -8,9 +8,9 @@ import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
 import Link from '../src/components/Link'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-// import { Carousel } from 'react-responsive-carousel';
-import Carousel from 'react-elastic-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel';
+// import Carousel from 'react-elastic-carousel'
 
 
 export default function AltCarousel() {
@@ -60,13 +60,13 @@ export default function AltCarousel() {
                 <span>FAQ</span>
               </a>,
               <a href="/uxlibrary" key="three" className="usa-nav__link">
-              <span>UX Library</span>
+              <span>Resources</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
-              <span>Platform327</span>
+              <span>Enroll</span>
             </a>,                                      
             ]}
             mobileExpanded={null}
@@ -78,39 +78,39 @@ export default function AltCarousel() {
       </>
 
         <main id="main-content">
-          {/* <Carousel
+          <Carousel
             showArrows={false}
             showStatus={false}
             dynamicHeight={false}
             showThumbs={false}
             autoplay
             infiniteLoop={true}
-            transitionTime={50}
-            interval={3}
+            transitionTime={150}
+            interval={3000}
             swipeable={true}
             showIndicators={true}
             useKeyboardArrows={true}
           >
-                <div>
+                <div className={styles.carousel}>
                   <img src="/home1.png" style={{width: '960px'}}/>
                 </div>
-                <div>
+                <div className={styles.carousel}>
                   <img src="/home2.png" style={{width: '960px'}}/>
                 </div>
-                <div>
+                <div className={styles.carousel}>
                   <img src="/home3.png" style={{width: '960px'}} />
                 </div>
-          </Carousel> */}
+          </Carousel>
         </main>
 
         <div className="usa-footer__primary-section">
           <nav className="usa-footer__nav" aria-label="Footer navigation">
             <ul className="grid-row grid-gap">
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-                <a className="usa-footer__primary-link" href="/">Home</a>
+                <a className="usa-footer__primary-link" href="#">Home</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-                <a className="usa-footer__primary-link" href="#">Contact</a>
+                <a className="usa-footer__primary-link" href="/contact">Contact</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
                 <a className="usa-footer__primary-link" href="#">Privacy Policy</a>
@@ -145,14 +145,14 @@ export default function AltCarousel() {
                     </a>
                   </div>
                 </div>
-                <h3 className="usa-footer__contact-heading text-white">Agency Contact</h3>
+                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
                 <address className="usa-footer__address">
                   <div className="usa-footer__contact-info grid-row grid-gap">
-                    <div className="grid-col-auto">
-                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
+                    <div class="grid-col-auto">
+                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
-                    <div className="grid-col-auto">
-                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
+                    <div class="grid-col-auto">
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>
                 </address>

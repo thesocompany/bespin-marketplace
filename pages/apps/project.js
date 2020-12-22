@@ -36,15 +36,21 @@ export default function Project() {
       <Header basic={true}>
         <div className="usa-nav-container">
           <div className="usa-navbar">
-          <div className="grid-row margin-bottom-3">
-            <div className="grid-col-auto" className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a></div>
-            <div className="grid-col-auto" className={styles.oneandhalf}><span className={styles.navTitle}><a href="/">BESPIN {<br />}Marketplace</a></span></div>          </div>  
+          <div className="grid-row margin-bottom-3" style={{width: '243px'}}>
+            <div
+              className="grid-col-auto"
+              className={styles.headerLogo}><a href="/"><img src={BespinLogo} /></a>
+            </div>
+            <div
+              className="grid-col-auto"
+              className={styles.oneandhalf}>
+              <span className={styles.navTitle}><a href="/">BESPIN{<br />}Platform 327</a></span>
+            </div>          </div>  
             <NavMenuButton onClick={null} label="Menu" />
           </div>
           <PrimaryNav
             items={[
               <>
-            
                 <Menu
                   key="one"
                   items={[
@@ -55,7 +61,6 @@ export default function Project() {
                       Simple link Two
                     </a>,
                 ]}
-                  // isOpen={isOpen[0]}
                   id="testDropDownOne"
                 />
               </>,
@@ -65,14 +70,14 @@ export default function Project() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="#" key="three" className="usa-nav__link">
-              <span>UX Library</span>
+              <a href="/resources" key="three" className="usa-nav__link">
+              <span>Resources</span>
             </a>,
-              <a href="/apps" key="three" className="usa-nav__link">
+              <a href="/apps" key="three" className="usa-nav__link usa-current">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">
-              <span>Platform327</span>
+              <span>Enroll Now</span>
             </a>,                                      
             ]}
             mobileExpanded={null}
@@ -273,13 +278,13 @@ export default function Project() {
         <nav className="usa-footer__nav" aria-label="Footer navigation">
           <ul className="grid-row grid-gap">
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Home</a>
+              <a className="usa-footer__primary-link" href="/">Home</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
               <a className="usa-footer__primary-link" href="/contact">Contact</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+              <a className="usa-footer__primary-link" href="#">Privacy Policy</a>
             </li>
           </ul>
         </nav>
@@ -299,34 +304,26 @@ export default function Project() {
               <div class="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div class="usa-footer__social-links grid-row grid-gap-1">
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkFacebook} href="javascript:void(0);">
-                      <span>Facebook</span>
+                    <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkTwitter} href="javascript:void(0);">
-                      <span>Twitter</span>
+                    <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
                   <div class="grid-col-auto">
-                    <a className={styles.socialLinkLinkedin} href="javascript:void(0);">
-                      <span>YouTube</span>
-                    </a>
-                  </div>
-                  <div class="grid-col-auto">
-                    <a className={styles.socialLinkRss} href="javascript:void(0);">
-                      <span>RSS</span>
+                    <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact</h3>
+                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a>
+                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
-                      <a href="mailto:info@agency.gov" className={styles.footerText}>info@platform327.org</a>
+                      <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>
                 </address>
@@ -334,17 +331,6 @@ export default function Project() {
             </div>
           </div>
         </div>
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer> */}
-     {/* </div> */}
      </>
   )
 }

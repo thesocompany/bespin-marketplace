@@ -205,7 +205,7 @@ export default function Platform327() {
             </ol>
           </nav>          
 
-          <h1 className={styles.uxLibrarySectionHeading}>Enroll and Start Heres</h1>
+          <h1 className={styles.uxLibrarySectionHeading}>Enroll and Start Here</h1>
           <br />
           <h2 className={styles.uxLibrarySectionSubheading}>We created training courses and events to help build<br />skill sets, identify problems and build lasting solutions.</h2>
           <br />
@@ -250,7 +250,7 @@ export default function Platform327() {
                         </div>
                       </div>
                       <div class="grid-row">
-                        <Checkbox id="checkbox" name="checkbox" label="Yes, I would like to take a UX Skills Assessment" />
+                        <Checkbox id="checkbox3" name="checkbox3" label="Yes, I would like to take a UX Skills Assessment" />
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Email*</Label></div>

@@ -73,7 +73,7 @@ export default function Project() {
               <a href="/resources" key="three" className="usa-nav__link">
               <span>Resources</span>
             </a>,
-              <a href="/apps" key="three" className="usa-nav__link usa-current">
+              <a href="/apps" key="three" className="usa-nav__link">
               <span>Apps</span>
             </a>,
               <a href="/platform327" key="three" className="usa-nav__link">

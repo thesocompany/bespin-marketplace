@@ -205,15 +205,23 @@ export default function Platform327() {
             </ol>
           </nav>          
 
-          <h1 className={styles.uxLibrarySectionHeading}>Enroll and Start Heres</h1>
-          <br />
-          <h2 className={styles.uxLibrarySectionSubheading}>We created training courses and events to help build<br />skill sets, identify problems and build lasting solutions.</h2>
-          <br />
-
           <section>
             <div class="grid-container" >
               <div class="grid-row">
-                <div className="tablet:grid-col-12">
+                <div className="tablet:grid-col-3 margin-right-6">
+                  <h1>Start</h1>
+                    <p>
+                    Platform 327 can help project teams learn to design and develop digital Air Force 
+                    applications to address the most pressing issues. 
+                    </p>
+                    <p>  
+                    We’ve compiled a list of courses 
+                    and training events to help build skill sets, identify problems and build lasting solutions. 
+                    </p>
+                      <img src="/working.png" />
+                </div>
+
+                <div className="tablet:grid-col-8">
                 <Tabs>
                   <TabList id="platform-tabs">
                     <Tab><span className={styles.tabLabel}>TRAINING</span></Tab>
@@ -221,23 +229,14 @@ export default function Platform327() {
                   </TabList>
                   <TabPanel>
                     <div class="grid-container">
-                        <div class="grid-row padding-top-4">
-                          <div className="tablet:grid-col-3 padding-right-3">
-                            <h2>Training Sign Up</h2>
-                            <p className="font-sans-3xs">
-                              Platform 327 can help project teams learn to design and develop digital 
-                              Air Force applications to address the most pressing issues. 
-                              <br />
-                              <br />
-                              When you sign up for training, you’ll have the option to take a UX Skills  
-                              Assessment. Our skills assessment will help us evaluate your product design 
-                              skills so we can identify what you’re good at and areas where you can grow 
-                              and refine your knowledge. 
-                            </p>
-                            <img src="/working.png" />
-                          </div>
-                          <div className="tablet:grid-col-9">
-
+                      <div class="grid-row">
+                        <h1>Sign up here</h1>
+                        <p>
+                          When you sign up for training, you’ll have the option to take a UX Skills Assessment. 
+                          Our skills assessment will help us evaluate your product design skills so we can identify 
+                          what you’re good at and areas where you can grow and refine your knowledge.
+                        </p>
+                      </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
                         <div class="tablet:grid-col"><Label className="margin-bottom-2">Preferred Contact:*</Label></div>
@@ -250,7 +249,7 @@ export default function Platform327() {
                         </div>
                       </div>
                       <div class="grid-row">
-                        <Checkbox id="checkbox" name="checkbox" label="Yes, I would like to take a UX Skills Assessment" />
+                        <Checkbox id="checkbox3" name="checkbox3" label="Yes, I would like to take a UX Skills Assessment" />
                       </div>
                       <div class="grid-row">
                         <div class="tablet:grid-col margin-right-6"><Label>Email*</Label></div>
@@ -268,73 +267,57 @@ export default function Platform327() {
                       </div>
                       <div class="grid-row">
                         <Button onClick={successModal}>Submit</Button>
-                          </div>
-                        </div>
-                      </div>
-    
+                      </div>                                               
                     </div>
 
                   </TabPanel>
                   <TabPanel>
                   <div class="grid-container">
-                        <div class="grid-row padding-top-3">
-                          <div className="tablet:grid-col-4 padding-right-3">
-                            <h2 className="margin-bottom-neg-1">Register for an Open Event</h2>
-                            <br />
-                            <p className="font-sans-3xs">Platform 327 has open events all year to help wherever you are in your UX design career. 
-                            <br />
-                            <br />
-                            Select an event on this page and fill in the form with your name, email address and phone number. You can also add a message.
+                      <div class="grid-row">
+                        <h2 className="margin-bottom-neg-1">Register</h2>
+                        <p>Select an event on this page and fill in the form with your name, email address and phone number. You can also add a message.</p>
+                      </div>
+                      <div class="grid-row margin-top-1">
+                        <div class="tablet:grid-col" onClick={showModal}>
+                          <section className={styles.platform327uXEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 2 - UX Intro</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
                             </p>
-                            <img src="/desk.svg" />
-
-                          </div>
-                          <div className="tablet:grid-col-8 padding-right-3 padding-top-6">
-
-                          <div class="grid-row padding-left-3margin-top-1">
-                          <div class="tablet:grid-col" onClick={showModal}>
-                            <section className={styles.platform327uXEvent}>
-                              <h3 className={styles.eventBoxTitle}>Nov 2 - UX Intro</h3>
-                              <p className={styles.eventDescription}>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
-                              </p>
-                            </section>
-                          </div>
-                          <div class="tablet:grid-col">
-                          <section className={styles.platform327DesignEvent}>
-                              <h3 className={styles.eventBoxTitle}>Nov 3 - Design Strategy</h3>
-                              <p className={styles.eventDescription}>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
-                              </p>
-                          </section>                          
-                          </div>
-                          </div>
-                          <div class="grid-row margin-top-3">
-                          <div class="tablet:grid-col">
-                          <section className={styles.platform327UTEvent}>
-                              <h3 className={styles.eventBoxTitle}>Nov 5 - User Testing</h3>
-                              <p className={styles.eventDescription}>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
-                              </p>
-                          </section>   
-                          </div>
-                          <div class="tablet:grid-col">
-                          <section className={styles.platform327AdobeEvent}>
-                              <h3 className={styles.eventBoxTitle}>Nov 10 - Event: Adobe XD</h3>
-                              <p className={styles.eventDescription}>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
-                              </p>
-                          </section>   
-                            
-                          </div>
-                            </div>      
-                          </div>
-                       </div>
+                          </section>
+                        </div>
+                        <div class="tablet:grid-col">
+                        <section className={styles.platform327DesignEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 3 - Design Strategy</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                        </section>                          
+                        </div>
+                      </div>
+                      <div class="grid-row margin-top-3">
+                        <div class="tablet:grid-col">
+                        <section className={styles.platform327UTEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 5 - User Testing</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                        </section>   
+                        </div>
+                        <div class="tablet:grid-col">
+                        <section className={styles.platform327AdobeEvent}>
+                            <h3 className={styles.eventBoxTitle}>Nov 10 - Event: Adobe XD</h3>
+                            <p className={styles.eventDescription}>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                            </p>
+                        </section>   
+                          
+                        </div>
+                      </div>                                          
                   </div>
                   </TabPanel>
                 </Tabs>
                 </div>
-                  
               </div>
             </div>
           </section>

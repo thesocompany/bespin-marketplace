@@ -103,7 +103,7 @@ export default function FAQ() {
       title: 'How are Platform 327 and Air Force BESPIN related?',
       content: (
         <span>
-          Platform 327 is part of the Air Force’s <a href="/apps" className={styles.link} rel="noreferrer" target="_blank">Business Enterprise Systems Program Innovation 
+          Platform 327 is part of the Air Force’s <a href="https://www.teambespin.us/" className={styles.link} rel="noreferrer" target="_blank">Business Enterprise Systems Program Innovation 
           (BESPIN)</a> at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
           quickly implement ideas aimed at improving mission support capabilities. 
           <br />

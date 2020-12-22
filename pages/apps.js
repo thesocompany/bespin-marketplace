@@ -12,7 +12,6 @@ import Button from '../src/components/Button'
 
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
-
 export default function Apps() {
 
     const appsAccordionItems = [
@@ -196,7 +195,7 @@ export default function Apps() {
       expanded: false,
       id: 'five',
       },
-            {
+      {
       icon: (<img className="padding-top-1 padding-left-3" src="/apps/pointsync-icon.png" />
       ),
       title: (
@@ -266,7 +265,6 @@ export default function Apps() {
           <PrimaryNav
             items={[
               <>
-            
                 <Menu
                   key="one"
                   items={[
@@ -328,7 +326,6 @@ export default function Apps() {
           <div className="grid-row margin-top-7">
             <MediumAccordion bordered={false} items={appsAccordionItems} />
             </div>
-            
         </section>
 
         <div className="grid-container usa-footer__return-to-top">

@@ -3,19 +3,11 @@ import styles from '../styles/Home.module.css'
 import Header from '../src/components/Header'
 import NavMenuButton from '../src/components/NavMenuButton'
 import PrimaryNav from '../src/components/PrimaryNav'
-import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
-import PrimaryButton from '../src/components/Buttons'
-import TextInput from '../src/components/TextInput'
-import Button from '../src/components/Button'
-import Label from '../src/components/Label'
-import TextArea from '../src/components/TextArea'
-import Link from '../src/components/Link'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import Accordion from '../src/components/Accordion'
-// import faqData from './data/faqData'
 
 export default function FAQ() {
   let faqData = [
@@ -131,7 +123,6 @@ export default function FAQ() {
     },
   ]
 
-
   return (
     <>
       <Head>
@@ -163,7 +154,6 @@ export default function FAQ() {
           <PrimaryNav
             items={[
               <>
-            
                 <Menu
                   key="one"
                   items={[
@@ -276,7 +266,6 @@ export default function FAQ() {
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>

@@ -18,6 +18,10 @@ import Link from '../src/components/Link'
 // import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 
+//
+// this file is deprecated
+//
+
 export default function Home() {
   return (
     // <div className={styles.container}>

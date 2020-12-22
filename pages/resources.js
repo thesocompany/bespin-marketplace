@@ -1,27 +1,15 @@
 import Head from 'next/head'
 // import Link from 'next/link'
-
 import styles from '../styles/Home.module.css'
 import Header from '../src/components/Header'
-import Title from '../src/components/Title'
 import NavMenuButton from '../src/components/NavMenuButton'
 import PrimaryNav from '../src/components/PrimaryNav'
-import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
-import PrimaryButton from '../src/components/Buttons'
-import TextInput from '../src/components/TextInput'
-// import heroImage from '../src/assets/images/hero1.png'
-import Button from '../src/components/Button'
-import Label from '../src/components/Label'
-import TextArea from '../src/components/TextArea'
-// import Link from '../src/components/Link'
-// import FooterNav from '../src/components/FooterNav'
 import LargeAccordion from '../src/components/LargeAccordion'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 // import resourceAccordionItems from './data/resourcesData';
-
 
 export default function Resources() {
   const resourceAccordionItems = [
@@ -32,7 +20,7 @@ export default function Resources() {
             <p className={styles.accordionLargeKeyDescription}>Apply UX principles to your project</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
+      icon: (<img className="margin-top-205" src="/resources/learning-icon.png" />
       ), 
       image: (<img className={styles.appsIcon} src="/resources/learning-desk.png" />
       ),
@@ -81,7 +69,7 @@ export default function Resources() {
             <p className={styles.accordionLargeKeyDescription}>Learn interactive and visual design principles</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/design-icon.png" />
+      icon: (<img className="margin-top-205" src="/resources/design-icon.png" />
       ), 
       image: (<img className={styles.appsIcon} src="/resources/design-board.svg" />
       ),
@@ -129,7 +117,7 @@ export default function Resources() {
             <p className={styles.accordionLargeKeyDescription}>Get UI kits, UX wireframes and more</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/UIComponents-icon.png" />
+      icon: (<img className="margin-top-205" src="/resources/UIComponents-icon.png" />
       ), 
       image: (<img className={styles.appsIcon} src="resources/uicomponents-ladder.svg" />
       ),
@@ -168,7 +156,7 @@ export default function Resources() {
             <p className={styles.accordionLargeKeyDescription}>Use what you’ve learned to create digital products</p>
           </>
         ),
-        icon: (<img className="margin-top-205" src="/resources/development-icon.png" />
+      icon: (<img className="margin-top-205" src="/resources/development-icon.png" />
       ), 
       image: (<img className={styles.appsIcon} src="/resources/development-puzzle.svg" />
       ),
@@ -201,8 +189,6 @@ export default function Resources() {
   ] 
 
   return (
-    // <div className={styles.container}>
-    
     <>
       <Head>
         <title>BESPIN Marketplace</title>
@@ -232,7 +218,6 @@ export default function Resources() {
           <PrimaryNav
             items={[
               <>
-            
                 <Menu
                   key="one"
                   items={[
@@ -243,7 +228,6 @@ export default function Resources() {
                       Simple link Two
                     </a>,
                 ]}
-                  // isOpen={isOpen[0]}
                   id="testDropDownOne"
                 />
               </>,
@@ -270,7 +254,6 @@ export default function Resources() {
         </div>
       </Header>
     </>
-      {/* <main className={styles.main}> */}
       <main id="main-content">
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
           <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
@@ -292,7 +275,6 @@ export default function Resources() {
 
           <div className="grid-row margin-top-7">
             <LargeAccordion bordered={false} items={resourceAccordionItems} />
-
           </div>
         </section>
         <div className="grid-container usa-footer__return-to-top">
@@ -345,7 +327,6 @@ export default function Resources() {
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>

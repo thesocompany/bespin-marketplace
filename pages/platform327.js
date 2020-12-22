@@ -2,24 +2,17 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import ReactModal from "react-modal";
 import { useModal } from "react-modal-hook";
-// import { Button } from '@trussworks/react-uswds'
 import Header from '../src/components/Header'
-import Title from '../src/components/Title'
 import NavMenuButton from '../src/components/NavMenuButton'
 import PrimaryNav from '../src/components/PrimaryNav'
-import NavList from '../src/components/NavList'
 import Menu from '../src/components/Menu'
 import Search from '../src/components/Search'
 import GovBanner from '../src/components/GovBanner'
-import PrimaryButton from '../src/components/Buttons'
 import TextInput from '../src/components/TextInput'
-// import heroImage from '../src/assets/images/hero1.png'
 import Button from '../src/components/Button'
 import Label from '../src/components/Label'
 import TextArea from '../src/components/TextArea'
-import Link from '../src/components/Link'
 import Checkbox from '../src/components/Checkbox'
-// import FooterNav from '../src/components/FooterNav'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -29,10 +22,7 @@ import markersImg from '../src/assets/images/markers.png'
 import usertestingImg from '../src/assets/images/usertesting.png'
 import collabImg from '../src/assets/images/computerlap.png'
 
-
-
 export default function Platform327() {
-
   function successModal() {
     hideModal()
     showSuccessModal()
@@ -87,7 +77,6 @@ export default function Platform327() {
             <div class="grid-row margin-top-3">
               <Button onClick={successModal}>Sign up</Button>
             </div>
-
           </div>
         </div>
       </div>
@@ -155,7 +144,6 @@ export default function Platform327() {
                       Simple link Two
                     </a>,
                 ]}
-                  // isOpen={isOpen[0]}
                   id="testDropDownOne"
                 />
               </>,
@@ -271,9 +259,7 @@ export default function Platform327() {
                           </div>
                         </div>
                       </div>
-    
                     </div>
-
                   </TabPanel>
                   <TabPanel>
                   <div class="grid-container">
@@ -390,7 +376,6 @@ export default function Platform327() {
                 <address class="usa-footer__address">
                   <div class="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>

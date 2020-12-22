@@ -10,8 +10,6 @@ import Link from 'next/link'
 import BespinLogo from '../src/assets/images/BESPIN-Logo.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-// import Carousel from 'react-elastic-carousel'
-
 
 export default function AltCarousel() {
     return (
@@ -22,7 +20,6 @@ export default function AltCarousel() {
           <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.8.0/css/uswds.min.css" rel="stylesheet" />
           <link rel="stylesheet" href="https://use.typekit.net/mvi3aaj.css" />
-  
         </Head>
       <>
       <GovBanner />
@@ -38,7 +35,6 @@ export default function AltCarousel() {
           <PrimaryNav
             items={[
               <>
-            
                 <Menu
                   key="one"
                   items={[
@@ -49,7 +45,6 @@ export default function AltCarousel() {
                       Simple link Two
                     </a>,
                 ]}
-                  // isOpen={isOpen[0]}
                   id="testDropDownOne"
                 />
               </>,
@@ -91,17 +86,17 @@ export default function AltCarousel() {
             showIndicators={true}
             useKeyboardArrows={true}
           >
-                <div className={styles.carousel}>
-                  <img src="/home1.png" style={{width: '960px'}}/>
-                </div>
-                <div className={styles.carousel}>
-                  <img src="/home2.png" style={{width: '960px'}}/>
+            <div className={styles.carousel}>
+              <img src="/home1.png" style={{width: '960px'}}/>
             </div>
-                <Link href="/platform327">
-                <div className={styles.carousel}>
-                  <img src="/home3.png" style={{ width: '960px' }} />
+            <div className={styles.carousel}>
+              <img src="/home2.png" style={{width: '960px'}}/>
+            </div>
+            <Link href="/platform327">
+              <div className={styles.carousel}>
+               <img src="/home3.png" style={{ width: '960px' }} />
               </div>
-              </Link>
+           </Link>
           </Carousel>
         </main>
 
@@ -151,7 +146,6 @@ export default function AltCarousel() {
                 <address className="usa-footer__address">
                   <div className="usa-footer__contact-info grid-row grid-gap">
                     <div class="grid-col-auto">
-                      {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
                     <div class="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>

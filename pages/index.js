@@ -59,7 +59,7 @@ export default function AltCarousel() {
               <a href="/faq" key="three" className="usa-nav__link">
                 <span>FAQ</span>
               </a>,
-              <a href="/uxlibrary" key="three" className="usa-nav__link">
+              <a href="/resources" key="three" className="usa-nav__link">
               <span>Resources</span>
             </a>,
               <a href="/apps" key="three" className="usa-nav__link">

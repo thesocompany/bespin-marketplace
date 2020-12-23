@@ -222,11 +222,11 @@ export default function Apps() {
               </p>
             </div>
             <div class="tablet:grid-col">
-              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
-              <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<br />with Platform 327 for a better<br />user experience
+              <p className={styles.accordionLargeContentTitle}>Criteria for Success</p>
+              <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<b />with Platform 327 for a better<br />user experience
               </p>
               <Link href="/apps/project">
-                <a><Button className="margin-top-105">Learn more</Button></a>
+                <a><Button className="margin-top-105">See Case Study</Button></a>
               </Link>
             </div>
           </div>

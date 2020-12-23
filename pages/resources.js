@@ -46,6 +46,9 @@ export default function Resources() {
                 <p className={styles.accordionLargeContentTitle}>A/B Testing Templates</p>
               </a>
               <p className="font-body-3xs margin-top-05">Good UI ideas and A/B tested <br />patterns for better analysis
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing" rel="noreferrer" target="_blank">Get the Testing Templates</a></li>
+                </ul>
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -54,6 +57,9 @@ export default function Resources() {
                 <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
               </a>  
               <p className="font-body-3xs margin-top-05">All in one toolkit for everything <br />related to user experience interviews
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="https://drive.google.com/drive/folders/1G0UPErrLjPBUVa2luA7i0Qe_V2rEcYJc?usp=sharing" rel="noreferrer" target="_blank">Get the Interview Kit</a></li>
+                </ul>
               </p>
             </div>
           </div>
@@ -82,6 +88,9 @@ export default function Resources() {
                 <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
               </a>  
               <p className="font-body-3xs margin-top-05">Make sure that all design<br /> elements in UI are spot on
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="https://drive.google.com/drive/folders/1IKLqXuSl_eEAQtszh6fVDFRyjjgYIDIS?usp=sharing" rel="noreferrer" target="_blank">Get the UT Testing Templates</a></li>
+                </ul>
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -90,6 +99,9 @@ export default function Resources() {
                 <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
               </a>
               <p className="font-body-3xs margin-top-05">Quick guide on going over your<br /> design features
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="https://drive.google.com/drive/folders/1y1yWX7kgXThIfl2VmrBzK3XM3EDGHLtw?usp=sharing" rel="noreferrer" target="_blank">Get the UT Checklist</a></li>
+                </ul>                
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -129,7 +141,7 @@ export default function Resources() {
                 <img className="" src="/resources/content-uicomp-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Components</p>
               </a>  
-              <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (Figma File)
+              <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (<a className={styles.accordionLink} href="https://www.figma.com/file/UTR4CZWtii60nInBMGCiLv/USAF-USWDS-UI-Design-Kit?node-id=0%3A1">Figma File</a>)
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -137,7 +149,7 @@ export default function Resources() {
                 <img className="" src="/resources/content-uicomp-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>Core Design System</p>
               </a>
-              <p className="font-body-3xs margin-top-05">This Storybook hub breaks down<br /> the all CSS and HTML code
+              <p className="font-body-3xs margin-top-05"><a className={styles.accordionLink} href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert">This Storybook hub</a> breaks down<br /> the all CSS and HTML code
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -169,6 +181,16 @@ export default function Resources() {
                 <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
               </a>  
               <p className="font-body-3xs margin-top-05">For Developers, how to coordinate <br />with UX designers
+                <ul className="padding-left-205">
+                  <li>
+                    <a
+                      className={styles.accordionLink}
+                      href="https://drive.google.com/drive/folders/1yEmH_TyLZRhTgIjB0KiXmTHGf5RtJWao"
+                      rel="noreferrer"
+                      target="_blank"
+                    >Get the UX Dev Checklist</a>
+                  </li>
+                </ul> 
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -177,6 +199,9 @@ export default function Resources() {
                 <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
               </a>
               <p className="font-body-3xs margin-top-05">Guardrail resources for <br />developers leading UX for teams
+                <ul className="padding-left-205">
+                  <li><a className={styles.accordionLink} href="https://drive.google.com/drive/folders/1EDQNxJmk7OmFJnQG383f7JrJJ6H-ZLnr?usp=sharing" rel="noreferrer" target="_blank">Get the UT Testing Templates</a></li>
+                </ul>                
               </p>
             </div>
             <div class="tablet:grid-col"></div>

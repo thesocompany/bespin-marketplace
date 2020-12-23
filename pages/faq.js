@@ -93,7 +93,7 @@ export default function FAQ() {
       content: (
         <span>
           Platform 327 is part of the Air Force’s <a href="https://www.teambespin.us/" className={styles.link} rel="noreferrer" target="_blank">Business Enterprise Systems Program Innovation 
-          (BESPIN)</a> at Maxwell Air Force Base in Montgomery, Alabama. It uses agile development to 
+          (BESPIN)</a> at Maxwell Air Force Base Gunter Annex in Montgomery, Alabama. Platform327 uses agile development to 
           quickly implement ideas aimed at improving mission support capabilities. 
           <br />
           <br />

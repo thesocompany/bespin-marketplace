@@ -305,7 +305,7 @@ export default function Apps() {
       <main id="main-content">
         <section className ={styles.allAppsHero}>
           <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Creating Excellence in UX</span></h1>
-          <p className={styles.heroIntro}>Discover our featured applications and <br />in their case studies in UX practices.</p>
+          <p className={styles.heroIntro}>Discover our featured applications<br />and their case studies in UX practices.</p>
         </section>
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
           <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >

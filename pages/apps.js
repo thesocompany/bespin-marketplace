@@ -69,7 +69,7 @@ export default function Apps() {
           <div class="grid-row">
             <div class="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
-              <p className={styles.accordionMediumContentDescription}>Mobile ool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
+              <p className={styles.accordionMediumContentDescription}>Mobile tool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
               </p>
             </div>
             <div class="tablet:grid-col">
@@ -222,11 +222,11 @@ export default function Apps() {
               </p>
             </div>
             <div class="tablet:grid-col">
-              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
-              <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<br />with Platform 327 for a better<br />user experience
+              <p className={styles.accordionLargeContentTitle}>Criteria for Success</p>
+              <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<b />with Platform 327 for a better<br />user experience
               </p>
               <Link href="/apps/project">
-                <a><Button className="margin-top-105">Learn more</Button></a>
+                <a><Button className="margin-top-105">See Case Study</Button></a>
               </Link>
             </div>
           </div>
@@ -305,7 +305,7 @@ export default function Apps() {
       <main id="main-content">
         <section className ={styles.allAppsHero}>
           <h1 className="usa-hero_heading" className={styles.platformHeaderTitle}><span className="usa-hero__heading--alt">Creating Excellence in UX</span></h1>
-          <p className={styles.heroIntro}>Discover our featured applications and <br />in their case studies in UX practices.</p>
+          <p className={styles.heroIntro}>Discover our featured applications<br />and their case studies in UX practices.</p>
         </section>
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
           <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >

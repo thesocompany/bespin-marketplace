@@ -114,12 +114,11 @@ export default function Contact() {
                 <div className="grid-col-auto"><img src="/guy.png" /></div>
                 <div className="grid-col-auto margin-left-9"> 
                  <div className="font-sans-lg text-bold">PLATFORM327</div> 
-                  <br />123 Main Street 
-                  <br />Montgomery, AL 32018
+                  <br />490 East Moore Drive 
+                  <br />Bldg 892, Room 230
+                  <br />Maxwell AFB-Gunter Annex, Alabama
                   <br /><br />
-                  <br /> <a className={styles.link} href="tel:">Call: (800) 888-1234</a>
-                  <br /> <a className={styles.link} href="tel:">Call: (588) 123-4168</a>
-                  <br /> <a className={styles.link} href="mailto:">Email: info@bespin.com </a>
+                  <br /> <a className={styles.link} href="mailto:">Email: BESPIN.af@gmail.com  </a>
                   <br /><br /><br />
                 </div>
               </div>

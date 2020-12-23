@@ -69,7 +69,7 @@ export default function Apps() {
           <div class="grid-row">
             <div class="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
-              <p className={styles.accordionMediumContentDescription}>Mobile ool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
+              <p className={styles.accordionMediumContentDescription}>Mobile tool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
               </p>
             </div>
             <div class="tablet:grid-col">

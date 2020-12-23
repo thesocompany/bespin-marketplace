@@ -149,9 +149,10 @@ export default function Project() {
                 hardware for prototype assembly. The app eliminates manual paper entry and using data collected 
                 from smartphones and wearable tech to reduce overall hardware delivery time by 35%.
                 </span>
-                <h2 className="margin-left-2 margin-bottom-4" style={{width:"440px"}}>"Most importantly, we needed to optimize how we track materials and new prototypes being assembled 
-                  at speed, never done before. The development of PointSpot made help our service teams to become more 
-                  integrated into the greater Space Force mission."
+                <h2 className="margin-left-2 margin-bottom-4" style={{ width: "440px" }}>"Most importantly, we needed to 
+                optimizehow we track materials and newprototypes being assembled at speed, never done before. 
+                The development ofPointSpot made help our service teams to become more 
+                integrated into the greater Space Force mission."
                 </h2>
                 <span className="text-bold">PROBLEMS IDENTIFIED:</span>
                 <span className={styles.projectPageBodyText}>

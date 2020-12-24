@@ -102,7 +102,7 @@ export default function Project() {
             </li>
             <li class="usa-breadcrumb__list-item">
               <a href="#" class="usa-breadcrumb__link">
-                <span>Project Name</span>
+                <span>PointSync</span>
               </a>
             </li>
           </ol>
@@ -252,16 +252,16 @@ export default function Project() {
                   <h1 className={styles.sectionHeading}>Contact The Team</h1>
                   <div class="grid-row" id={styles.projectPageContact}>
                     <Label htmlFor="testInput">Name</Label>
-                    <TextInput className={styles.contactUsTextInput} />
+                    <TextInput />
                   </div>
 
-                  <div class="grid-row" id={styles.projectPageContact}>
+                  <div className="grid-row" id={styles.projectPageContact}>
                     <Label htmlFor="testInput">Email</Label>            
-                    <TextInput className={styles.contactUsTextInput} />
+                    <TextInput />
                   </div>
                    <div class="grid-row" id={styles.projectPageContact}>
                      <Label htmlFor="testInput">Message</Label>
-                     <TextArea className={styles.contactUsTextInput} style={{height: "70px"}} />
+                     <TextArea style={{height: "70px"}} />
                   </div>      
                   <br />
                 <Button className={styles.buttonCenter}>Submit</Button>          

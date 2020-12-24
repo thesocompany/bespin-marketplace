@@ -230,7 +230,7 @@
   margin-bottom: 0;
 }
 .contactUsTextInput {
-  max-width: 200rem;
+  max-width: 424px;
 }
 
 .oneandhalf {
@@ -410,6 +410,26 @@
   margin-right:auto; */
 }
 
+.projectPageImageLeft {
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.projectPageImageLeftwing {
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+}
+.projectPageImagerightwing {
+  /* margin: 0 auto; */
+  display: block;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 8px;
+}
+
 .projectPageBodyImg {
   display: block;
   margin-left: auto;
@@ -422,6 +442,15 @@
   letter-spacing: 0px;
   color: #171717;
   opacity: 1;
+}
+
+.projectPageBodyTextAdjusted {
+  text-align: left;
+  font: normal normal normal 16px/25px Public Sans;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
+  max-width: 449px;
 }
 
 .appPageDownloadButton {
@@ -461,6 +490,15 @@
   color: #ffffff;
   text-align: center;
   font-size: 22px;
+  font-weight: normal;
+  font-family: Public Sans;
+  opacity: 1;
+}
+.projectSubheadingWMoreText {
+  margin-top: 5px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
   font-weight: normal;
   font-family: Public Sans;
   opacity: 1;

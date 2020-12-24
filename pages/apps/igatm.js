@@ -13,7 +13,7 @@ import Label from '../../src/components/Label'
 import TextArea from '../../src/components/TextArea'
 import BespinLogo from '../../src/assets/images/BESPIN-Logo.png'
 
-export default function Project() {
+export default function Igatm() {
   return (
     <>
       <Head>

@@ -309,13 +309,13 @@ export default function Apps() {
         </section>
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
           <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
-            <li class="usa-breadcrumb__list-item">
-              <a href="/" class="usa-breadcrumb__link">
+            <li className="usa-breadcrumb__list-item">
+              <a href="/" className="usa-breadcrumb__link">
                 <span>Home</span>
               </a>
             </li>
-            <li class="usa-breadcrumb__list-item">
-              <a href="#" class="usa-breadcrumb__link">
+            <li className="usa-breadcrumb__list-item">
+              <a href="#" className="usa-breadcrumb__link">
                 <span>Apps</span>
               </a>
             </li>
@@ -338,36 +338,36 @@ export default function Apps() {
         <nav className="usa-footer__nav" aria-label="Footer navigation">
           <ul className="grid-row grid-gap">
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Home</a>
+              <a className="usa-footer__primary-link" href="/">Home</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
               <a className="usa-footer__primary-link" href="/contact">Contact</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+              <a className="usa-footer__primary-link" href="#">Privacy Policy</a>
             </li>
           </ul>
         </nav>
       </div>
       <div className={styles.footerbar}>&nbsp;</div>
-        <div class="usa-footer__secondary-section bg-black">
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-                <div class="mobile-lg:grid-col-auto">
+        <div className="usa-footer__secondary-section bg-black">
+          <div className="grid-container">
+            <div className="grid-row grid-gap">
+              <div className="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div className="mobile-lg:grid-col-auto">
                   <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
                 </div>
-                <div class="mobile-lg:grid-col-auto">
+                <div className="mobile-lg:grid-col-auto">
                   <span className={styles.footerTitle}>BESPIN</span>
                 </div>
               </div>
-              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-                <div class="usa-footer__social-links grid-row grid-gap-1">
-                  <div class="grid-col-auto">
+              <div className="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div className="usa-footer__social-links grid-row grid-gap-1">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>

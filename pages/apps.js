@@ -29,21 +29,21 @@ export default function Apps() {
         </>
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col padding-left-7">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>Software tool implements<br />flexible and adaptable<br />communication to improve<br />resource access for Air Force.
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Audience</p>
               <p className={styles.accordionMediumContentDescription}>US Air Force Teams - aircraft<br />program offices, avionics<br />engineers and budget planners
               </p>
             </div>
-            <div class="tablet:grid-col">
-              <p className={styles.accordionLargeContentTitle}>Learn more</p>
-                <a href="/apps/igatm"><Button className="margin-top-105">See Case Study</Button></a>
+            <div className="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+                <a href="/apps/igatm"><Button className="margin-top-105">Learn more</Button></a>
             </div>
           </div>
         </div>
@@ -65,21 +65,21 @@ export default function Apps() {
         </>
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col padding-left-7">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>Mobile tool for people who visit,<br />live, and work at Air Force<br />installations to locate and provide<br />feedback for on-base services.
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Audience</p>
               <p className={styles.accordionMediumContentDescription}>Joint Base San Antonio
               </p>
             </div>
-            <div class="tablet:grid-col">
-              <p className={styles.accordionLargeContentTitle}>Learn more</p>
-                <a href="/apps/wingfeedback"><Button className="margin-top-105">See Case Study</Button></a>
+            <div className="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+                <a href="/apps/wingfeedback"><Button className="margin-top-105">Learn more</Button></a>
             </div>
           </div>
         </div>
@@ -101,21 +101,21 @@ export default function Apps() {
         </>
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col padding-left-7">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>Online learning platform<br />catering to warfighters by<br />offering courses to improve their<br />technical skills.
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Audience</p>
               <p className={styles.accordionMediumContentDescription}>(USAF) US Air Force Teams
               </p>
             </div>
-            <div class="tablet:grid-col">
-              <p className={styles.accordionLargeContentTitle}>Learn more</p>
-                <a href="/apps/digitalu"><Button className="margin-top-105">See Case Study</Button></a>
+            <div className="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+                <a href="/apps/digitalu"><Button className="margin-top-105">Learn more</Button></a>
             </div>
           </div>
         </div>
@@ -137,21 +137,21 @@ export default function Apps() {
         </>
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col padding-left-7">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>Mobile application to create<br />awareness of and publicize<br />events for the United States Air<br />Force Academy.
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Audience</p>
               <p className={styles.accordionMediumContentDescription}>Joint Base San Antonio
               </p>
             </div>
-            <div class="tablet:grid-col">
-              <p className={styles.accordionLargeContentTitle}>Learn more</p>
-                <a href="/apps/whatsupusafa"><Button className="margin-top-105">See Case Study</Button></a>
+            <div className="tablet:grid-col">
+              <p className={styles.accordionLargeContentTitle}>Have questions?</p>
+                <a href="/apps/whatsupusafa"><Button className="margin-top-105">Learn more</Button></a>
           </div>
           </div>
         </div>
@@ -173,19 +173,19 @@ export default function Apps() {
         </>
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col padding-left-7">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>TBD
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Audience</p>
               <p className={styles.accordionMediumContentDescription}>US Air Force project Teams
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Have questions?</p>
               <Button className="margin-top-105">Contact the Team</Button>
             </div>
@@ -209,19 +209,19 @@ export default function Apps() {
         </>
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col padding-left-7">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col padding-left-7">
               <p className={styles.accordionLargeContentTitle}>About the App</p>
               <p className={styles.accordionMediumContentDescription}>A multi-device app that<br />streamlines cargo location data<br />and delivery times for AFB<br />Buckley teams.
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Audience</p>
               <p className={styles.accordionMediumContentDescription}>(USAF) US Air Force Logistic Teams
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Criteria for Success</p>
               <p className={styles.accordionMediumContentDescription}>Learn more on how they worked<b />with Platform 327 for a better<br />user experience
               </p>
@@ -308,7 +308,7 @@ export default function Apps() {
           <p className={styles.heroIntro}>Discover our featured applications<br />and their case studies in UX practices.</p>
         </section>
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
-          <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
+          <ol className={styles.breadcrumbListFaq} className="usa-breadcrumb__list" >
             <li className="usa-breadcrumb__list-item">
               <a href="/" className="usa-breadcrumb__link">
                 <span>Home</span>
@@ -371,18 +371,18 @@ export default function Apps() {
                     <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
-                <address class="usa-footer__address">
-                  <div class="usa-footer__contact-info grid-row grid-gap">
-                    <div class="grid-col-auto">
+                <h3 className="usa-footer__contact-heading text-white">Agency Contact Center</h3>
+                <address className="usa-footer__address">
+                  <div className="usa-footer__contact-info grid-row grid-gap">
+                    <div className="grid-col-auto">
                       {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
-                    <div class="grid-col-auto">
+                    <div className="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>

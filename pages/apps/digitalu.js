@@ -104,7 +104,7 @@ export default function Project() {
           <div className="grid-container">
             <div className="grid-row">
               <div className="grid-col-4">
-                <img className={styles.projectPageImageLeftwing} src="/wingleft.png" />
+                <img className={styles.projectPageImageLeftwing} src="/digitaluleft.png" />
               </div>
               <div className="grid-col-4">
                 <div className={styles.thisisatest}>
@@ -125,7 +125,7 @@ export default function Project() {
 
               </div>
               <div className="grid-col-4">
-                <img className={styles.projectPageImage} src="/wingright.png" />
+                <img className={styles.projectPageImage} src="/digitaluright.png" />
               </div>                        
             </div>
             <div className="grid-row">
@@ -145,11 +145,11 @@ export default function Project() {
                 <img src="/digitaluquoteimg.png"/>
               </div>
               <div className="grid-col-4 margin-left-1">
-                <img className={styles.projectPageBodyImg}  src="/wingapphand.png" />
+                <img className={styles.projectPageBodyImg}  src="/digitaluhandapp.png" />
               </div>
             </div>
             <section>
-            <div className="grid-row">
+            <div className="grid-row margin-bottom-3">
                 <div className="tablet:grid-col">
                   <h1 className={styles.sectionHeading}>Contact The Team</h1>
                   <div class="grid-row" id={styles.projectPageContact}>

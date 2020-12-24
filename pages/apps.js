@@ -43,7 +43,9 @@ export default function Apps() {
             </div>
             <div class="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Learn more</p>
-              <Button className="margin-top-105">See Case Study</Button>
+              <Link href="/apps/igatm">
+                <a><Button className="margin-top-105">See Case Study</Button></a>
+              </Link>
             </div>
           </div>
         </div>

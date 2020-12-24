@@ -25,9 +25,9 @@ export default function Resources() {
       image: (<img className={styles.appsIcon} src="/resources/learning-desk.png" />
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col">
               <img src="/resources/content-learning-icon.png" />
               <p className={styles.accordionLargeContentTitle}>Core UX with Digital U</p>
               <p className="font-body-3xs margin-top-05">Learn the core principles of user <br />experience and research through <br />these on-going tracks:
@@ -38,7 +38,7 @@ export default function Resources() {
                 </ul>
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <a href="https://drive.google.com/drive/folders/1L9M10KPpOEzmsk1YiT_nFXj3fJ8OeTKL?usp=sharing" rel="noreferrer" target="_blank">
                 <img src="/resources/content-learning-icon.png" />
               </a>
@@ -51,7 +51,7 @@ export default function Resources() {
                 </ul>
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <a href="https://drive.google.com/drive/folders/1G0UPErrLjPBUVa2luA7i0Qe_V2rEcYJc?usp=sharing" rel="noreferrer" target="_blank">
                 <img src="/resources/content-learning-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>User Interview and Audits</p>
@@ -80,9 +80,9 @@ export default function Resources() {
       image: (<img className={styles.appsIcon} src="/resources/design-board.svg" />
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col">
               <a href="https://drive.google.com/drive/folders/1IKLqXuSl_eEAQtszh6fVDFRyjjgYIDIS?usp=sharing" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-design-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Testing Templates</p>
@@ -93,7 +93,7 @@ export default function Resources() {
                 </ul>
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <a href="https://drive.google.com/drive/folders/1y1yWX7kgXThIfl2VmrBzK3XM3EDGHLtw?usp=sharing" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-design-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Checklist</p>
@@ -104,7 +104,7 @@ export default function Resources() {
                 </ul>                
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <img className="" src="/resources/content-design-icon.png" />
               <p className={styles.accordionLargeContentTitle}>Interaction Templates</p>
               <p className="font-body-3xs margin-top-05">For mobile designs, interactions<br />Templates to get you started
@@ -134,9 +134,9 @@ export default function Resources() {
       image: (<img className={styles.appsIcon} src="resources/uicomponents-ladder.svg" />
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col">
               <a href="https://www.figma.com/file/UTR4CZWtii60nInBMGCiLv/USAF-USWDS-UI-Design-Kit?node-id=0%3A1" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-uicomp-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UI Components</p>
@@ -144,7 +144,7 @@ export default function Resources() {
               <p className="font-body-3xs margin-top-05">Get started with your project with<br /> this UI component kit (<a className={styles.accordionLink} href="https://www.figma.com/file/UTR4CZWtii60nInBMGCiLv/USAF-USWDS-UI-Design-Kit?node-id=0%3A1">Figma File</a>)
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <a href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-uicomp-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>Core Design System</p>
@@ -152,7 +152,7 @@ export default function Resources() {
               <p className="font-body-3xs margin-top-05"><a className={styles.accordionLink} href="http://bespin-design-system.s3-website.us-east-2.amazonaws.com/?path=/story/usaf-design-system-alert--success-alert">This Storybook hub</a> breaks down<br /> the all CSS and HTML code
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
             </div>
 
           </div>
@@ -173,9 +173,9 @@ export default function Resources() {
       image: (<img className={styles.appsIcon} src="/resources/development-puzzle.svg" />
       ),
       content: (
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="tablet:grid-col">
+        <div className="grid-container">
+          <div className="grid-row">
+            <div className="tablet:grid-col">
               <a href="https://drive.google.com/drive/folders/1yEmH_TyLZRhTgIjB0KiXmTHGf5RtJWao" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-development-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>Dev Checklist for UX</p>
@@ -193,7 +193,7 @@ export default function Resources() {
                 </ul> 
               </p>
             </div>
-            <div class="tablet:grid-col">
+            <div className="tablet:grid-col">
               <a href="https://drive.google.com/drive/folders/1EDQNxJmk7OmFJnQG383f7JrJJ6H-ZLnr?usp=sharing" rel="noreferrer" target="_blank">
                 <img className="" src="/resources/content-development-icon.png" />
                 <p className={styles.accordionLargeContentTitle}>UX Audit Tools</p>
@@ -204,7 +204,7 @@ export default function Resources() {
                 </ul>                
               </p>
             </div>
-            <div class="tablet:grid-col"></div>
+            <div className="tablet:grid-col"></div>
           </div>
         </div>
       ),
@@ -281,14 +281,14 @@ export default function Resources() {
     </>
       <main id="main-content">
         <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
-          <ol className={styles.breadcrumbListFaq} class="usa-breadcrumb__list" >
-            <li class="usa-breadcrumb__list-item">
-              <a href="/" class="usa-breadcrumb__link">
+          <ol className={styles.breadcrumbListFaq} className="usa-breadcrumb__list" >
+            <li className="usa-breadcrumb__list-item">
+              <a href="/" className="usa-breadcrumb__link">
                 <span>Home</span>
               </a>
             </li>
-            <li class="usa-breadcrumb__list-item">
-              <a href="#" class="usa-breadcrumb__link">
+            <li className="usa-breadcrumb__list-item">
+              <a href="#" className="usa-breadcrumb__link">
                 <span>Resources</span>
               </a>
             </li>
@@ -310,50 +310,50 @@ export default function Resources() {
         <nav className="usa-footer__nav" aria-label="Footer navigation">
           <ul className="grid-row grid-gap">
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Home</a>
+              <a className="usa-footer__primary-link" href="/">Home</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
               <a className="usa-footer__primary-link" href="/contact">Contact</a>
             </li>
             <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-              <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+              <a className="usa-footer__primary-link" href="#">Privacy Policy</a>
             </li>
           </ul>
         </nav>
       </div>
       <div className={styles.footerbar}>&nbsp;</div>
-        <div class="usa-footer__secondary-section bg-black">
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-                <div class="mobile-lg:grid-col-auto">
+        <div className="usa-footer__secondary-section bg-black">
+          <div className="grid-container">
+            <div className="grid-row grid-gap">
+              <div className="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div className="mobile-lg:grid-col-auto">
                   <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
                 </div>
-                <div class="mobile-lg:grid-col-auto">
+                <div className="mobile-lg:grid-col-auto">
                   <span className={styles.footerTitle}>BESPIN</span>
                 </div>
               </div>
-              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-                <div class="usa-footer__social-links grid-row grid-gap-1">
-                  <div class="grid-col-auto">
+              <div className="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div className="usa-footer__social-links grid-row grid-gap-1">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
-                <address class="usa-footer__address">
-                  <div class="usa-footer__contact-info grid-row grid-gap">
-                    <div class="grid-col-auto">
+                <h3 className="usa-footer__contact-heading text-white">Agency Contact Center</h3>
+                <address className="usa-footer__address">
+                  <div className="usa-footer__contact-info grid-row grid-gap">
+                    <div className="grid-col-auto">
                     </div>
-                    <div class="grid-col-auto">
+                    <div className="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>

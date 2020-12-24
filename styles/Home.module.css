@@ -494,6 +494,15 @@
   font-family: Public Sans;
   opacity: 1;
 }
+.projectSubheadingWMoreText {
+  margin-top: 5px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Public Sans;
+  opacity: 1;
+}
 
 .paragraphImg {
   float: left;

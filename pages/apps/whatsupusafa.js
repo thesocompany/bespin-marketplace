@@ -95,7 +95,7 @@ export default function Project() {
             </li>
             <li className="usa-breadcrumb__list-item">
               <a href="#" className="usa-breadcrumb__link">
-                <span>WingFeedback</span>
+                <span>What's Up USAFA</span>
               </a>
             </li>
           </ol>
@@ -104,12 +104,12 @@ export default function Project() {
           <div className="grid-container">
             <div className="grid-row">
               <div className="grid-col-4">
-                <img className={styles.projectPageImageLeftwing} src="/wingleft.png" />
+                <img className={styles.projectPageImageLeftwing} src="/whatsupleft.png" />
               </div>
               <div className="grid-col-4">
                 <div className={styles.thisisatest}>
-                  <h1 className={styles.projectCenterTitle}>WingFeedback</h1>
-                  <p className={styles.projectSubheading}>Mobile tool for people who visit, live, and work at<br />Air Force installations
+                  <h1 className={styles.projectCenterTitle}>What’s Up USAFA</h1>
+                  <p className={styles.projectSubheadingWMoreText}>Mobile application to create awareness of and publicize events for the United States Air Force Academy
                   </p>
                   <div className={styles.appPageDownloadButton}><Button>Download</Button></div>
 
@@ -125,7 +125,7 @@ export default function Project() {
 
               </div>
               <div className="grid-col-4">
-                <img className={styles.projectPageImage} src="/wingright.png" />
+                <img className={styles.projectPageImage} src="/whatsupright.png" />
               </div>                        
             </div>
             <div className="grid-row">
@@ -136,18 +136,24 @@ export default function Project() {
             <div className="grid-row margin-top-3">
               <div className="grid-col-7">
                 <p className={styles.projectPageBodyTextAdjusted}>
-                  A publicly available tool for people who visit, live, and work at Air Force installations to 
-                  locate and provide feedback for on-base services. Contracting Officer Representatives (CORs) 
-                  and Commanders will use the feedback to improve services for all users.
+                  What’s Up USAFA is a crowdsourced mobile calendar application for the United States 
+                  Air Force Academy to create awareness of and publicize events. Instead of relying on 
+                  informal communications channels, the app is meant to increase cadet involvement and 
+                  streamlining the flow of information. Government and tech professionals from BESPIN 
+                  and vendor partner—Big Nerd Ranch are working with stakeholders from the United States 
+                  Air Force Academy (USAFA) and from the Air Force Installation and Mission Support 
+                  Center (AFIMSC) Innovation Office to provide the vision and funding to help the 
+                  delivery team meet its goal. Together, all of the members are focused on building an 
+                  application that will help the Air Force Academy community better connect through 
+                  creating and sharing information about what events are going on. 
                 </p>
-                <img src="/wingfeedbackquoteimg.png" className="margin-top-2" />
               </div>
               <div className="grid-col-4 margin-left-1">
-                <img className={styles.projectPageBodyImg}  src="/wingapphand.png" />
+                <img className={styles.projectPageBodyImg}  src="/whatsupapphand.png" />
               </div>
             </div>
-            <section className="margin-y-2">
-            <div className="grid-row">
+            <section>
+            <div className="grid-row margin-y-5">
                 <div className="tablet:grid-col">
                   <h1 className={styles.sectionHeading}>Contact The Team</h1>
                   <div class="grid-row" id={styles.projectPageContact}>
@@ -169,18 +175,17 @@ export default function Project() {
                 <div className="tablet:grid-col">
                   <div className={styles.homeBoxMissonWelcome}>
                     <span className={styles.homeBoxTitle}>
-                    Examples of Good UX Practices<br />
+                      Examples of Good UX Practices<br />
                     </span>
                     <ul style={{maxWidth: "392px"}}>
-                      <li className="margin-bottom-2">
-                        Easy-to-use mobile application for collecting feedback from users.
+                      <li className="margin-bottom-2 font-sans-2xs">
+                        What’s Up USAFA is being developed for cadets at the United States Air Force Academy. The application could eventually be expanded to include other locations.
                       </li>
-                      <li className="margin-bottom-2">
-                        Support an environment for organic survey management & review of collected metrics.
+                      <li className="margin-bottom-2 font-sans-2xs">
+                        Conducted remote working sessions to audit the app's data collection and delivery recording and verification.
                       </li>
-                      <li className="margin-bottom-2">
-                        Enable decision makers to use crowd-sourced data analytics to improve performance
-                        of services on Air Force installations.
+                      <li className="font-sans-2xs">
+                        Develop user feedback function in app's onboarding to inform design team's product roadmap.
                       </li>                      
                     </ul>
                   </div>

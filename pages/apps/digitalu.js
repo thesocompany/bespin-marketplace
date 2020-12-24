@@ -153,7 +153,7 @@ export default function Project() {
                 <div className="tablet:grid-col">
                   <h1 className={styles.sectionHeading}>Contact The Team</h1>
                   <div class="grid-row" id={styles.projectPageContact}>
-                      <Label className="margin-right-4" htmlFor="testInput">Name</Label>
+                      <Label className="margin-right-4 margin-top-0" htmlFor="testInput">Name</Label>
                       <TextInput className={styles.contactUsTextInput} />
                   </div>
 

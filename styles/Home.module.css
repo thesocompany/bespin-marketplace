@@ -232,7 +232,13 @@
 .contactUsTextInput {
   max-width: 424px;
 }
+.contactUsTextInputLarge {
+  max-width: 424px;
+}
 
+.mainContactUsTextInput {
+  max-width: 962px;
+}
 .oneandhalf {
   line-height: 1.3em;
   margin-top: 33px;

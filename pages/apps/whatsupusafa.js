@@ -178,13 +178,13 @@ export default function Whatsup() {
                       Examples of Good UX Practices<br />
                     </span>
                     <ul style={{maxWidth: "392px"}}>
-                      <li className="margin-bottom-2 font-sans-2xs">
+                      <li className="margin-bottom-2 font-sans-2xs" style={{maxWidth: "392px"}}>
                         What’s Up USAFA is being developed for cadets at the United States Air Force Academy. The application could eventually be expanded to include other locations.
                       </li>
-                      <li className="margin-bottom-2 font-sans-2xs">
+                      <li className="margin-bottom-2 font-sans-2xs" style={{maxWidth: "392px"}}>
                         Conducted remote working sessions to audit the app's data collection and delivery recording and verification.
                       </li>
-                      <li className="font-sans-2xs">
+                      <li className="font-sans-2xs" style={{maxWidth: "392px"}}>
                         Develop user feedback function in app's onboarding to inform design team's product roadmap.
                       </li>                      
                     </ul>

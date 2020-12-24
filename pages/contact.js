@@ -135,25 +135,25 @@ export default function Contact() {
                 <Label htmlFor="testInput">Name</Label>
               </div>
               <div className="grid-row">
-                <TextInput className={styles.contactUsTextInput} />
+                <TextInput className={styles.mainContactUsTextInput} />
               </div>
               <div className="grid-row">
                 <Label htmlFor="testInput">Email</Label>
               </div>
               <div className="grid-row">              
-                <TextInput className={styles.contactUsTextInput} />
+                <TextInput className={styles.mainContactUsTextInput} />
               </div>
               <div className="grid-row">
                   <Label htmlFor="testInput">Phone Number</Label>
               </div>
               <div className="grid-row">
-                  <TextInput className={styles.contactUsTextInput} />
+                  <TextInput className={styles.mainContactUsTextInput} />
                </div>
                <div className="grid-row">
                  <Label htmlFor="testInput">Message</Label>
                </div>
                <div className="grid-row">
-                 <TextArea className={styles.contactUsTextInput} />
+                 <TextArea className={styles.mainContactUsTextInput} />
                </div>                
             </div>
             <br />
@@ -193,26 +193,26 @@ export default function Contact() {
               </div>
               <div className="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div className="usa-footer__social-links grid-row grid-gap-1">
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
-                <address class="usa-footer__address">
-                  <div class="usa-footer__contact-info grid-row grid-gap">
-                    <div class="grid-col-auto">
+                <h3 className="usa-footer__contact-heading text-white">Agency Contact Center</h3>
+                <address className="usa-footer__address">
+                  <div className="usa-footer__contact-info grid-row grid-gap">
+                    <div className="grid-col-auto">
                       {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
-                    <div class="grid-col-auto">
+                    <div className="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>

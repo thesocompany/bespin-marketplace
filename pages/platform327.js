@@ -31,15 +31,15 @@ export default function Platform327() {
 
   const [showModal, hideModal] = useModal(() => (
     <ReactModal isOpen className={styles.eventModal}>
-      <div class="grid-container" >
-        <div class="grid-row margin-top-2">
+      <div className="grid-container" >
+        <div className="grid-row margin-top-2">
           <span className={styles.footerTitle}>UX Intro</span>
         </div>
-        <div class="grid-row">
+        <div className="grid-row">
             <h2 className="margin-top-0">November 2, 11am</h2>
         </div>
-        <div class="grid-row">
-          <div class="tablet:grid-col ">
+        <div className="grid-row">
+          <div className="tablet:grid-col ">
             <img src={stickynotesLgImg} />
             <p>Class Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
               sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
@@ -48,33 +48,33 @@ export default function Platform327() {
                amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             </p>
           </div>
-          <div class="tablet:grid-col margin-left-9">
-            <div class="grid-row">
+          <div className="tablet:grid-col margin-left-9">
+            <div className="grid-row">
               <Label htmlFor="testInput" className="margin-top-0">Name*</Label>
             </div>
-            <div class="grid-row">
+            <div className="grid-row">
               <TextInput />
             </div>
-            <div class="grid-row">
+            <div className="grid-row">
               <Label htmlFor="testInput">Phone*</Label>
             </div>
-            <div class="grid-row">
+            <div className="grid-row">
               <TextInput />
             </div>            
-            <div class="grid-row">
+            <div className="grid-row">
               <Label htmlFor="testInput">Email*</Label>
             </div>
-            <div class="grid-row">
+            <div className="grid-row">
               <TextInput />
             </div>         
-            <div class="grid-row">
+            <div className="grid-row">
               <Label>Preferred Contact*</Label>            
             </div>
-            <div class="grid-row margin-top-3">
+            <div className="grid-row margin-top-3">
               <Checkbox id="checkbox" name="checkbox" label="Email" className="margin-right-2"/>
               <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
             </div>
-            <div class="grid-row margin-top-3">
+            <div className="grid-row margin-top-3">
               <Button onClick={successModal}>Sign up</Button>
             </div>
           </div>
@@ -89,14 +89,14 @@ export default function Platform327() {
     <ReactModal isOpen className={styles.successModal}>
       <div onClick={hideSuccessModal} className={styles.successModalCloseButton}><i className="fas fa-times"></i></div>
             
-      <div class="grid-container margin-top-5">
-        <div class="grid-row">
+      <div className="grid-container margin-top-5">
+        <div className="grid-row">
           <div className={styles.modalTitle}>Success!</div>
         </div>
-        <div class="grid-row">
+        <div className="grid-row">
           <p className={styles.successModalCaption}>Your request has been successfully submitted</p>
         </div>
-        <div class="grid-row margin-top-7">
+        <div className="grid-row margin-top-7">
           <Button className={styles.successModalButton} onClick={hideSuccessModal}>Continue</Button>
         </div>
       </div>
@@ -179,14 +179,14 @@ export default function Platform327() {
           <span className={styles.heroIntro}>Schedule studio time.</span>
         </section>
           <nav className="usa-breadcrumb"  aria-label="Breadcrumbs">
-            <ol className={styles.breadcrumbList} class="usa-breadcrumb__list" >
-              <li class="usa-breadcrumb__list-item">
-                <a href="/" class="usa-breadcrumb__link">
+            <ol className={styles.breadcrumbList} className="usa-breadcrumb__list" >
+              <li className="usa-breadcrumb__list-item">
+                <a href="/" className="usa-breadcrumb__link">
                   <span>Home</span>
                 </a>
               </li>
-              <li class="usa-breadcrumb__list-item">
-                <a href="#" class="usa-breadcrumb__link">
+              <li className="usa-breadcrumb__list-item">
+                <a href="#" className="usa-breadcrumb__link">
                   <span>Platform327</span>
                 </a>
               </li>
@@ -199,8 +199,8 @@ export default function Platform327() {
           <br />
 
           <section>
-            <div class="grid-container" >
-              <div class="grid-row">
+            <div className="grid-container" >
+              <div className="grid-row">
                 <div className="tablet:grid-col-12">
                 <Tabs>
                   <TabList id="platform-tabs">
@@ -208,8 +208,8 @@ export default function Platform327() {
                     <Tab><span className={styles.tabLabel}>EVENTS</span></Tab>
                   </TabList>
                   <TabPanel>
-                    <div class="grid-container">
-                        <div class="grid-row padding-top-4">
+                    <div className="grid-container">
+                        <div className="grid-row padding-top-4">
                           <div className="tablet:grid-col-3 padding-right-3">
                             <h2>Training Sign Up</h2>
                             <p className="font-sans-3xs">
@@ -226,35 +226,35 @@ export default function Platform327() {
                           </div>
                           <div className="tablet:grid-col-9">
 
-                      <div class="grid-row">
-                        <div class="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
-                        <div class="tablet:grid-col"><Label className="margin-bottom-2">Preferred Contact:*</Label></div>
+                      <div className="grid-row">
+                        <div className="tablet:grid-col margin-right-6"><Label>Name*</Label></div>
+                        <div className="tablet:grid-col"><Label className="margin-bottom-2">Preferred Contact:*</Label></div>
                       </div>
-                      <div class="grid-row">
-                        <div class="tablet:grid-col margin-right-6"><TextInput /></div>
-                        <div class="tablet:grid-col">
+                      <div className="grid-row">
+                        <div className="tablet:grid-col margin-right-6"><TextInput /></div>
+                        <div className="tablet:grid-col">
                             <Checkbox id="checkbox" name="checkbox" label="Email" />
                             <Checkbox id="checkbox2" name="checkbox2" label="Phone" classname="margin-top-2"/>
                         </div>
                       </div>
-                      <div class="grid-row">
+                      <div className="grid-row">
                         <Checkbox id="checkbox3" name="checkbox3" label="Yes, I would like to take a UX Skills Assessment" />
                       </div>
-                      <div class="grid-row">
-                        <div class="tablet:grid-col margin-right-6"><Label>Email*</Label></div>
-                        <div class="tablet:grid-col"><Label>Phone*</Label></div>
+                      <div className="grid-row">
+                        <div className="tablet:grid-col margin-right-6"><Label>Email*</Label></div>
+                        <div className="tablet:grid-col"><Label>Phone*</Label></div>
                       </div>                      
-                      <div class="grid-row">
-                        <div class="tablet:grid-col margin-right-6"><TextInput /></div>
-                        <div class="tablet:grid-col"><TextInput /></div>
+                      <div className="grid-row">
+                        <div className="tablet:grid-col margin-right-6"><TextInput /></div>
+                        <div className="tablet:grid-col"><TextInput /></div>
                       </div>
-                      <div class="grid-row">
-                        <div class="tablet:grid-col"><Label>Message*</Label></div>
+                      <div className="grid-row">
+                        <div className="tablet:grid-col"><Label>Message*</Label></div>
                       </div>
-                      <div class="grid-row">
-                        <div class="tablet:grid-col margin-bottom-205"><TextArea className={styles.signupTextArea}/></div>
+                      <div className="grid-row">
+                        <div className="tablet:grid-col margin-bottom-205"><TextArea className={styles.signupTextArea}/></div>
                       </div>
-                      <div class="grid-row">
+                      <div className="grid-row">
                         <Button onClick={successModal}>Submit</Button>
                           </div>
                         </div>
@@ -262,8 +262,8 @@ export default function Platform327() {
                     </div>
                   </TabPanel>
                   <TabPanel>
-                  <div class="grid-container">
-                        <div class="grid-row padding-top-3">
+                  <div className="grid-container">
+                        <div className="grid-row padding-top-3">
                           <div className="tablet:grid-col-4 padding-right-3">
                             <h2 className="margin-bottom-neg-1">Register for an Open Event</h2>
                             <br />
@@ -277,8 +277,8 @@ export default function Platform327() {
                           </div>
                           <div className="tablet:grid-col-8 padding-right-3 padding-top-6">
 
-                          <div class="grid-row padding-left-3margin-top-1">
-                          <div class="tablet:grid-col" onClick={showModal}>
+                          <div className="grid-row padding-left-3margin-top-1">
+                          <div className="tablet:grid-col" onClick={showModal}>
                             <section className={styles.platform327uXEvent}>
                               <h3 className={styles.eventBoxTitle}>Nov 2 - UX Intro</h3>
                               <p className={styles.eventDescription}>
@@ -286,7 +286,7 @@ export default function Platform327() {
                               </p>
                             </section>
                           </div>
-                          <div class="tablet:grid-col">
+                          <div className="tablet:grid-col">
                           <section className={styles.platform327DesignEvent}>
                               <h3 className={styles.eventBoxTitle}>Nov 3 - Design Strategy</h3>
                               <p className={styles.eventDescription}>
@@ -295,8 +295,8 @@ export default function Platform327() {
                           </section>                          
                           </div>
                           </div>
-                          <div class="grid-row margin-top-3">
-                          <div class="tablet:grid-col">
+                          <div className="grid-row margin-top-3">
+                          <div className="tablet:grid-col">
                           <section className={styles.platform327UTEvent}>
                               <h3 className={styles.eventBoxTitle}>Nov 5 - User Testing</h3>
                               <p className={styles.eventDescription}>
@@ -304,7 +304,7 @@ export default function Platform327() {
                               </p>
                           </section>   
                           </div>
-                          <div class="tablet:grid-col">
+                          <div className="tablet:grid-col">
                           <section className={styles.platform327AdobeEvent}>
                               <h3 className={styles.eventBoxTitle}>Nov 10 - Event: Adobe XD</h3>
                               <p className={styles.eventDescription}>
@@ -340,44 +340,44 @@ export default function Platform327() {
                 <a className="usa-footer__primary-link" href="/contact">Contact</a>
               </li>
               <li className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
-                <a className="usa-footer__primary-link" href="javascript:void(0);">Privacy Policy</a>
+                <a className="usa-footer__primary-link" href="#">Privacy Policy</a>
               </li>
             </ul>
           </nav>
         </div>
         <div className={styles.footerbar}>&nbsp;</div>
-        <div class="usa-footer__secondary-section bg-black">
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-                <div class="mobile-lg:grid-col-auto">
+        <div className="usa-footer__secondary-section bg-black">
+          <div className="grid-container">
+            <div className="grid-row grid-gap">
+              <div className="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div className="mobile-lg:grid-col-auto">
                   <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
                 </div>
-                <div class="mobile-lg:grid-col-auto">
+                <div className="mobile-lg:grid-col-auto">
                   <span className={styles.footerTitle}>BESPIN</span>
                 </div>
               </div>
-              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-                <div class="usa-footer__social-links grid-row grid-gap-1">
-                  <div class="grid-col-auto">
+              <div className="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div className="usa-footer__social-links grid-row grid-gap-1">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
-                <address class="usa-footer__address">
-                  <div class="usa-footer__contact-info grid-row grid-gap">
-                    <div class="grid-col-auto">
+                <h3 className="usa-footer__contact-heading text-white">Agency Contact Center</h3>
+                <address className="usa-footer__address">
+                  <div className="usa-footer__contact-info grid-row grid-gap">
+                    <div className="grid-col-auto">
                     </div>
-                    <div class="grid-col-auto">
+                    <div className="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>

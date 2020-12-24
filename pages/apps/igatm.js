@@ -104,12 +104,12 @@ export default function Project() {
           <div className="grid-container">
             <div className="grid-row">
               <div className="grid-col-4">
-                <img className={styles.projectPageImage} src="/projectleft.png" />
+                <img className={styles.projectPageImageLeft} src="/igatm-left.png" />
               </div>
               <div className="grid-col-4">
                 <div className={styles.thisisatest}>
-                  <h1 className={styles.projectCenterTitle}>PointSync</h1>
-                  <p className={styles.projectSubheading}>PointSync is a multi-device app that streamlines cargo location data and delivery times.
+                  <h1 className={styles.projectCenterTitle}>iGATM</h1>
+                  <p className={styles.projectSubheading}>Software tool implementing flexible and adaptable communication to improve resource access
                   </p>
                   <div className={styles.appPageDownloadButton}><Button>Download</Button></div>
 
@@ -125,7 +125,7 @@ export default function Project() {
 
               </div>
               <div className="grid-col-4">
-                <img className={styles.projectPageImage} src="/projectright.png" />
+                <img className={styles.projectPageImage} src="/igatm-right.png" />
               </div>                        
             </div>
             <div className="grid-row">

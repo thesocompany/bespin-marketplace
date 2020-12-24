@@ -43,9 +43,7 @@ export default function Apps() {
             </div>
             <div class="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Learn more</p>
-              <Link href="/apps/igatm">
-                <a><Button className="margin-top-105">See Case Study</Button></a>
-              </Link>
+                <a href="/apps/igatm"><Button className="margin-top-105">See Case Study</Button></a>
             </div>
           </div>
         </div>
@@ -81,9 +79,7 @@ export default function Apps() {
             </div>
             <div class="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Learn more</p>
-              <Link href="/apps/wingfeedback">
-                <a><Button className="margin-top-105">See Case Study</Button></a>
-              </Link>
+                <a href="/apps/wingfeedback"><Button className="margin-top-105">See Case Study</Button></a>
             </div>
           </div>
         </div>
@@ -119,9 +115,7 @@ export default function Apps() {
             </div>
             <div class="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Learn more</p>
-              <Link href="/apps/digitalu">
-                <a><Button className="margin-top-105">See Case Study</Button></a>
-              </Link>
+                <a href="/apps/digitalu"><Button className="margin-top-105">See Case Study</Button></a>
             </div>
           </div>
         </div>
@@ -157,9 +151,8 @@ export default function Apps() {
             </div>
             <div class="tablet:grid-col">
               <p className={styles.accordionLargeContentTitle}>Learn more</p>
-              <Link href="/apps/whatsupusafa">
-                <a><Button className="margin-top-105">See Case Study</Button></a>
-              </Link>            </div>
+                <a href="/apps/whatsupusafa"><Button className="margin-top-105">See Case Study</Button></a>
+          </div>
           </div>
         </div>
       ),

@@ -13,7 +13,7 @@ import Label from '../../src/components/Label'
 import TextArea from '../../src/components/TextArea'
 import BespinLogo from '../../src/assets/images/BESPIN-Logo.png'
 
-export default function Project() {
+export default function WingFeedback() {
   return (
     <>
       <Head>
@@ -150,16 +150,16 @@ export default function Project() {
             <div className="grid-row">
                 <div className="tablet:grid-col">
                   <h1 className={styles.sectionHeading}>Contact The Team</h1>
-                  <div class="grid-row" id={styles.projectPageContact}>
+                  <div className="grid-row" id={styles.projectPageContact}>
                       <Label className="margin-right-4 margin-top-0" htmlFor="testInput">Name</Label>
                       <TextInput className={styles.contactUsTextInput} />
                   </div>
 
-                  <div class="grid-row" id={styles.projectPageContact}>
+                  <div className="grid-row" id={styles.projectPageContact}>
                     <Label className="margin-right-4" htmlFor="testInput">Email</Label>           
                     <TextInput className={styles.contactUsTextInput} />
                   </div>
-                   <div class="grid-row" id={styles.projectPageContact}>
+                   <div className="grid-row" id={styles.projectPageContact}>
                      <Label htmlFor="testInput">Message</Label>
                      <TextArea className={styles.contactUsTextInput} style={{height: "70px"}} />
                   </div>      

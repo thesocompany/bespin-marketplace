@@ -13,7 +13,7 @@ import Label from '../../src/components/Label'
 import TextArea from '../../src/components/TextArea'
 import BespinLogo from '../../src/assets/images/BESPIN-Logo.png'
 
-export default function Project() {
+export default function Whatsup() {
   return (
     <>
       <Head>
@@ -156,16 +156,16 @@ export default function Project() {
             <div className="grid-row margin-y-5">
                 <div className="tablet:grid-col">
                   <h1 className={styles.sectionHeading}>Contact The Team</h1>
-                  <div class="grid-row" id={styles.projectPageContact}>
+                  <div className="grid-row" id={styles.projectPageContact}>
                       <Label className="margin-right-4 margin-top-0" htmlFor="testInput">Name</Label>
                       <TextInput className={styles.contactUsTextInput} />
                   </div>
 
-                  <div class="grid-row" id={styles.projectPageContact}>
+                  <div className="grid-row" id={styles.projectPageContact}>
                     <Label className="margin-right-4" htmlFor="testInput">Email</Label>           
                     <TextInput className={styles.contactUsTextInput} />
                   </div>
-                   <div class="grid-row" id={styles.projectPageContact}>
+                   <div className="grid-row" id={styles.projectPageContact}>
                      <Label htmlFor="testInput">Message</Label>
                      <TextArea className={styles.contactUsTextInput} style={{height: "70px"}} />
                   </div>      
@@ -216,39 +216,39 @@ export default function Project() {
         </nav>
       </div>
       <div className={styles.footerbar}>&nbsp;</div>
-        <div class="usa-footer__secondary-section bg-black">
-          <div class="grid-container">
-            <div class="grid-row grid-gap">
-              <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
-                <div class="mobile-lg:grid-col-auto">
+        <div className="usa-footer__secondary-section bg-black">
+          <div className="grid-container">
+            <div className="grid-row grid-gap">
+              <div className="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                <div className="mobile-lg:grid-col-auto">
                   <img className="usa-footer__logo-img" src={BespinLogo} alt="" />
                 </div>
-                <div class="mobile-lg:grid-col-auto">
+                <div className="mobile-lg:grid-col-auto">
                   <span className={styles.footerTitle}>BESPIN</span>
                 </div>
               </div>
-              <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-                <div class="usa-footer__social-links grid-row grid-gap-1">
-                  <div class="grid-col-auto">
+              <div className="usa-footer__contact-links mobile-lg:grid-col-6">
+                <div className="usa-footer__social-links grid-row grid-gap-1">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkFacebook} href="https://www.facebook.com/BESPIN.AF/">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkLinkedin} href="https://www.linkedin.com/company/bespin">
                     </a>
                   </div>
-                  <div class="grid-col-auto">
+                  <div className="grid-col-auto">
                     <a className={styles.socialLinkYoutube} href="https://www.youtube.com/channel/UCJALQgjhsUDicdJMA4IBjew">
                     </a>
                   </div>
                 </div>
-                <h3 class="usa-footer__contact-heading text-white">Agency Contact Center</h3>
-                <address class="usa-footer__address">
-                  <div class="usa-footer__contact-info grid-row grid-gap">
-                    <div class="grid-col-auto">
+                <h3 className="usa-footer__contact-heading text-white">Agency Contact Center</h3>
+                <address className="usa-footer__address">
+                  <div className="usa-footer__contact-info grid-row grid-gap">
+                    <div className="grid-col-auto">
                       {/* <a href="tel:1-800-888-1234" className={styles.footerText}>(800) 888-1234</a> */}
                     </div>
-                    <div class="grid-col-auto">
+                    <div className="grid-col-auto">
                       <a href="mailto:info@agency.gov" className={styles.footerText}>BESPIN.af@gmail.com</a>
                     </div>
                   </div>

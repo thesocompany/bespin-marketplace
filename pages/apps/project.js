@@ -199,7 +199,7 @@ export default function Project() {
           </div>
           </div>
         </section>
-        <section>
+        {/* <section>
             <br />
             <br />
             <br />
@@ -255,7 +255,7 @@ export default function Project() {
                     <TextInput className={styles.contactUsTextInput} />
                   </div>
 
-                  <div class="grid-row" id={styles.projectPageContact}>
+                  <div className="grid-row" id={styles.projectPageContact}>
                     <Label htmlFor="testInput">Email</Label>            
                     <TextInput className={styles.contactUsTextInput} />
                   </div>
@@ -268,7 +268,7 @@ export default function Project() {
                 </div>
             </div>
             </div>
-          </section>
+          </section> */}
 
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>

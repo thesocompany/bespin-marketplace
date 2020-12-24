@@ -136,63 +136,64 @@ export default function Project() {
             <div className="grid-row margin-top-3">
               <div className="grid-col-7">
                 <span className={styles.projectPageBodyText}>
-                As part of Space Force, AFB Buckley spent the last two years ramping up the base vehicle and 
-                cargo movement operations that helped deliver hardware and small prototypes for test fuel systems. 
-                Airmen at AF Buckley use PointSync, to efficiently plan hardware delivery and storage and track 
-                hardware for prototype assembly. The app eliminates manual paper entry and using data collected 
-                from smartphones and wearable tech to reduce overall hardware delivery time by 35%.
+                  The CNS/ATM Storefront software tool implements flexible and adaptable communication to improve 
+                  resource access for aircraft program offices, avionics engineers and budget planners across the 
+                  Air Force. CNS/ATM Storefront is way to procure GATM type of equipment.
                 </span>
-                <h2 className="margin-left-2 margin-bottom-4" style={{ width: "440px" }}>"Most importantly, we needed to 
-                optimizehow we track materials and newprototypes being assembled at speed, never done before. 
-                The development ofPointSpot made help our service teams to become more 
-                integrated into the greater Space Force mission."
+                <h2 className="margin-left-2 margin-bottom-4" style={{ width: "440px" }}>
+                  "In addition to procurement, CNS/ATM Storefront will also enable collaboration, the cataloging 
+                  of reports, regs, working group registration, and other features"
                 </h2>
-                <span className="text-bold">PROBLEMS IDENTIFIED:</span>
-                <span className={styles.projectPageBodyText}>
-                  <ul>
-                    <li className="margin-bottom-2">The cargo itinerary was managed by a small service team utilizing 
-                      lightweight vehicles and all done with manual entry to base's EPICORE system.
-                    </li>
-                    <li>Traditional GPS tracking systems were not sufficient in supplying accurate location data of this 
-                      specific cargo for onsite facilities.
-                    </li>
-                  </ul>
-                </span>
               </div>
               <div className="grid-col-4 margin-left-6">
-                <img className={styles.projectPageBodyImg}  src="/app-hand.png" />
+                <img className={styles.projectPageBodyImg}  src="/igatm-app-hand.png" />
               </div>
             </div>
+            <section className="margin-y-10">
             <div className="grid-row">
-            <div className="tablet:grid-col margin-right-205">
-              <div className={styles.homeBoxMissonCollabImg}>
-              &nbsp;
-              </div>
+                <div className="tablet:grid-col">
+                  <h1 className={styles.sectionHeading}>Contact The Team</h1>
+                  <div class="grid-row" id={styles.projectPageContact}>
+                      <Label className="margin-right-4" htmlFor="testInput">Name</Label>
+                      <TextInput className={styles.contactUsTextInput} />
+                  </div>
+
+                  <div class="grid-row" id={styles.projectPageContact}>
+                    <Label className="margin-right-4" htmlFor="testInput">Email</Label>           
+                    <TextInput className={styles.contactUsTextInput} />
+                  </div>
+                   <div class="grid-row" id={styles.projectPageContact}>
+                     <Label htmlFor="testInput">Message</Label>
+                     <TextArea className={styles.contactUsTextInput} style={{height: "70px"}} />
+                  </div>      
+                  <br />
+                <Button className={styles.buttonCenter}>Submit</Button>          
+                </div>
+                <div className="tablet:grid-col">
+                  <div className={styles.homeBoxMissonWelcome}>
+                    <span className={styles.homeBoxTitle}>
+                    How did Platform 327 help?<br />
+                    </span>
+                    <ul>
+                      <li className="margin-bottom-2">
+                        After developing the first beta design of PointSync, the design team worked with Platform 327 
+                        to create a UX testing plan to track user pain points.
+                      </li>
+                      <li className="margin-bottom-2">
+                        Conducted remote working sessions to audit the app's data collection and delivery recording 
+                        and verification.
+                      </li>
+                      <li>
+                        Develop user feedback function in app's onboarding to inform design team's product roadmap.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </div>
-            <div className="tablet:grid-col">
-              <div className={styles.homeBoxMissonWelcome}>
-                <span className={styles.homeBoxTitle}>
-                How did Platform 327 help?<br />
-                </span>
-                <ul>
-                  <li className="margin-bottom-2">
-                    After developing the first beta design of PointSync, the design team worked with Platform 327 
-                    to create a UX testing plan to track user pain points.
-                  </li>
-                  <li className="margin-bottom-2">
-                    Conducted remote working sessions to audit the app's data collection and delivery recording 
-                    and verification.
-                  </li>
-                  <li>
-                    Develop user feedback function in app's onboarding to inform design team's product roadmap.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+            </section>
           </div>
         </section>
-        <section>
+        {/* <section>
             <br />
             <br />
             <br />
@@ -261,7 +262,7 @@ export default function Project() {
                 </div>
             </div>
             </div>
-          </section>
+          </section> */}
 
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>

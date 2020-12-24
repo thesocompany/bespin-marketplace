@@ -108,8 +108,8 @@ export default function Project() {
               </div>
               <div className="grid-col-4">
                 <div className={styles.thisisatest}>
-                  <h1 className={styles.projectCenterTitle}>iGATM</h1>
-                  <p className={styles.projectSubheading}>Software tool implementing flexible and adaptable communication to improve resource access
+                  <h1 className={styles.projectCenterTitle}>WingFeedback</h1>
+                  <p className={styles.projectSubheading}>Mobile tool for people who visit, live, and work at<br />Air Force installations
                   </p>
                   <div className={styles.appPageDownloadButton}><Button>Download</Button></div>
 
@@ -125,7 +125,7 @@ export default function Project() {
 
               </div>
               <div className="grid-col-4">
-                <img className={styles.projectPageImagerightwing} src="/wingright.png" />
+                <img className={styles.projectPageImage} src="/wingright.png" />
               </div>                        
             </div>
             <div className="grid-row">
@@ -136,17 +136,14 @@ export default function Project() {
             <div className="grid-row margin-top-3">
               <div className="grid-col-7">
                 <p className={styles.projectPageBodyTextAdjusted}>
-                  The CNS/ATM Storefront software tool implements flexible and adaptable communication to improve 
-                  resource access for aircraft program offices, avionics engineers and budget planners across the 
-                  Air Force. CNS/ATM Storefront is way to procure GATM type of equipment.
+                  A publicly available tool for people who visit, live, and work at Air Force installations to 
+                  locate and provide feedback for on-base services. Contracting Officer Representatives (CORs) 
+                  and Commanders will use the feedback to improve services for all users.
                 </p>
-                <h2 className="margin-left-2 margin-bottom-4" style={{ width: "440px" }}>
-                  "In addition to procurement, CNS/ATM Storefront will also enable collaboration, the cataloging 
-                  of reports, regs, working group registration, and other features"
-                </h2>
+                <img src="/wingfeedbackquoteimg.png" className="margin-top-2" />
               </div>
               <div className="grid-col-4 margin-left-1">
-                <img className={styles.projectPageBodyImg}  src="/igatm-app-hand.png" />
+                <img className={styles.projectPageBodyImg}  src="/wingapphand.png" />
               </div>
             </div>
             <section className="margin-y-10">
@@ -176,13 +173,15 @@ export default function Project() {
                     </span>
                     <ul style={{maxWidth: "392px"}}>
                       <li className="margin-bottom-2">
-                        Conducted remote working sessions to audit the app's data collection and 
-                        delivery recording and verification.
+                        Easy-to-use mobile application for collecting feedback from users.
                       </li>
                       <li className="margin-bottom-2">
-                        Develop user feedback function in app's onboarding to inform design team's 
-                        product roadmap.
+                        Support an environment for organic survey management & review of collected metrics.
                       </li>
+                      <li className="margin-bottom-2">
+                        Enable decision makers to use crowd-sourced data analytics to improve performance
+                        of services on Air Force installations.
+                      </li>                      
                     </ul>
                   </div>
                 </div>

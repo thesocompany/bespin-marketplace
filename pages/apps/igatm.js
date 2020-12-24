@@ -95,7 +95,7 @@ export default function Project() {
             </li>
             <li className="usa-breadcrumb__list-item">
               <a href="#" className="usa-breadcrumb__link">
-                <span>Project Name</span>
+                <span>iGATM</span>
               </a>
             </li>
           </ol>
@@ -135,17 +135,17 @@ export default function Project() {
             </div>
             <div className="grid-row margin-top-3">
               <div className="grid-col-7">
-                <span className={styles.projectPageBodyText}>
+                <p className={styles.projectPageBodyTextAdjusted}>
                   The CNS/ATM Storefront software tool implements flexible and adaptable communication to improve 
                   resource access for aircraft program offices, avionics engineers and budget planners across the 
                   Air Force. CNS/ATM Storefront is way to procure GATM type of equipment.
-                </span>
+                </p>
                 <h2 className="margin-left-2 margin-bottom-4" style={{ width: "440px" }}>
                   "In addition to procurement, CNS/ATM Storefront will also enable collaboration, the cataloging 
                   of reports, regs, working group registration, and other features"
                 </h2>
               </div>
-              <div className="grid-col-4 margin-left-6">
+              <div className="grid-col-4 margin-left-1">
                 <img className={styles.projectPageBodyImg}  src="/igatm-app-hand.png" />
               </div>
             </div>
@@ -172,19 +172,16 @@ export default function Project() {
                 <div className="tablet:grid-col">
                   <div className={styles.homeBoxMissonWelcome}>
                     <span className={styles.homeBoxTitle}>
-                    How did Platform 327 help?<br />
+                    Examples of Good UX Practices<br />
                     </span>
-                    <ul>
+                    <ul style={{maxWidth: "392px"}}>
                       <li className="margin-bottom-2">
-                        After developing the first beta design of PointSync, the design team worked with Platform 327 
-                        to create a UX testing plan to track user pain points.
+                        Conducted remote working sessions to audit the app's data collection and 
+                        delivery recording and verification.
                       </li>
                       <li className="margin-bottom-2">
-                        Conducted remote working sessions to audit the app's data collection and delivery recording 
-                        and verification.
-                      </li>
-                      <li>
-                        Develop user feedback function in app's onboarding to inform design team's product roadmap.
+                        Develop user feedback function in app's onboarding to inform design team's 
+                        product roadmap.
                       </li>
                     </ul>
                   </div>
@@ -193,76 +190,6 @@ export default function Project() {
             </section>
           </div>
         </section>
-        {/* <section>
-            <br />
-            <br />
-            <br />
-            <h1 className={styles.sectionHeading}>The Team</h1>
-            <div class="grid-container margin-top-4 margin-bottom-4">
-              <div class="grid-row">
-                <div className="tablet:grid-col">
-                  <div className={styles.homeBoxMissonWelcome} style={{height: "390px"}}>
-                    <div class="grid-row" style={{width: "470px"}}>
-                      <div className="tablet:grid-col">
-                        <img className={styles.projectPageBodyImg} src="/user.svg" />
-                        <div className="text-center margin-top-2">
-                        <span className={styles.projectTeamTitle}>First Last</span><br />
-                          <span className={styles.projectTeamDescription}>Rank // Job on <br />
-                          Project
-                          </span>
-                        </div>
-                      </div>  
-                      <div className="tablet:grid-col">
-                        <img className={styles.projectPageBodyImg} src="/user.svg" />
-                        <div className="text-center margin-top-2">
-                        <span className={styles.projectTeamTitle}>First Last</span><br />
-                          <span className={styles.projectTeamDescription}>Rank // Job on <br />
-                          Project
-                          </span>
-                        </div>
-                      </div>  
-                      <div className="tablet:grid-col">
-                        <img className={styles.projectPageBodyImg} src="/user.svg" />
-                        <div className="text-center margin-top-2">
-                        <span className={styles.projectTeamTitle}>First Last</span><br />
-                          <span className={styles.projectTeamDescription}>Rank // Job on <br />
-                          Project
-                          </span>
-                        </div>
-                      </div>                    
-                    </div>
-                    <div class="grid-row text-center margin-top-4">
-                      <div className="tablet:grid-col">
-                        <span className={styles.projectTeamDescription}>Stationed at </span>
-                        <br />
-                        <span className={styles.projectTeamTitle}>XXXX Base</span> 
-                        <br />
-                        <span className={styles.projectTeamAddress}>123 Main Street Montgomery, AL 32018</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="tablet:grid-col">
-                  <h1 className={styles.sectionHeading}>Contact The Team</h1>
-                  <div class="grid-row" id={styles.projectPageContact}>
-                    <Label htmlFor="testInput">Name</Label>
-                    <TextInput className={styles.contactUsTextInput} />
-                  </div>
-
-                  <div class="grid-row" id={styles.projectPageContact}>
-                    <Label htmlFor="testInput">Email</Label>            
-                    <TextInput className={styles.contactUsTextInput} />
-                  </div>
-                   <div class="grid-row" id={styles.projectPageContact}>
-                     <Label htmlFor="testInput">Message</Label>
-                     <TextArea className={styles.contactUsTextInput} style={{height: "70px"}} />
-                  </div>      
-                  <br />
-                <Button className={styles.buttonCenter}>Submit</Button>          
-                </div>
-            </div>
-            </div>
-          </section> */}
 
         <div className="grid-container usa-footer__return-to-top">
          <a href="#">Return to top</a>
